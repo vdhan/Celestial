@@ -1,0 +1,65 @@
+{
+	"ftGuardsman":
+	{
+		"name" :
+		{
+			"plural" : "Guardsmans",
+			"singular" : "Guardsmans"
+		},
+		"advMapAmount" :
+		{
+			"max" : 50,
+			"min" : 20
+		},
+		"faction" : "foundry",
+		"aiValue" : 75,
+		"attack" : 3,
+		"cost" :
+		{
+			"gold" : 50
+		},
+		"damage" :
+		{
+			"max" : 3,
+			"min" : 2
+		},
+		"defense" : 6,
+		"fightValue" : 110,
+		"graphics" :
+		{
+			"animation" : "foundry/battle/CR199.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "foundry/map/guard.def",
+			"iconSmall" : "foundry/iconsSmall/CPrS199F.bmp",
+			"iconLarge" : "foundry/iconsBig/CPrL199B.bmp",
+			"timeBetweenFidgets" : 1
+		},
+
+		"growth" : 14,
+		"hitPoints" : 10,
+		"horde" : 7,
+		"level" : 1,
+		"upgrades":
+		[
+			"ftVeteranGuardsman"
+		],
+		"sound" :
+		{
+			"attack" : "foundry/S202ATTK.wav",
+			"defend" : "foundry/S202DFND.wav",
+			"killed" : "foundry/S202KILL.wav",
+			"move" : "foundry/S202MOVE.wav",
+			"wince" : "foundry/S202WNCE.wav"
+		},
+		"speed" : 4,
+        "abilities":
+		{
+			"unlimitedRetaliation" :
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			}
+
+		}
+
+	}
+}

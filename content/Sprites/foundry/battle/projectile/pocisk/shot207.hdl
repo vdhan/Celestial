@@ -1,0 +1,10 @@
+[Data]
+Type=0
+Shadow Type=0
+Groups Number=1
+Group0=shot2.bmp|shot27.bmp|shot45.bmp|shotm15.bmp|shot1.bmp|shot15.bmp|shotm45.bmp|shotm27.bmp|shotm2.bmp|
+Generate Selection=0
+ColorsBox.Colors=$FFFF00|$121C10|$1E582E|$094239|$144C39|$1E5C34|$2C5C2B|$364934|
+ShadowColorsBox.Colors=$FFFF00|$121C10|$1E582E|$094239|$144C39|$1E5C34|$2C5C2B|$364934|
+ColorsBox.ColorChecks=1|0|0|0|0|0|0|0|0|
+ShadowColorsBox.ColorChecks=1|1|1|1|1|1|1|1|

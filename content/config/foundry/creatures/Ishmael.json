@@ -1,0 +1,78 @@
+{
+	"ftIshmael":
+	{
+		"name" :
+		{
+			"plural" : "Ishmaels",
+			"singular" : "Ishmael"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 4
+		},
+		"faction" : "foundry",
+		"aiValue" : 5642,
+		"attack" : 20,
+		"cost" :
+		{
+			"gold" : 3000,
+			"mercury" : 1
+		},
+		"damage" :
+		{
+			"max" : 50,
+			"min" : 40
+		},
+		"defense" : 20,
+		"fightValue" : 4435,
+		"graphics" :
+		{
+			"animation" : "foundry/battle/CR209.DEF",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "foundry/map/7aa.def",
+			"iconSmall" : "foundry/iconsSmall/CPrS209F.bmp",
+			"iconLarge" : "foundry/iconsBig/CPrL209B.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 200,
+		"level" : 7,
+		"upgrades":
+		[
+			"ftLordIshmael"
+		],
+		"sound" :
+		{
+			"attack" : "foundry/S209ATTK.wav",
+			"defend" : "foundry/S209DFND.wav",
+			"killed" : "foundry/S209KILL.wav",
+			"move" : "foundry/S209MOVE.wav",
+			"wince" : "foundry/S209WNCE.wav"
+		},
+		"speed" : 10,
+		"abilities" : {
+			"nonLiving" : { "type" : "NON_LIVING" },
+			"noMorale" :
+			{
+				"type" : "NO_MORALE"
+			},
+			"fear":
+			{
+				"type" : "FEAR" 	
+			},
+			"king 1" :
+            {
+                "type" : "KING1"
+ 			},	
+			"reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 50
+			}
+		}
+	}
+}
+
+

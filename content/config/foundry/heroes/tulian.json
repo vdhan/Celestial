@@ -1,0 +1,46 @@
+{
+	"tulian" :
+	{
+		"class" : "fouMarshal",
+		"female" : true,
+		
+		"texts" :
+		{
+			"name" : "Tulian",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{Steam Tanks and Siege Tanks}\r\n\r\nIncreases the Attack and Defence of any Steam Tanks or Siege Tanks for each level attained after 4th level.",
+				"tooltip" : "Creature Bonus: Steam Tanks",
+				"name" : "Steam Tanks"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "foundry/heroes/tulian/spec-small.png",
+			"specialtyLarge" : "foundry/heroes/tulian/spec-large.png",
+			"large" : "foundry/heroes/tulian/portrait-large.png",
+			"small" : "foundry/heroes/tulian/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "ftCannonGolem", "min" : 1, "max" : 2 },
+			{ "creature" : "ftCannonGolem", "min" : 1, "max" : 2 },
+			{ "creature" : "ftCannonGolem", "min" : 1, "max" : 2 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		"specialty" : {
+			"creature" : "ftCannonGolem"
+		}		
+	}
+}

@@ -1,0 +1,19 @@
+[Data]
+Type=9
+Shadow Type=2
+Groups Number=5
+Group0=ch17_01.bmp|
+Group1=ch17_01.bmp|ch17_02.bmp|ch17_03.bmp|ch17_04.bmp|ch17_03.bmp|ch17_02.bmp|
+Group2=ch17_05.bmp|ch17_06.bmp|ch17_07.bmp|ch17_08.bmp|ch17_08.bmp|ch17_08.bmp|ch17_08.bmp|ch17_08.bmp|ch17_07.bmp|ch17_06.bmp|ch17_05.bmp|
+Group3=ch17_09.bmp|ch17_10.bmp|ch17_11.bmp|ch17_12.bmp|ch17_12.bmp|ch17_12.bmp|ch17_12.bmp|ch17_12.bmp|ch17_11.bmp|ch17_10.bmp|ch17_09.bmp|
+Group4=ch17_13.bmp|ch17_14.bmp|ch17_15.bmp|ch17_16.bmp|ch17_17.bmp|ch17_18.bmp|ch17_19.bmp|ch17_20.bmp|
+Shadow0=Shadow\ch17_01.bmp|
+Shadow1=Shadow\ch17_01.bmp|Shadow\ch17_02.bmp|Shadow\ch17_03.bmp|Shadow\ch17_04.bmp|Shadow\ch17_03.bmp|Shadow\ch17_02.bmp|
+Shadow2=Shadow\ch17_05.bmp|Shadow\ch17_06.bmp|Shadow\ch17_07.bmp|Shadow\ch17_08.bmp|Shadow\ch17_08.bmp|Shadow\ch17_08.bmp|Shadow\ch17_08.bmp|Shadow\ch17_08.bmp|Shadow\ch17_07.bmp|Shadow\ch17_06.bmp|Shadow\ch17_05.bmp|
+Shadow3=Shadow\ch17_09.bmp|Shadow\ch17_10.bmp|Shadow\ch17_11.bmp|Shadow\ch17_12.bmp|Shadow\ch17_12.bmp|Shadow\ch17_12.bmp|Shadow\ch17_12.bmp|Shadow\ch17_12.bmp|Shadow\ch17_11.bmp|Shadow\ch17_10.bmp|Shadow\ch17_09.bmp|
+Shadow4=Shadow\ch17_13.bmp|Shadow\ch17_14.bmp|Shadow\ch17_15.bmp|Shadow\ch17_16.bmp|Shadow\ch17_17.bmp|Shadow\ch17_18.bmp|Shadow\ch17_19.bmp|Shadow\ch17_20.bmp|
+Generate Selection=0
+ColorsBox.Colors=$FFFF00|$FF96FF|$080008|$080808|$FF00FF|$100000|$180000|$100008|
+ShadowColorsBox.Colors=$FFFF00|$FF96FF|$080008|$080808|$FF00FF|$100000|$180000|$100008|
+ColorsBox.ColorChecks=1|0|0|0|0|0|0|0|0|
+ShadowColorsBox.ColorChecks=1|1|1|1|1|1|1|1|

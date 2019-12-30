@@ -1,0 +1,57 @@
+{
+	"sarity" :
+	{
+		"class" : "fouMarshal",
+		"female" : true,
+
+		
+		"texts" :
+		{
+			"name" : "Sarity",
+			"biography" : "Charity byla wielka nekromantka, ale po ataku diablow na Antadarich jej gildia zostala doszczetnie zniszczona. Blakala sie po swiecie, az do momentu, kiedy krol Kastore zaproponowal jej przylaczenie sie do jego armii.",
+			"specialty" :
+			{
+				"description" : "{Daleks and Ground Daleks}\r\n\r\nIncreases the Attack and Defence of any Daleks or Ground Daleks for each level attained after 4th level.",
+				"tooltip" : "Creature Bonus: Daleks",
+				"name" : "Daleks"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "foundry/heroes/sarity/spec-small.png",
+			"specialtyLarge" : "foundry/heroes/sarity/spec-large.png",
+			"large" : "foundry/heroes/sarity/portrait-large.png",
+			"small" : "foundry/heroes/sarity/portrait-small.png"
+		},
+
+
+		"army" :
+		[
+			{
+				"creature" : "ftDalek",
+				"max" : 4,
+				"min" : 1
+			},
+			{
+				"creature" : "ftDalek",
+				"max" : 4,
+				"min" : 1
+			},
+			{
+				"creature" : "ftDalek",
+				"max" : 4,
+				"min" : 1
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "scouting"
+			}
+		],
+		"specialty" : {
+			"creature" : "ftDalek"
+		}		
+	}
+}

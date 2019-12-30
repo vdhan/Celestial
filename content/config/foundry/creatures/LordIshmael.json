@@ -1,0 +1,76 @@
+{
+	"ftLordIshmael":
+	{
+		"name" :
+		{
+			"plural" : "Lords Ishmael",
+			"singular" : "Lord Ishmael"
+		},
+		"advMapAmount" :
+		{
+			"max" : 8,
+			"min" : 3
+		},
+		"faction" : "foundry",
+		"aiValue" : 4000,
+		"attack" : 24,
+		"cost" :
+		{
+			"gold" : 6000,
+			"mercury" : 3
+		},
+		"damage" :
+		{
+			"max" : 50,
+			"min" : 40
+		},
+		"defense" : 22,
+		"fightValue" : 4635,
+		"graphics" :
+		{
+			"animation" : "foundry/battle/CR210.def",
+			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 2.3 },
+			"map" : "foundry/map/7b.def",
+			"iconSmall" : "foundry/iconsSmall/CPrS210F.bmp",
+			"iconLarge" : "foundry/iconsBig/CPrL210B.bmp",
+			"timeBetweenFidgets" : 10
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 300,
+		"level" : 7,
+		"sound" :
+		{
+			"attack" : "foundry/S210ATTK.wav",
+			"defend" : "foundry/S210DFND.wav",
+			"killed" : "foundry/S210KILL.wav",
+			"wince" : "foundry/S210WNCE.wav",
+			"shoot" : "foundry/S210SHOT.wav",
+			"startMoving" : "foundry/S210EXT1.wav",
+			"endMoving" : "foundry/S210EXT2.wav"
+                     
+		},
+		"speed" : 15,
+		"abilities" : {
+			"nonLiving" : { "type" : "NON_LIVING" },
+			"noMorale" :
+			{
+				"type" : "NO_MORALE"
+			},
+			"fear":
+			{
+				"type" : "FEAR" 	
+			},
+			"king 1" :
+            {
+                "type" : "KING1"
+ 			},	
+			"reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 50
+			}
+		}
+	}
+}
+

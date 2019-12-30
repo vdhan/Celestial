@@ -1,0 +1,57 @@
+{
+	"asarkin" : 
+	{
+		"class" : "fouMechanic",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Asarkin",
+			"biography" : "Kiedys asarkin byl inzynierem na uslugach Eeofolu. Po przegranej wojnie z Erathia uciekl do Deyji, by tam spotkac Kastore'a budujacego swa armie. Zafascynowany technologia Starozytnych bez wahania przylaczyl sie do planu odbudowy Niebianskich Kuzni.",
+			"specialty" : 
+			{
+				"description" : "{Land Mine}\r\n\r\nCasts Land Mine with increased effect, based on hero level.",
+				"tooltip" : "Spell Bonus: Land Mine",
+				"name" : "Land Mine"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "foundry/heroes/asarkin/spec-small.png",
+			"specialtyLarge" : "foundry/heroes/asarkin/spec-large.png",
+			"large" : "foundry/heroes/asarkin/portrait-large.png",
+			"small" : "foundry/heroes/asarkin/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"landMine"
+		],
+		"army" :
+		[
+			{ "creature" : "ftGuardsman", "min" : 9, "max" : 15 },
+			{ "creature" : "ftFlametrooper", "min" :  6, "max" :  9 },
+			{ "creature" : "ftMechanicalGolem", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"landMine" : {
+					"subtype" : "spell.landMine",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,66 @@
+{
+	"ftHydraulicGolem":
+	{
+		"name" :
+		{
+			"plural" : "Drones Warriors",
+			"singular" : "Drones Warrior"
+		},
+		"advMapAmount" :
+		{
+			"max" : 20,
+			"min" : 12
+		},
+		"faction" : "foundry",
+		"aiValue" : 234,
+		"attack" : 11,
+		"hasDoubleWeek" : true,
+        "cost" :
+		{
+			"gold" : 275
+		},
+		"damage" :
+		{
+			"max" : 7,
+			"min" : 4 
+		},
+		"defense" : 6,
+		"fightValue" : 316,
+		"graphics" :
+		{
+			"animation" : "foundry/battle/maniac.def",
+			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 2.3 },
+			"map" : "foundry/map/maniac.def",
+			"iconSmall" : "foundry/iconsSmall/maniac.bmp",
+			"iconLarge" : "foundry/iconsBig/maniac.bmp",
+			"timeBetweenFidgets" : 10
+        },
+		"growth" : 7,
+		"hitPoints" : 20,
+		"level" : 3,
+		"sound" :
+		{
+			"attack" : "foundry/S200ATTK.wav",
+			"defend" : "foundry/S200DFND.wav",
+			"killed" : "foundry/S200KILL.wav",
+			"move" : "foundry/S200MOVE.wav",
+			"wince" : "foundry/S200WNCE.wav"
+		},
+		"speed" : 8,
+		"abilities" :
+		{
+            "TWO_HEX_ATTACK_BREATH":
+			{
+		        "type" : "TWO_HEX_ATTACK_BREATH"
+			},
+            "NON_LIVING":
+			{
+				"type" : "NON_LIVING"
+			},
+            "Healer":
+			{
+				"type" : "HEALER"
+			}
+		}
+	}
+}

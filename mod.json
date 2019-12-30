@@ -1,0 +1,73 @@
+{
+    "name": "Celestial",
+    "description": "Foundry Town has been renamed, balanced and fixed",
+    "modType": "Town",
+    "version": "1.0.0",
+
+    "author": "Vũ Đắc Hoàng Ân",
+    "contact": "anvudh@gmail.com",
+
+    "keepDisabled": false,
+    "changelog": {
+        "1.0.0": ["Initial release"]
+    },
+
+    "factions": [
+    	"config/foundry/town/faction.json",
+        "config/foundry/town/buildings.json",
+        "config/foundry/town/structures.json",
+        "config/foundry/town/siege.json",
+        "config/foundry/town/spells.json",
+        "config/foundry/town/puzzle.json"
+    ],
+
+    "heroClasses": [
+    	"config/foundry/classes/Marshal.json",
+    	"config/foundry/classes/Mechanic.json"
+    ],
+
+    "heroes": [
+        "config/foundry/heroes/asarkin.json",
+        "config/foundry/heroes/dohel.json",
+        "config/foundry/heroes/fesurrecta.json",
+        "config/foundry/heroes/maren.json",
+        "config/foundry/heroes/miasore.json",
+        "config/foundry/heroes/munnira.json",
+        "config/foundry/heroes/printeer.json",
+        "config/foundry/heroes/reltes.json",
+        "config/foundry/heroes/sarity.json",
+        "config/foundry/heroes/satore.json",
+        "config/foundry/heroes/satrine.json",
+        "config/foundry/heroes/shistrict.json",
+        "config/foundry/heroes/tamus.json",
+        "config/foundry/heroes/tulian.json",
+        "config/foundry/heroes/wengist.json",
+        "config/foundry/heroes/ziclas.json"
+    ],
+
+    "creatures": [
+        "config/foundry/creatures/Guardsman.json",
+        "config/foundry/creatures/VeteranGuardsman.json",
+        "config/foundry/creatures/Flametrooper.json",
+        "config/foundry/creatures/AcidTrooper.json",
+        "config/foundry/creatures/MechanicalGolem.json",
+        "config/foundry/creatures/HydraulicGolem.json",
+        "config/foundry/creatures/Dalek.json",
+        "config/foundry/creatures/GroundDalek.json",
+        "config/foundry/creatures/CannonGolem.json",
+        "config/foundry/creatures/SiegeGolem.json",
+        "config/foundry/creatures/Zord.json",
+        "config/foundry/creatures/ZordWarrior.json",
+        "config/foundry/creatures/Ishmael.json",
+        "config/foundry/creatures/LordIshmael.json",
+        "config/foundry/creatures/Technoid.json"
+    ],
+
+    "artifacts": [],
+
+    "spells": [],
+
+    "skills": [],
+
+    "objects": ["config/foundry/dwellings"]
+}
