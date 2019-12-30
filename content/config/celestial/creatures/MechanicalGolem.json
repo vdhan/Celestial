@@ -1,0 +1,67 @@
+{
+	"ftMechanicalGolem":
+	{
+		"name" :
+		{
+			"plural" : "Drones",
+			"singular" : "Drones"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 12
+		},
+		"faction" : "celestial",
+		"aiValue" : 293,
+		"attack" : 9,
+		"hasDoubleWeek" : true,
+        "cost" :
+		{
+			"gold" : 200
+		},
+		"damage" :
+		{
+			"max" : 7,
+			"min" : 4
+		},
+		"defense" : 6,
+		"fightValue" : 260,
+		"graphics" :
+		{
+			"animation" : "celestial/battle/pyro.def",
+			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 2.3 },
+			"map" : "celestial/map/pyro.def",
+			"iconSmall" : "celestial/iconsSmall/pyro.bmp",
+			"iconLarge" : "celestial/iconsBig/pyro.bmp",
+			"timeBetweenFidgets" : 10
+        },
+		"growth" : 7,
+		"hitPoints" : 20,
+		"level" : 3,
+		"upgrades":
+		[
+			"ftHydraulicGolem"
+		],
+		"sound" :
+		{
+			"attack" : "celestial/S200ATTK.wav",
+			"defend" : "celestial/S200DFND.wav",
+			"killed" : "celestial/S200KILL.wav",
+			"move" : "celestial/S200MOVE.wav",
+			"wince" : "celestial/S200WNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+           
+           "NON_LIVING":
+			{
+				"type" : "NON_LIVING"
+			},
+            "Healer":
+			{
+				"type" : "HEALER"
+			}
+		}
+	}
+}

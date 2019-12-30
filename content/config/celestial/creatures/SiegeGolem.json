@@ -1,0 +1,93 @@
+{
+	"ftSiegeGolem":
+	{
+		"advMapAmount" :
+		{
+			 "max" : 12,
+			 "min" : 5
+		},
+		"name" :
+		{
+			"plural" : "Siege Tanks",
+			"singular" : "Siege Tank"
+		},
+		"faction": "celestial",
+		"aiValue" : 1733,
+		"fightValue" : 1524,
+		"attack" : 16,
+		"defense" : 18,
+		"cost" :
+		{
+			"gold" : 1000
+		},
+		"damage" :
+		{
+			"max" : 22,
+			"min" : 20
+		},
+		"speed" : 8,
+		"graphics" :
+		{
+			"animation" : "celestial/battle/Hunter.def",
+			"map" : "celestial/map/Hunter.def",
+			"iconSmall" : "celestial/iconsSmall/Hunter.bmp",
+			"iconLarge" : "celestial/iconsBig/Hunter.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.30,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			},
+            	"missile" :
+			{
+				"projectile" : "PMAGEX.def",
+				"attackClimaxFrame" : 1,
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 70, 40, 20, 0, -20, -40, -50, -50, 0, 0, 0]
+			}
+		},
+		"hitPoints" : 80,
+		"doubleWide" : true,				
+		"growth" : 2,
+		"level" : 6,
+		"shots" : 24,		
+		"sound" :
+		{
+			"attack" : "celestial/S205ATTK.wav",
+			"defend" : "celestial/S205DFND.wav",
+			"killed" : "celestial/S205KILL.wav",
+			"move"  : "celestial/S205MOVE.wav",
+			"wince" : "celestial/S205WNCE.wav"
+		
+		},
+		"abilities" :
+		{
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},		
+			"nonliving":
+			{	
+				"type" : "NON_LIVING"
+            },
+            "catapult": 
+			{
+                "type": "CATAPULT"
+            },
+			"rangedRetaliation"	:
+			{
+				"type" : "RANGED_RETALIATION"
+			}
+		}
+	}
+}

@@ -1,0 +1,66 @@
+{
+  "ftFlametrooper": {
+    "name": {
+      "plural": "Flametroopers",
+      "singular": "Flametrooper"
+    },
+    "advMapAmount": {
+      "max": 25,
+      "min": 18
+    },
+    "faction": "celestial",
+    "aiValue": 265,
+    "attack": 7,
+    "cost": {
+      "gold": 200
+    },
+    "damage": {
+      "max": 5,
+      "min": 2
+    },
+    "defense": 8,
+    "fightValue": 265,
+    "graphics": {
+      "animation" : "celestial/battle/CR197.def",
+      "map" : "celestial/map/CR197s.def",
+      "iconSmall" : "celestial/iconsSmall/CPrS197F.bmp",
+      "iconLarge" : "celestial/iconsBig/CPrL197B.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1.20,
+        "attack": 1,
+        "idle": 10,
+        "flight": 1
+      }
+    },
+    "hasDoubleWeek": true,
+    "growth": 8,
+    "hitPoints": 20,
+    "level" : 2,
+    "upgrades":
+     [
+        "ftAcidTrooper"
+     ],
+    "sound": {
+      "attack": "celestial/FRDWATTK.wav",
+      "defend": "celestial/FRDWDFND.wav",
+      "killed": "celestial/FRDWKILL.wav",
+      "move": "celestial/FRDWMOVE.wav",
+      "wince": "celestial/FRDWWNCE.wav"
+    },
+    "speed": 5,
+    "abilities": {
+      
+      "flamethrower" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+                  },
+                  "noRetaliation" :
+			{
+				"type" : "BLOCKS_RETALIATION",
+                        "subtype" : 1
+			}
+		}
+	}
+}
+	

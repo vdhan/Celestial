@@ -1,0 +1,51 @@
+{
+	"printeer" : 
+	{
+		"class" : "fouMechanic",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Printeer",
+			"biography" : "printeer w mlodosci uczestniczyl w wielu wyprawach wraz z innymi goblinami z Krewlod. W czasie jednej z nich znalazl, ukryty w glebokiej jaskini, miotacz. Bardzo szybko nauczyl sie go obslugiwac. Dzierzac swoja nowa bron mogl wedrowac dokad tylko chcial, bo zaden potwor nie byl dla niego wystarczajacym wyzwaniem. Naturalnym bylo, ze wstapil do armii Kastore'a jako wysokiej rangi przywodca.", 
+			"specialty" :
+			{
+				"description" : "{Flametroopers and Acid Troopers}\r\n\r\nIncreases Speed of any Flametroopers or Acid Troopers by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Flametroopers",
+				"name" : "Flametroopers"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "celestial/heroes/printeer/spec-small.png",
+			"specialtyLarge" : "celestial/heroes/printeer/spec-large.png",
+			"large" : "celestial/heroes/printeer/portrait-large.png",
+			"small" : "celestial/heroes/printeer/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"magicArrow"
+		],
+		"army" :
+		[
+			{ "creature" : "ftFlametrooper", "min" :  6, "max" :  9 },
+			{ "creature" : "ftFlametrooper", "min" :  6, "max" :  9 },
+			{ "creature" : "ftFlametrooper", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		"specialty" : {
+			"creature" : "ftFlametrooper"
+		}		
+	}
+}
+

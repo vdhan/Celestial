@@ -1,0 +1,84 @@
+{
+	"fouMarshal" : 
+	{
+		"name" : "Marshal",
+		"animation" :
+		{
+			"battle" : 
+			{
+				"female" : "celestial/battleHeroMarshal",
+				"male"   : "celestial/battleHeroMarshal"
+			}
+		},	
+		"mapObject" : { "templates" : { "default" : { "animation" : "celestial/mapHeroMarshal" }}},
+		"commander" : "ftTechnoid",
+		"faction" : "celestial",
+		"affinity" : "might",
+		"primarySkills" :
+		{
+			"attack"     : 3,
+			"defence"    : 1,
+			"spellpower" : 1,
+			"knowledge"  : 1
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 45,
+			"defence"    : 45,
+			"spellpower" : 5,
+			"knowledge"  : 5
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 30,
+			"defence"    : 30,
+			"spellpower" : 20,
+			"knowledge"  : 20
+		},
+		"secondarySkills" :
+		{
+			"pathfinding"  : 6,
+			"archery"      : 7,
+			"logistics"    : 7,
+			"scouting"     : 5,
+			"diplomacy"    : 1,
+			"navigation"   : 2,
+			"leadership"   : 4,
+			"wisdom"       : 2,
+			"mysticism"    : 2,
+			"luck"         : 3,
+			"ballistics"   : 9,
+			"eagleEye"     : 3,
+			"necromancy"   : 0,
+			"estates"      : 3,
+			"fireMagic"    : 3,
+			"airMagic"     : 2,
+			"waterMagic"   : 0,
+			"earthMagic"   : 2,
+			"scholar"      : 1,
+			"tactics"      : 7,
+			"artillery"    : 9,
+			"learning"     : 4,
+			"offence"      : 9,
+			"armorer"      : 8,
+			"intelligence" : 1,
+			"sorcery"      : 1,
+			"resistance"   : 10,
+			"firstAid"     : 1
+		},
+		"defaultTavern" : 5,
+		"tavern" :
+		{
+			"castle"     : 4,
+			"rampart"    : 4,
+			"tower"      : 4,
+			"inferno"    : 4,
+			"necropolis" : 4,
+			"dungeon"    : 4,
+			"stronghold" : 4,
+			"fortress"   : 4,
+			"conflux"    : 4,
+			"celestial"   : 4
+		}
+	}
+}

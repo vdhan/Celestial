@@ -1,0 +1,56 @@
+{
+	"satore" : 
+	{
+		"class" : "fouMarshal",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Satore",
+			"biography" : "satore nie chce wyjawic swoim poddanym jego pochodzenia. Wiadomo natomiast, ze jest poteznym elfem-czarnoksieznikiem znajacym wiele sekretow Starozytnych. Przed powstaniem Niebianskich Kuzni byl krolem Dejii. Planuje zdobyc swiat przy pomocy Starozytnej broni i w dazeniu do celu nie cofnie sie przed niczym.",
+			"specialty" : 
+			{
+				"description" : "{Chain Lightning}\r\n\r\nCasts Chain Lightning with increased effect, based on hero level.",
+				"tooltip" : "Spell Bonus: Chain Lightning",
+				"name" : "Chain Lightning"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "celestial/heroes/satore/spec-small.png",
+			"specialtyLarge" : "celestial/heroes/satore/spec-large.png",
+			"large" : "celestial/heroes/satore/portrait-large.png",
+			"small" : "celestial/heroes/satore/portrait-small.png"
+		},
+		"spellbook" :
+		[
+			"chainLightning"		
+                ],
+		"army" :
+		[
+			{ "creature" : "ftGuardsman", "min" : 9, "max" : 15 },
+			{ "creature" : "ftFlametrooper", "min" :  6, "max" :  9 },
+			{ "creature" : "ftMechanicalGolem", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"chainLightning" : {
+					"subtype" : "spell.chainLightning",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

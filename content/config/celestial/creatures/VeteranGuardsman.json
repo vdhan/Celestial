@@ -1,0 +1,65 @@
+{
+	"ftVeteranGuardsman":
+	{
+		"name" :
+		{
+			"plural" : "Veteran Guardsman",
+			"singular" : "Veteran Guardsman"
+		},
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 20
+		},
+		"faction" : "celestial",
+		"aiValue" : 115,
+		"attack" : 3,
+		"cost" :
+		{
+			"gold" : 75
+		},
+		"damage" :
+		{
+			"max" : 3,
+			"min" : 2
+		},
+		"defense" : 7,
+		"fightValue" : 130,
+		"graphics" :
+		{
+			"animation" : "celestial/battle/CR200.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "celestial/map/militian.def",
+			"iconSmall" : "celestial/iconsSmall/CPrS200F.bmp",
+			"iconLarge" : "celestial/iconsBig/CPrL200B.bmp",
+			"timeBetweenFidgets" : 1
+		},
+	
+		"growth" : 14,
+		"hitPoints" : 10,
+		"horde" : 7,
+		"level" : 1,
+		"sound" :
+		{
+			"attack" : "celestial/S202ATTK.wav",
+			"defend" : "celestial/S202DFND.wav",
+			"killed" : "celestial/S202KILL.wav",
+			"move" : "celestial/S202MOVE.wav",
+			"wince" : "celestial/S202WNCE.wav"
+		},
+		"speed" : 6,
+		"abilities":
+		{
+			"unlimitedRetaliation" :
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+			"firstStrike" :
+			{
+				"type" : "FIRST_STRIKE"
+			}
+
+		}
+
+	}
+}

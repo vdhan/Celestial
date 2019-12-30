@@ -13,54 +13,54 @@
     },
 
     "factions": [
-    	"config/foundry/town/faction.json",
-        "config/foundry/town/buildings.json",
-        "config/foundry/town/structures.json",
-        "config/foundry/town/siege.json",
-        "config/foundry/town/spells.json",
-        "config/foundry/town/puzzle.json"
+    	"config/celestial/town/faction.json",
+        "config/celestial/town/buildings.json",
+        "config/celestial/town/structures.json",
+        "config/celestial/town/siege.json",
+        "config/celestial/town/spells.json",
+        "config/celestial/town/puzzle.json"
     ],
 
     "heroClasses": [
-    	"config/foundry/classes/Marshal.json",
-    	"config/foundry/classes/Mechanic.json"
+    	"config/celestial/classes/Marshal.json",
+    	"config/celestial/classes/Mechanic.json"
     ],
 
     "heroes": [
-        "config/foundry/heroes/asarkin.json",
-        "config/foundry/heroes/dohel.json",
-        "config/foundry/heroes/fesurrecta.json",
-        "config/foundry/heroes/maren.json",
-        "config/foundry/heroes/miasore.json",
-        "config/foundry/heroes/munnira.json",
-        "config/foundry/heroes/printeer.json",
-        "config/foundry/heroes/reltes.json",
-        "config/foundry/heroes/sarity.json",
-        "config/foundry/heroes/satore.json",
-        "config/foundry/heroes/satrine.json",
-        "config/foundry/heroes/shistrict.json",
-        "config/foundry/heroes/tamus.json",
-        "config/foundry/heroes/tulian.json",
-        "config/foundry/heroes/wengist.json",
-        "config/foundry/heroes/ziclas.json"
+        "config/celestial/heroes/asarkin.json",
+        "config/celestial/heroes/dohel.json",
+        "config/celestial/heroes/fesurrecta.json",
+        "config/celestial/heroes/maren.json",
+        "config/celestial/heroes/miasore.json",
+        "config/celestial/heroes/munnira.json",
+        "config/celestial/heroes/printeer.json",
+        "config/celestial/heroes/reltes.json",
+        "config/celestial/heroes/sarity.json",
+        "config/celestial/heroes/satore.json",
+        "config/celestial/heroes/satrine.json",
+        "config/celestial/heroes/shistrict.json",
+        "config/celestial/heroes/tamus.json",
+        "config/celestial/heroes/tulian.json",
+        "config/celestial/heroes/wengist.json",
+        "config/celestial/heroes/ziclas.json"
     ],
 
     "creatures": [
-        "config/foundry/creatures/Guardsman.json",
-        "config/foundry/creatures/VeteranGuardsman.json",
-        "config/foundry/creatures/Flametrooper.json",
-        "config/foundry/creatures/AcidTrooper.json",
-        "config/foundry/creatures/MechanicalGolem.json",
-        "config/foundry/creatures/HydraulicGolem.json",
-        "config/foundry/creatures/Dalek.json",
-        "config/foundry/creatures/GroundDalek.json",
-        "config/foundry/creatures/CannonGolem.json",
-        "config/foundry/creatures/SiegeGolem.json",
-        "config/foundry/creatures/Zord.json",
-        "config/foundry/creatures/ZordWarrior.json",
-        "config/foundry/creatures/Ishmael.json",
-        "config/foundry/creatures/LordIshmael.json",
-        "config/foundry/creatures/Technoid.json"
+        "config/celestial/creatures/Guardsman.json",
+        "config/celestial/creatures/VeteranGuardsman.json",
+        "config/celestial/creatures/Flametrooper.json",
+        "config/celestial/creatures/AcidTrooper.json",
+        "config/celestial/creatures/MechanicalGolem.json",
+        "config/celestial/creatures/HydraulicGolem.json",
+        "config/celestial/creatures/Dalek.json",
+        "config/celestial/creatures/GroundDalek.json",
+        "config/celestial/creatures/CannonGolem.json",
+        "config/celestial/creatures/SiegeGolem.json",
+        "config/celestial/creatures/Zord.json",
+        "config/celestial/creatures/ZordWarrior.json",
+        "config/celestial/creatures/Ishmael.json",
+        "config/celestial/creatures/LordIshmael.json",
+        "config/celestial/creatures/Technoid.json"
     ],
 
     "artifacts": [],
@@ -69,5 +69,5 @@
 
     "skills": [],
 
-    "objects": ["config/foundry/dwellings"]
+    "objects": ["config/celestial/dwellings"]
 }

@@ -1,0 +1,93 @@
+{
+	"ftCannonGolem":
+	{
+		"advMapAmount" :
+		{
+			 "max" : 12,
+			 "min" : 5
+		},
+		"name" :
+		{
+			"plural" : "Steam Tanks",
+			"singular" : "Steam Tank"
+		},
+		"faction": "celestial",
+		"aiValue" : 933,
+		"fightValue" : 624,
+		"attack" : 14,
+		"defense" : 16,
+		"cost" :
+		{
+			"gold" : 850
+		},
+		"damage" :
+		{
+			"max" : 20,
+			"min" : 16
+		},
+		"speed" : 6,
+		"graphics" :
+		{
+			"animation" : "celestial/battle/Fighter.def",
+			"map" : "celestial/map/Fighter.def",
+			"iconSmall" : "celestial/iconsSmall/Fighter.bmp",
+			"iconLarge" : "celestial/iconsBig/Fighter.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.30,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			},
+            	"missile" :
+			{
+				"projectile" : "PMAGEX.def",
+				"attackClimaxFrame" : 1,
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 70, 40, 20, 0, -20, -40, -50, -50, 0, 0, 0]
+			}
+		},
+		"hitPoints" : 75,
+		"doubleWide" : true,
+		"upgrades":
+		[
+			"ftSiegeGolem"
+		],				
+		"growth" : 2,
+		"level" : 6,
+		"shots" : 18,		
+		"sound" :
+		{
+			"attack" : "celestial/S205ATTK.wav",
+			"defend" : "celestial/S205DFND.wav",
+			"killed" : "celestial/S205KILL.wav",
+			"move"  : "celestial/S205MOVE.wav",
+			"wince" : "celestial/S205WNCE.wav"
+		
+		},
+		"abilities" :
+		{
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"nonliving":
+			{	
+				"type" : "NON_LIVING"
+			},
+			"rangedRetaliation"	:
+			{
+				"type" : "RANGED_RETALIATION"
+			}
+		}
+	}
+}

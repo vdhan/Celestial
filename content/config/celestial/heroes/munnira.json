@@ -1,0 +1,59 @@
+{
+	"munnira" : 
+	{
+		"class" : "fouMarshal",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Munnira",
+			"biography" : "Rodzina Sunnir od pokolen mieszka w Deyji. Sunnir od dziecka marzyla o odkrywaniu swiata i o dokonywaniu wielkich czynow, jednak jako goblin mogla pelnic u nekromantow role co najwyzej niepozbawionej wlasnej woli sluzacej. Natomiast brak doswiadczenia w walce sprawia, ze nigdy by nie zdobyla szacunku wsrod goblinow z Krewlodu. Dolaczenie do armii Kastore'a to dla niej doskonala okazja zeby udowodnic swoja wartosc.",
+			"specialty" :
+			{
+				"description" : "{Scouting}\r\n\r\nReceives a 5% per level bonus to Scouting skill.",
+				"tooltip" : "Secondary Skill Bonus: Scouting",
+				"name" : "Scouting"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "celestial/heroes/munnira/spec-small.png",
+			"specialtyLarge" : "celestial/heroes/munnira/spec-large.png",
+			"large" : "celestial/heroes/munnira/portrait-large.png",
+			"small" : "celestial/heroes/munnira/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "ftGuardsman", "min" : 9, "max" : 15 },
+			{ "creature" : "ftFlametrooper", "min" :  6, "max" :  9 },
+			{ "creature" : "ftMechanicalGolem", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "artillery"
+			}
+		],
+		"specialty": //scouting
+		[
+			{
+				"growsWithLevel" : true,
+				"bonuses":
+				[
+					{
+						"type": "SPECIAL_SECONDARY_SKILL",
+						"subtype": "skill.scouting",
+						"val": 5
+					}
+				]
+			}
+		]
+	}
+}
+
+
+

@@ -1,0 +1,57 @@
+{
+	"reltes" :
+	{
+		"class" : "fouMarshal",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Reltes",
+			"biography" : "undetermined.",
+			"specialty" :
+			{
+				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
+				"tooltip" : "Secondary Skill Bonus: Armorer",
+				"name" : "Armorer"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "celestial/heroes/reltes/spec-small.png",
+			"specialtyLarge" : "celestial/heroes/reltes/spec-large.png",
+			"large" : "celestial/heroes/reltes/portrait-large.png",
+			"small" : "celestial/heroes/reltes/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "ftGuardsman", "min" : 9, "max" : 15 },
+			{ "creature" : "ftFlametrooper", "min" :  6, "max" :  9 },
+			{ "creature" : "ftMechanicalGolem", "min" :  3, "max" :  6 }
+		],
+              "skills" : 
+                [
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+		"specialty": //armorer
+		[
+			{
+				"growsWithLevel" : true,
+				"bonuses":
+				[
+					{
+						"type": "SPECIAL_SECONDARY_SKILL",
+						"subtype": "skill.armorer",
+						"val": 5
+					}
+				]
+			}
+		]
+	}
+}
+
