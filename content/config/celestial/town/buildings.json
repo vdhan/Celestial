@@ -51,7 +51,7 @@
 					"id" : 2,
 					"upgrades" : "mageGuild2"
 				},
-				"mageGuild4" : 
+				"mageGuild4" :
 				{
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 4",
@@ -462,7 +462,7 @@
 						"ore" : 10,
 						"gold" : 25000,
 						"wood" : 10,
-						"sulfur" : 30
+						"mercury" : 30
 					},
 					"id" : 43,
 					"upgrades" : "dwellingLvl7"
