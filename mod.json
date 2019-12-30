@@ -60,7 +60,7 @@
         "config/celestial/creatures/ZordWarrior.json",
         "config/celestial/creatures/Ishmael.json",
         "config/celestial/creatures/LordIshmael.json",
-        "config/celestial/creatures/Technoid.json"
+        "config/celestial/commander/Technoid.json"
     ],
 
     "artifacts": [],
