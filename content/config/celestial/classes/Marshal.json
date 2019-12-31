@@ -1,15 +1,15 @@
 {
-	"fouMarshal" : 
+	"fouMarshal" :
 	{
 		"name" : "Marshal",
 		"animation" :
 		{
-			"battle" : 
+			"battle" :
 			{
 				"female" : "celestial/battleHeroMarshal",
 				"male"   : "celestial/battleHeroMarshal"
 			}
-		},	
+		},
 		"mapObject" : { "templates" : { "default" : { "animation" : "celestial/mapHeroMarshal" }}},
 		"commander" : "ftTechnoid",
 		"faction" : "celestial",
@@ -23,10 +23,10 @@
 		},
 		"lowLevelChance" :
 		{
-			"attack"     : 45,
-			"defence"    : 45,
-			"spellpower" : 5,
-			"knowledge"  : 5
+			"attack"     : 40,
+			"defence"    : 40,
+			"spellpower" : 10,
+			"knowledge"  : 10
 		},
 		"highLevelChance" :
 		{
@@ -44,17 +44,17 @@
 			"diplomacy"    : 1,
 			"navigation"   : 2,
 			"leadership"   : 4,
-			"wisdom"       : 2,
-			"mysticism"    : 2,
+			"wisdom"       : 5,
+			"mysticism"    : 5,
 			"luck"         : 3,
 			"ballistics"   : 9,
 			"eagleEye"     : 3,
 			"necromancy"   : 0,
 			"estates"      : 3,
 			"fireMagic"    : 3,
-			"airMagic"     : 2,
-			"waterMagic"   : 0,
-			"earthMagic"   : 2,
+			"airMagic"     : 5,
+			"waterMagic"   : 3,
+			"earthMagic"   : 5,
 			"scholar"      : 1,
 			"tactics"      : 7,
 			"artillery"    : 9,

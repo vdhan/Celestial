@@ -15,7 +15,7 @@
         "attack": 7,
         "defense": 7,
         "damage": {
-            "max": 15,
+            "max": 16,
             "min": 15
         },
         "hitPoints": 50,
@@ -73,11 +73,11 @@
             },
             "castsAmount": {
                 "type": "CASTS",
-                "val": 2
+                "val": 1
             },
             "enchant": {
                 "type": "CREATURE_ENCHANT_POWER",
-                "val": 2
+                "val": 1
             },
             "spellpower": {
                 "type": "CREATURE_SPELL_POWER",
