@@ -5,7 +5,7 @@
     "version": "1.0.0",
 
     "author": "Vũ Đắc Hoàng Ân",
-    "contact": "anvudh@gmail.com",
+    "contact": "https://github.com/vdhan/Celestial",
 
     "keepDisabled": false,
     "changelog": {
@@ -46,20 +46,20 @@
     ],
 
     "creatures": [
-        "config/celestial/creatures/Guardsman.json",
-        "config/celestial/creatures/VeteranGuardsman.json",
-        "config/celestial/creatures/Flametrooper.json",
-        "config/celestial/creatures/AcidTrooper.json",
-        "config/celestial/creatures/MechanicalGolem.json",
-        "config/celestial/creatures/HydraulicGolem.json",
-        "config/celestial/creatures/Dalek.json",
-        "config/celestial/creatures/GroundDalek.json",
-        "config/celestial/creatures/CannonGolem.json",
-        "config/celestial/creatures/SiegeGolem.json",
-        "config/celestial/creatures/Zord.json",
-        "config/celestial/creatures/ZordWarrior.json",
-        "config/celestial/creatures/Ishmael.json",
-        "config/celestial/creatures/LordIshmael.json",
+        "config/celestial/creatures/lv1.json",
+        "config/celestial/creatures/lv1up.json",
+        "config/celestial/creatures/lv2.json",
+        "config/celestial/creatures/lv2up.json",
+        "config/celestial/creatures/lv3.json",
+        "config/celestial/creatures/lv3up.json",
+        "config/celestial/creatures/lv4.json",
+        "config/celestial/creatures/lv4up.json",
+        "config/celestial/creatures/lv5.json",
+        "config/celestial/creatures/lv5up.json",
+        "config/celestial/creatures/lv6.json",
+        "config/celestial/creatures/lv6up.json",
+        "config/celestial/creatures/lv7.json",
+        "config/celestial/creatures/lv7up.json",
         "config/celestial/commander/Technoid.json"
     ],
 
