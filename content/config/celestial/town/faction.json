@@ -1,6 +1,6 @@
 {
     "celestial": {
-    	"name": "Celestial",
+        "name": "Celestial",
         "nativeTerrain": "dirt",
         "alignment": "neutral",
         "creatureBackground": {
@@ -9,13 +9,14 @@
         },
 
         "town": {
-	        "primaryResource": "mercury",
-	        "warMachine": "ballista",
-	        "mageGuild": 5,
-	        "moatDamage": 90,
-	        "horde": [0, -1], // 0 - 1st horde building; 1 - 2nd horde building (-1 if not present)
+            "primaryResource": "mercury",
+            "warMachine": "ballista",
+            "mageGuild": 5,
+            "moatDamage": 90,
+            "moatHexes" : [11, 28, 44, 61, 77, 111, 129, 146, 164, 181],
+            "horde": [0, -1], // 0 - 1st horde building; 1 - 2nd horde building (-1 if not present)
 
-        	"mapObject": {
+            "mapObject": {
                 "templates": {
                     "capitol": {
                         "animation": "celestial/adventure-map/town-capitol.def"
@@ -62,10 +63,10 @@
             "townBackground": "celestial/town-screen/background",
             "guildWindow": "celestial/town-screen/mage-guild",
             "buildingsIcons": "celestial/town-hall.def",
-            "hallBackground": "TPTHBKFR.BMP",
 
-            "guildBackground": "TPMAGE.bmp",
             "tavernVideo": "TAVERN.BIK",
+            "guildBackground": "TPMAGE.bmp",
+            "hallBackground": "TPTHBKFR.BMP",
 
             "hallSlots": [
                 [

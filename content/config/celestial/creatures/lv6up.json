@@ -1,16 +1,17 @@
 {
 	"ftSiegeGolem":
 	{
+		"name" :
+		{
+			"plural" : "Siege Golems",
+			"singular" : "Siege Golem"
+		},
 		"advMapAmount" :
 		{
 			 "max" : 12,
 			 "min" : 5
 		},
-		"name" :
-		{
-			"plural" : "Siege Tanks",
-			"singular" : "Siege Tank"
-		},
+
 		"faction": "celestial",
 		"aiValue" : 1733,
 		"fightValue" : 1524,
@@ -57,10 +58,10 @@
 			}
 		},
 		"hitPoints" : 80,
-		"doubleWide" : true,				
+		"doubleWide" : true,
 		"growth" : 2,
 		"level" : 6,
-		"shots" : 24,		
+		"shots" : 24,
 		"sound" :
 		{
 			"attack" : "celestial/S205ATTK.wav",
@@ -68,19 +69,19 @@
 			"killed" : "celestial/S205KILL.wav",
 			"move"  : "celestial/S205MOVE.wav",
 			"wince" : "celestial/S205WNCE.wav"
-		
+
 		},
 		"abilities" :
 		{
 			"canShoot" :
 			{
 				"type" : "SHOOTER"
-			},		
+			},
 			"nonliving":
-			{	
+			{
 				"type" : "NON_LIVING"
             },
-            "catapult": 
+            "catapult":
 			{
                 "type": "CATAPULT"
             },

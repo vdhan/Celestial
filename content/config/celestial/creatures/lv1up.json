@@ -3,7 +3,7 @@
 	{
 		"name" :
 		{
-			"plural" : "Veteran Guardsman",
+			"plural" : "Veteran Guardsmans",
 			"singular" : "Veteran Guardsman"
 		},
 		"advMapAmount" :
@@ -34,7 +34,7 @@
 			"iconLarge" : "celestial/iconsBig/CPrL200B.bmp",
 			"timeBetweenFidgets" : 1
 		},
-	
+
 		"growth" : 14,
 		"hitPoints" : 10,
 		"horde" : 7,

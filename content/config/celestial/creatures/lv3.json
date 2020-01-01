@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "Drones",
-			"singular" : "Drones"
+			"plural" : "Mechanical Golems",
+			"singular" : "Mechanical Golem"
 		},
 		"advMapAmount" :
 		{
@@ -53,7 +53,7 @@
 		"speed" : 6,
 		"abilities" :
 		{
-           
+
            "NON_LIVING":
 			{
 				"type" : "NON_LIVING"

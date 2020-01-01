@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "Mech Warriors",
-			"singular" : "Mech Warrior"
+			"plural" : "Zord Warriors",
+			"singular" : "Zord Warrior"
 		},
 		"advMapAmount" :
 		{
@@ -15,7 +15,7 @@
 		"aiValue" : 728,
 		"attack" : 14,
 		"hasDoubleWeek" : true,
-        "cost" : 
+        "cost" :
 		{
 			"gold" : 775
 		},
@@ -34,7 +34,7 @@
 			"iconSmall" : "celestial/iconsSmall/CPrS204F.bmp",
 			"iconLarge" : "celestial/iconsBig/CPrL204B.bmp",
 			"timeBetweenFidgets" : 1,
-			
+
 		},
 		"growth" : 3,
 		"hitPoints" : 60,
@@ -51,7 +51,7 @@
 		"speed" : 9,
 		"abilities" :
 		{
-			"nonliving" : 
+			"nonliving" :
 			{
 				"type" : "NON_LIVING"
 			},

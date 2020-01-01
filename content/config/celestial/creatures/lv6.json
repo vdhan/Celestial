@@ -1,16 +1,17 @@
 {
 	"ftCannonGolem":
 	{
+		"name" :
+		{
+			"plural" : "Cannon Golems",
+			"singular" : "Cannon Golem"
+		},
 		"advMapAmount" :
 		{
 			 "max" : 12,
 			 "min" : 5
 		},
-		"name" :
-		{
-			"plural" : "Steam Tanks",
-			"singular" : "Steam Tank"
-		},
+
 		"faction": "celestial",
 		"aiValue" : 933,
 		"fightValue" : 624,
@@ -61,10 +62,10 @@
 		"upgrades":
 		[
 			"ftSiegeGolem"
-		],				
+		],
 		"growth" : 2,
 		"level" : 6,
-		"shots" : 18,		
+		"shots" : 18,
 		"sound" :
 		{
 			"attack" : "celestial/S205ATTK.wav",
@@ -72,7 +73,7 @@
 			"killed" : "celestial/S205KILL.wav",
 			"move"  : "celestial/S205MOVE.wav",
 			"wince" : "celestial/S205WNCE.wav"
-		
+
 		},
 		"abilities" :
 		{
@@ -81,7 +82,7 @@
 				"type" : "SHOOTER"
 			},
 			"nonliving":
-			{	
+			{
 				"type" : "NON_LIVING"
 			},
 			"rangedRetaliation"	:

@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "Mech Fighters",
-			"singular" : "Mech Fighter"
+			"plural" : "Zords",
+			"singular" : "Zord"
 		},
 		"advMapAmount" :
 		{
@@ -54,7 +54,7 @@
 		"speed" : 7,
 		"abilities" :
 		{
-        "nonliving" : 
+        "nonliving" :
 			{
 				"type" : "NON_LIVING"
 			},

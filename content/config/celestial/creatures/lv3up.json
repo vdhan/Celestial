@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "Drones Warriors",
-			"singular" : "Drones Warrior"
+			"plural" : "Hydraulic Golems",
+			"singular" : "Hydraulic Golem"
 		},
 		"advMapAmount" :
 		{
@@ -22,7 +22,7 @@
 		"damage" :
 		{
 			"max" : 7,
-			"min" : 4 
+			"min" : 4
 		},
 		"defense" : 6,
 		"fightValue" : 316,
