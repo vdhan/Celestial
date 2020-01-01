@@ -1,16 +1,16 @@
 {
 	"fouCyborg" :
 	{
-		"name" : "Mechanic",
+		"name" : "Cyborg",
 		"animation" :
 		{
 			"battle" :
 			{
-				"female" : "celestial/battleHeroMechanic",
-				"male"   : "celestial/battleHeroMechanic"
+				"female" : "celestial/battleHeroMagic",
+				"male"   : "celestial/battleHeroMagic"
 			}
 		},
-		"mapObject" : { "templates" : { "default" : { "animation" : "celestial/mapHeroMechanic" }}},
+		"mapObject" : { "templates" : { "default" : { "animation" : "celestial/mapHeroMagic" }}},
 		"commander" : "ftTechnoid",
 		"faction" : "celestial",
 		"affinity" : "magic",

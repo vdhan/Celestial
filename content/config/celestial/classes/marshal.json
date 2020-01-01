@@ -6,11 +6,11 @@
 		{
 			"battle" :
 			{
-				"female" : "celestial/battleHeroMarshal",
-				"male"   : "celestial/battleHeroMarshal"
+				"female" : "celestial/battleHeroMight",
+				"male"   : "celestial/battleHeroMight"
 			}
 		},
-		"mapObject" : { "templates" : { "default" : { "animation" : "celestial/mapHeroMarshal" }}},
+		"mapObject" : { "templates" : { "default" : { "animation" : "celestial/mapHeroMight" }}},
 		"commander" : "ftTechnoid",
 		"faction" : "celestial",
 		"affinity" : "might",
