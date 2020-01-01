@@ -1,58 +1,111 @@
 {
-	"celestial" :
-	{
-		"town" :
-		{
-			"siege" :
-			{
-				"shooter" : "ftDalek",
-				"imagePrefix" : "celestial/siege/sgfg",
-				"gate" :
-				{
-					"arch" : { "x" : 486, "y" : 232 },
-					"gate" : { "x" : 408, "y" : 254 }
-				},
-				"moat" :
-				{
-					"bank" : { "x" : 407, "y" : 80 },
-					"moat" : { "x" : 407, "y" : 80 }
-				},
-				"static" :
-				{
-					"background" : { "x" : 600, "y" : 50 },
-					"bottom" : { "x" : 509, "y" : 346 },
-					"top" : { "x" : 490, "y" : 97 }
-				},
-				"towers" :
-				{
-					"bottom" :
-					{
-						"battlement" : { "x" : 608, "y" : 505 },
-						"creature" : { "x" : 382, "y" : 308 },
-						"tower" : { "x" : 608, "y" : 505 }
-					},
-					"keep" :
-					{
-						"battlement" : { "x" : 736, "y" : 159 },
-						"creature" : { "x" : 529, "y" : -42 },
-						"tower" : { "x" : 736, "y" : 159 }
-					},
-					"top" :
-					{
-						"battlement" : { "x" : 576, "y" : 28 },
-						"creature" : { "x" : 341, "y" : -162 },
-						"tower" : { "x" : 576, "y" : 28 }
-					}
-				},
-				"walls" :
-				{
-					"bottom" : { "x" : 509, "y" : 346 },
-					"bottomMid" : { "x" : 468, "y" : 299 },
-					"upper" : { "x" : 521, "y" : 41 },
-					"upperMid" : { "x" : 471, "y" : 147 }
-				}
-			}
-		}
-	}
-}
+    "celestial": {
+        "town": {
+            "siege": {
+                "shooter": "ftDalek",
+                "imagePrefix": "celestial/siege/sgfg",
 
+                "towers": {
+                    "top": {
+                        "tower": {
+                            "x": 558,
+                            "y": 30
+                        },
+                        "battlement": {
+                            "x": 558,
+                            "y": 30
+                        },
+                        "creature": {
+                            "x": 340,
+                            "y": -173
+                        }
+                    },
+                    "keep": {
+                        "tower": {
+                            "x": 717,
+                            "y": 196
+                        },
+                        "battlement": {
+                            "x": 717,
+                            "y": 196
+                        },
+                        "creature": {
+                            "x": 519,
+                            "y": -5
+                        }
+                    },
+                    "bottom": {
+                        "tower": {
+                            "x": 579,
+                            "y": 513
+                        },
+                        "battlement": {
+                            "x": 579,
+                            "y": 513
+                        },
+                        "creature": {
+                            "x": 356,
+                            "y": 311
+                        }
+                    }
+                },
+
+                "gate": {
+                    "gate": {
+                        "x": 408,
+                        "y": 254
+                    },
+                    "arch": {
+                        "x": 476,
+                        "y": 192
+                    }
+                },
+
+                "walls": {
+                    "upper": {
+                        "x": 523,
+                        "y": 67
+                    },
+                    "upperMid": {
+                        "x": 486,
+                        "y": 158
+                    },
+                    "bottomMid": {
+                        "x": 489,
+                        "y": 322
+                    },
+                    "bottom": {
+                        "x": 506,
+                        "y": 373
+                    }
+                },
+
+                "moat": {
+                    "bank": {
+                        "x": 400,
+                        "y": 80
+                    },
+                    "moat": {
+                        "x": 406,
+                        "y": 90
+                    }
+                },
+
+                "static": {
+                    "top": {
+                        "x": 498,
+                        "y": 92
+                    },
+                    "bottom": {
+                        "x": 506,
+                        "y": 373
+                    },
+                    "background": {
+                        "x": 619,
+                        "y": 56
+                    }
+                }
+            }
+        }
+    }
+}
