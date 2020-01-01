@@ -205,7 +205,7 @@
                 "horde1": {
                     "id": 18,
                     "name": "Barrack",
-                    "description": "Barrack increases weekly production of Conscripts by 7 per week.",
+                    "description": "Barrack increases weekly production of Guardsmans by 7 per week.",
                     "upgrades": "dwellingLvl1",
                     "cost": {
                         "gold": 1000
@@ -215,7 +215,7 @@
                 "horde1Upgr": {
                     "id": 19,
                     "name": "Barrack",
-                    "description": "Barrack increases weekly production of Guardsmans by 7 per week.",
+                    "description": "Barrack increases weekly production of Veteran Guardsmans by 7 per week.",
                     "upgrades": "dwellingUpLvl1",
                     "requires": ["horde1"],
                     "cost": {
@@ -327,7 +327,7 @@
                 "dwellingLvl6": {
                     "id": 35,
                     "name": "Arsenal",
-                    "description": "Arsenal allows to recruit Cannon Golem.",
+                    "description": "Arsenal allows to recruit Cannon Golems.",
                     "requires": ["allOf", ["dwellingLvl3"], ["dwellingLvl5"]],
                     "cost": {
                         "gold": 4000,
@@ -341,7 +341,7 @@
                 "dwellingLvl7": {
                     "id": 36,
                     "name": "Research Center",
-                    "description": "Research Center allows to recruit Ishmael.",
+                    "description": "Research Center allows to recruit Ishmaels.",
                     "requires": ["allOf", ["dwellingLvl6"], ["mageGuild1"]],
                     "cost": {
                         "gold": 10000,

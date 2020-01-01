@@ -1,12 +1,12 @@
 {
-	"printeer" : 
+	"printeer" :
 	{
-		"class" : "fouMechanic",
+		"class" : "fouMarshal",
 		"female" : true,
 		"texts" :
 		{
 			"name" : "Printeer",
-			"biography" : "printeer w mlodosci uczestniczyl w wielu wyprawach wraz z innymi goblinami z Krewlod. W czasie jednej z nich znalazl, ukryty w glebokiej jaskini, miotacz. Bardzo szybko nauczyl sie go obslugiwac. Dzierzac swoja nowa bron mogl wedrowac dokad tylko chcial, bo zaden potwor nie byl dla niego wystarczajacym wyzwaniem. Naturalnym bylo, ze wstapil do armii Kastore'a jako wysokiej rangi przywodca.", 
+			"biography" : "printeer w mlodosci uczestniczyl w wielu wyprawach wraz z innymi goblinami z Krewlod. W czasie jednej z nich znalazl, ukryty w glebokiej jaskini, miotacz. Bardzo szybko nauczyl sie go obslugiwac. Dzierzac swoja nowa bron mogl wedrowac dokad tylko chcial, bo zaden potwor nie byl dla niego wystarczajacym wyzwaniem. Naturalnym bylo, ze wstapil do armii Kastore'a jako wysokiej rangi przywodca.",
 			"specialty" :
 			{
 				"description" : "{Flametroopers and Acid Troopers}\r\n\r\nIncreases Speed of any Flametroopers or Acid Troopers by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
@@ -45,7 +45,7 @@
 		],
 		"specialty" : {
 			"creature" : "ftFlametrooper"
-		}		
+		}
 	}
 }
 

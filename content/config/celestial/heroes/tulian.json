@@ -3,16 +3,16 @@
 	{
 		"class" : "fouMarshal",
 		"female" : true,
-		
+
 		"texts" :
 		{
 			"name" : "Tulian",
-			"biography" : "undetermined",
+			"biography" : "Undetermined",
 			"specialty" :
 			{
-				"description" : "{Steam Tanks and Siege Tanks}\r\n\r\nIncreases the Attack and Defence of any Steam Tanks or Siege Tanks for each level attained after 4th level.",
-				"tooltip" : "Creature Bonus: Steam Tanks",
-				"name" : "Steam Tanks"
+				"name" : "Cannon Golem",
+				"description" : "{Cannon Golems and Siege Golems}\r\n\r\nIncreases the Attack and Defence of any Cannon Golems or Siege Golems for each level attained after 4th level.",
+				"tooltip" : "Creature Bonus: Cannon Golem"
 			}
 		},
 		"images" :
@@ -41,6 +41,6 @@
 		],
 		"specialty" : {
 			"creature" : "ftCannonGolem"
-		}		
+		}
 	}
 }

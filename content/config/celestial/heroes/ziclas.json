@@ -1,23 +1,23 @@
 {
 	"ziclas" :
 	{
-		"class" : "fouMarshal",
+		"class" : "fouCyborg",
 		"female" : true,
 
 		"texts" :
 		{
 			"name" : "Ziclas",
-			"biography" : "undetermined",
+			"biography" : "Undetermined",
 			"specialty" :
 			{
-				"description" : "{Mercury + 1}\r\n\r\nIncreases kingdom's income by 1 crystal per day",
-				"tooltip" : "+1 Mercury each day",
-				"name" : "+1 Mercurys"
+				"name" : "+1 Mercury",
+				"description" : "{Mercury +1}\r\n\r\nIncreases kingdom's income by 1 mercury per day.",
+				"tooltip" : "+1 Mercury each day"
 			}
 		},
 		"images" :
 		{
-			
+
 			"specialtySmall" : "celestial/heroes/ziclas/spec-small.png",
 			"specialtyLarge" : "celestial/heroes/ziclas/spec-large.png",
 			"large" : "celestial/heroes/ziclas/portrait-large.png",
@@ -42,9 +42,9 @@
 		],
 		"specialty" : {
 			"bonuses" : {
-				"crystal" : {
-					"subtype" : "resource.mercury",
+				"mercury" : {
 					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.mercury",
 					"val" : 1
 				}
 			}

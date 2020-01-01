@@ -1,7 +1,7 @@
 {
 	"dohel" :
 	{
-		"class" : "fouMechanic",
+		"class" : "fouMarshal",
 		"female" : true,
 		"texts" :
 		{
@@ -13,7 +13,7 @@
 				"tooltip" : "Creature Bonus: Guardsman",
 				"name" : "Guardsman"
 			}
-		}, 
+		},
 		"images" :
 		{
 			"specialtySmall" : "celestial/heroes/dohel/spec-small.png",
@@ -45,6 +45,6 @@
 		],
 		"specialty" : {
 			"creature" : "ftGuardsman"
-		}		
+		}
 	}
 }

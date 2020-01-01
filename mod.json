@@ -22,8 +22,8 @@
     ],
 
     "heroClasses": [
-    	"config/celestial/classes/Marshal.json",
-    	"config/celestial/classes/Mechanic.json"
+    	"config/celestial/classes/marshal.json",
+    	"config/celestial/classes/cyborg.json"
     ],
 
     "heroes": [

@@ -1,13 +1,13 @@
 {
-	"satore" : 
+	"satore" :
 	{
-		"class" : "fouMarshal",
+		"class" : "fouCyborg",
 		"female" : true,
 		"texts" :
 		{
 			"name" : "Satore",
-			"biography" : "satore nie chce wyjawic swoim poddanym jego pochodzenia. Wiadomo natomiast, ze jest poteznym elfem-czarnoksieznikiem znajacym wiele sekretow Starozytnych. Przed powstaniem Niebianskich Kuzni byl krolem Dejii. Planuje zdobyc swiat przy pomocy Starozytnej broni i w dazeniu do celu nie cofnie sie przed niczym.",
-			"specialty" : 
+			"biography" : "Undetermined",
+			"specialty" :
 			{
 				"description" : "{Chain Lightning}\r\n\r\nCasts Chain Lightning with increased effect, based on hero level.",
 				"tooltip" : "Spell Bonus: Chain Lightning",
@@ -23,7 +23,7 @@
 		},
 		"spellbook" :
 		[
-			"chainLightning"		
+			"chainLightning"
                 ],
 		"army" :
 		[

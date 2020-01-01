@@ -1,22 +1,22 @@
 {
-	"wengist" : 
+	"wengist" :
 	{
 		"class" : "fouMarshal",
 		"female" : true,
 		"texts" :
 		{
 			"name" : "Wengist",
-			"biography" : "Jego bratem byl Winston Boragus. Po dojsciu do wladzy Kilgora, wengist zdal sobie sprawe, ze jesli nie chce podzielic losu swojego brata, to musi opuscic Krewlod. Zdecydowal sie dolaczyc do tworzonej przez Kastore'a armii, liczac na to, ze z pomoca nowej technologii uda mu sie pomscic brata.", 
+			"biography" : "Undetermined",
 			"specialty" :
 			{
-				"description" : "{Mech Fighters and Mech Warriors}\r\n\r\nIncreases Speed of any Mech Fighters or Mech Warriors by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
-				"tooltip" : "Creature Bonus: Mech Fighters",
-				"name" : "Mech Fighters"
+				"name" : "Zord",
+				"description" : "{Zords and Zord Warriors}\r\n\r\nIncreases Speed of any Zords or Zord Warriors by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Zord"
 			}
 		},
 		"images" :
 		{
-			
+
 			"specialtySmall" : "celestial/heroes/wengist/spec-small.png",
 			"specialtyLarge" : "celestial/heroes/wengist/spec-large.png",
 			"large" : "celestial/heroes/wengist/portrait-large.png",
@@ -41,6 +41,6 @@
 		],
 		"specialty" : {
 			"creature" : "ftZord"
-		}		
+		}
 	}
 }

@@ -109,10 +109,7 @@
             ],
 
             "names": [
-                "Toxicert",
                 "Ciberium",
-                "Xanadu",
-                "Hangval",
                 "Jalina",
                 "Firios",
                 "Windhaven",
@@ -122,7 +119,6 @@
                 "Willow",
                 "New Forest",
                 "New Elfwind",
-                "Wenlan",
                 "Vintyl",
                 "Sylina",
                 "Hallin",
@@ -152,7 +148,7 @@
                 "planeswalker": 3,
                 "elementalist": 3,
                 "fouMarshal": 5,
-                "fouMechanic": 5
+                "fouCyborg": 5
             }
         }
     }

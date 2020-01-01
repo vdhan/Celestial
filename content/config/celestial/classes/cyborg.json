@@ -1,5 +1,5 @@
 {
-	"fouMechanic" :
+	"fouCyborg" :
 	{
 		"name" : "Mechanic",
 		"animation" :
@@ -23,10 +23,10 @@
 		},
 		"lowLevelChance" :
 		{
-			"attack"     : 25,
-			"defence"    : 25,
-			"spellpower" : 30,
-			"knowledge"  : 20
+			"attack"     : 20,
+			"defence"    : 20,
+			"spellpower" : 35,
+			"knowledge"  : 25
 		},
 		"highLevelChance" :
 		{
