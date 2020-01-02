@@ -205,7 +205,7 @@
                 "horde1": {
                     "id": 18,
                     "name": "Barrack",
-                    "description": "Barrack increases weekly production of Guardsmans by 7 per week.",
+                    "description": "Barrack increases weekly growth of Guardsmans.",
                     "upgrades": "dwellingLvl1",
                     "cost": {
                         "gold": 1000
@@ -215,7 +215,7 @@
                 "horde1Upgr": {
                     "id": 19,
                     "name": "Barrack",
-                    "description": "Barrack increases weekly production of Veteran Guardsmans by 7 per week.",
+                    "description": "Barrack increases weekly growth of Veteran Guardsmans.",
                     "upgrades": "dwellingUpLvl1",
                     "requires": ["horde1"],
                     "cost": {
@@ -243,11 +243,13 @@
                 "special2": {
                     "id": 21,
                     "name": "Refuge",
-                    "description": "Refuge increases the Power skill of any visiting hero by +1.",
-                    "requires": ["mageGuild1"],
+                    "description": "Refuge increases earns your kingdom 1000 gold each day.",
+                    "requires": ["cityHall"],
                     "cost": {
-                        "gold": 1000,
-                        "gems": 5
+                        "gold": 5000
+                    },
+                    "produce": {
+                        "gold": 1000
                     }
                 },
 
@@ -264,7 +266,7 @@
                     "description": "Commissariat allows to recruit Guardsmans.",
                     "requires": ["fort"],
                     "cost": {
-                        "gold": 1000,
+                        "gold": 500,
                         "wood": 5,
                         "ore": 5
                     }
@@ -274,10 +276,11 @@
                     "id": 31,
                     "name": "Military laboratory",
                     "description": "Military laboratory allow to recruit Flametroopers.",
-                    "requires": ["allOf", ["fort"], ["blacksmith"]],
+                    "requires": ["fort"],
                     "cost": {
-                        "gold": 1500,
-                        "ore": 10
+                        "gold": 1000,
+                        "wood": 5,
+                        "ore": 5
                     }
                 },
 
@@ -287,11 +290,10 @@
                     "description": "Manufactory allows to recruit Mechanical Golems.",
                     "requires": ["allOf", ["dwellingLvl1"], ["blacksmith"]],
                     "cost": {
-                        "gold": 2000,
+                        "gold": 1500,
                         "wood": 5,
                         "ore": 5,
-                        "mercury": 5,
-                        "gems": 5
+                        "mercury": 2
                     }
                 },
 
@@ -299,15 +301,15 @@
                     "id": 33,
                     "name": "Refueler",
                     "description": "Refueler allows to recruit Daleks.",
-                    "requires": ["dwellingLvl3"],
+                    "requires": [
+                        "anyOf",
+                        ["dwellingLvl3"],
+                        ["allOf", ["dwellingLvl1"], ["dwellingLvl2"], ["blacksmith"]]
+                    ],
                     "cost": {
                         "gold": 2000,
                         "wood": 5,
-                        "ore": 5,
-                        "mercury": 3,
-                        "sulfur": 3,
-                        "crystal": 3,
-                        "gems": 3
+                        "ore": 5
                     }
                 },
 
@@ -315,7 +317,7 @@
                     "id": 34,
                     "name": "Depot",
                     "description": "Depot allows to recruit Zords.",
-                    "requires": ["allOf", ["dwellingLvl1"], ["dwellingLvl2"]],
+                    "requires": ["allOf", ["dwellingLvl1"], ["dwellingLvl2"], ["blacksmith"]],
                     "cost": {
                         "gold": 3000,
                         "wood": 5,
@@ -330,11 +332,10 @@
                     "description": "Arsenal allows to recruit Cannon Golems.",
                     "requires": ["allOf", ["dwellingLvl3"], ["dwellingLvl5"]],
                     "cost": {
-                        "gold": 4000,
+                        "gold": 3500,
                         "wood": 5,
                         "ore": 5,
-                        "sulfur": 5,
-                        "gems": 5
+                        "crystal": 5
                     }
                 },
 
@@ -345,8 +346,6 @@
                     "requires": ["allOf", ["dwellingLvl6"], ["mageGuild1"]],
                     "cost": {
                         "gold": 10000,
-                        "wood": 10,
-                        "ore": 10,
                         "mercury": 10,
                         "sulfur": 10,
                         "crystal": 10,
@@ -360,9 +359,7 @@
                     "description": "Upg. Commissariat allows to recruit Veteran Guardsmans.",
                     "upgrades": "dwellingLvl1",
                     "cost": {
-                        "gold": 1000,
-                        "wood": 5,
-                        "ore": 5
+                        "gold": 1000
                     }
                 },
 
@@ -372,9 +369,8 @@
                     "description": "Upg. Military laboratorys allow to recruit Acid Troopers.",
                     "upgrades": "dwellingLvl2",
                     "cost": {
-                        "gold": 1500,
-                        "wood": 5,
-                        "ore": 5
+                        "gold": 1000,
+                        "wood": 5
                     }
                 },
 
@@ -385,8 +381,7 @@
                     "upgrades": "dwellingLvl3",
                     "cost": {
                         "gold": 1500,
-                        "wood": 5,
-                        "ore": 10
+                        "mercury": 5
                     }
                 },
 
@@ -396,11 +391,8 @@
                     "description": "Upg. Refueler allows to recruit Ground Daleks.",
                     "upgrades": "dwellingLvl4",
                     "cost": {
-                        "gold": 1500,
-                        "wood": 5,
-                        "ore": 5,
-                        "mercury": 5,
-                        "crystal": 5
+                        "gold": 2000,
+                        "ore": 5
                     }
                 },
 
@@ -410,10 +402,10 @@
                     "description": "Upg. Depot allows to recruit Zord Warriors.",
                     "upgrades": "dwellingLvl5",
                     "cost": {
-                        "gold": 2000,
+                        "gold": 2500,
                         "wood": 5,
                         "ore": 5,
-                        "crystal": 10
+                        "mercury": 5
                     }
                 },
 
@@ -426,10 +418,10 @@
                         "gold": 3000,
                         "wood": 5,
                         "ore": 5,
-                        "mercury": 6,
-                        "sulfur": 6,
-                        "crystal": 6,
-                        "gems": 6
+                        "mercury": 5,
+                        "sulfur": 5,
+                        "crystal": 5,
+                        "gems": 5
                     }
                 },
 
@@ -439,10 +431,10 @@
                     "description": "Upg. Research Center allows to recruit Lords Ishmael.",
                     "upgrades": "dwellingLvl7",
                     "cost": {
-                        "gold": 25000,
+                        "gold": 20000,
                         "wood": 10,
                         "ore": 10,
-                        "mercury": 30
+                        "mercury": 20
                     }
                 }
             }
