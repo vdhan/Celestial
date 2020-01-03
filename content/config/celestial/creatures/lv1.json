@@ -35,6 +35,7 @@
 			"timeBetweenFidgets" : 1
 		},
 
+		"hasDoubleWeek": true,
 		"growth" : 14,
 		"hitPoints" : 10,
 		"horde" : 7,

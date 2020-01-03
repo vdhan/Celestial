@@ -12,15 +12,15 @@
             "gold": 160
         },
 
-        "attack": 7,
-        "defense": 7,
+        "attack": 5,
+        "defense": 5,
         "damage": {
-            "max": 16,
-            "min": 15
+            "min": 10,
+            "max": 12
         },
-        "hitPoints": 50,
+        "hitPoints": 60,
         "speed": 5,
-        "shots": 32,
+        "shots": 24,
         "growth": 1,
         "level": 0,
 

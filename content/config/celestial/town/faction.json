@@ -14,7 +14,7 @@
             "mageGuild": 5,
             "moatDamage": 90,
             "moatHexes" : [11, 28, 44, 61, 77, 111, 129, 146, 164, 181],
-            "horde": [0, -1], // 0 - 1st horde building; 1 - 2nd horde building (-1 if not present)
+            "horde": [0, 1], // 0 - 1st horde building; 1 - 2nd horde building (-1 if not present)
 
             "mapObject": {
                 "templates": {
@@ -81,9 +81,9 @@
                     ["shipyard"]
                 ],
                 [
-                    ["special2"],
-                    ["special1"],
-                    ["horde1", "horde1Upgr"]
+                    ["special2", "special3"],
+                    ["horde1", "horde1Upgr"],
+                    ["horde2", "horde2Upgr"]
                 ],
                 [
                     ["dwellingLvl1", "dwellingUpLvl1"],
@@ -100,7 +100,7 @@
 
             "creatures": [
                 ["ftGuardsman", "ftVeteranGuardsman"],
-                ["ftFlametrooper", "ftAcidTrooper"],
+                ["ftFlameTrooper", "ftAcidTrooper"],
                 ["ftMechanicalGolem", "ftHydraulicGolem"],
                 ["ftDalek", "ftGroundDalek"],
                 ["ftZord", "ftZordWarrior"],

@@ -10,8 +10,8 @@
                 "dispel": 50,
                 "haste": 40,
                 "magicArrow": 50,
-                "protectAir": 20,
                 "protectFire": 20,
+                "protectWater": 0,
                 "shield": 30,
                 "slow": 30,
                 "stoneSkin": 40,
@@ -29,6 +29,7 @@
                 "iceBolt": 20,
                 "lightningBolt": 60,
                 "precision": 10,
+                "protectAir": 20,
                 "quicksand": 10,
                 "removeObstacle": 20,
                 "scuttleBoat": 20,
@@ -50,7 +51,6 @@
                 "mirth": 10,
                 "misfortune": 20,
                 "protectEarth": 10,
-                "protectWater": 0,
                 "teleport": 20,
 
                 // level 4

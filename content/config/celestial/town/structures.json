@@ -10,6 +10,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELmage.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELmage.bmp"
                 },
+
                 "mageGuild2": {
                     "animation": "celestial/town-screen/buildings/TBELmag2.def",
                     "x": 500,
@@ -18,6 +19,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELmag2.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELmag2.bmp"
                 },
+
                 "mageGuild3": {
                     "animation": "celestial/town-screen/buildings/TBELmag3.def",
                     "x": 500,
@@ -26,6 +28,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELmag3.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELmag3.bmp"
                 },
+
                 "mageGuild4": {
                     "animation": "celestial/town-screen/buildings/TBELmag4.def",
                     "x": 502,
@@ -34,6 +37,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELmag4.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELmag4.bmp"
                 },
+
                 "mageGuild5": {
                     "animation": "celestial/town-screen/buildings/TBELmag5.def",
                     "x": 502,
@@ -42,6 +46,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELmag5.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELmag5.bmp"
                 },
+
                 "tavern": {
                     "animation": "celestial/town-screen/buildings/TBELtvrn.def",
                     "x": 0,
@@ -50,14 +55,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELtvrn.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELtvrn.bmp"
                 },
-                "shipyard": {
-                    "animation": "celestial/town-screen/buildings/TBELdock.def",
-                    "x": 500,
-                    "y": 328,
-                    "z": 12,
-                    "border": "celestial/town-screen/buildings-border/TOELdock.bmp",
-                    "area": "celestial/town-screen/buildings-area/TZELdock.bmp"
-                },
+
                 "fort": {
                     "animation": "celestial/town-screen/buildings/TBELcstl.def",
                     "x": 345,
@@ -66,6 +64,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELcstl.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELcstl.bmp"
                 },
+
                 "citadel": {
                     "animation": "celestial/town-screen/buildings/TBELcas2.def",
                     "x": 345,
@@ -74,6 +73,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELcas2.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELcas2.bmp"
                 },
+
                 "castle": {
                     "animation": "celestial/town-screen/buildings/TBELcas3.def",
                     "x": 345,
@@ -82,6 +82,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELcas3.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELcas3.bmp"
                 },
+
                 "villageHall": {
                     "animation": "celestial/town-screen/buildings/TBELhall.def",
                     "x": 0,
@@ -90,6 +91,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELhall.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELhall.bmp"
                 },
+
                 "townHall": {
                     "animation": "celestial/town-screen/buildings/TBELhal2.def",
                     "x": 0,
@@ -98,6 +100,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELhal2.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELhal2.bmp"
                 },
+
                 "cityHall": {
                     "animation": "celestial/town-screen/buildings/TBELhal3.def",
                     "x": 0,
@@ -106,6 +109,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELhal3.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELhal3.bmp"
                 },
+
                 "capitol": {
                     "animation": "celestial/town-screen/buildings/TBELhal4.def",
                     "x": 0,
@@ -114,6 +118,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELhal4.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELhal4.bmp"
                 },
+
                 "marketplace": {
                     "animation": "celestial/town-screen/buildings/TBELmark.def",
                     "x": 590,
@@ -122,6 +127,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELmark.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELmark.bmp"
                 },
+
                 "resourceSilo": {
                     "animation": "celestial/town-screen/buildings/TBELsilo.def",
                     "x": 590,
@@ -130,6 +136,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELsilo.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELsilo.bmp"
                 },
+
                 "blacksmith": {
                     "animation": "celestial/town-screen/buildings/TBELblak.def",
                     "x": 314,
@@ -138,14 +145,26 @@
                     "border": "celestial/town-screen/buildings-border/TOELblak.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELblak.bmp"
                 },
-                "special1": {
-                    "animation": "celestial/town-screen/buildings/TBELspec.def",
-                    "x": 305,
-                    "y": 150,
-                    "z": 7,
-                    "border": "celestial/town-screen/buildings-border/TOELspec.bmp",
-                    "area": "celestial/town-screen/buildings-area/TZELspec.bmp"
+
+                "shipyard": {
+                    "animation": "celestial/town-screen/buildings/TBELdock.def",
+                    "x": 500,
+                    "y": 328,
+                    "z": 12,
+                    "border": "celestial/town-screen/buildings-border/TOELdock.bmp",
+                    "area": "celestial/town-screen/buildings-area/TZELdock.bmp"
                 },
+
+                "ship": {
+                    "animation": "celestial/town-screen/buildings/TBELboat.def",
+                    "x": 448,
+                    "y": 236,
+                    "z": 12,
+                    "border": "celestial/town-screen/buildings-border/TOELboat.bmp",
+                    "area": "celestial/town-screen/buildings-area/TZELboat.bmp",
+                    "hidden": true
+                },
+
                 "horde1": {
                     "animation": "celestial/town-screen/buildings/TBELhrd1.def",
                     "x": 630,
@@ -155,6 +174,7 @@
                     "area": "celestial/town-screen/buildings-area/TZELhrd1.bmp",
                     "hidden": true
                 },
+
                 "horde1Upgr": {
                     "animation": "celestial/town-screen/buildings/TBELhrd2.def",
                     "x": 595,
@@ -165,23 +185,44 @@
                     "hidden": true,
                     "builds": "horde1"
                 },
-                "ship": {
-                    "animation": "celestial/town-screen/buildings/TBELboat.def",
-                    "x": 448,
-                    "y": 236,
-                    "z": 12,
-                    "border": "celestial/town-screen/buildings-border/TOELboat.bmp",
-                    "area": "celestial/town-screen/buildings-area/TZELboat.bmp",
+
+                "horde2": {
+                    "animation": "celestial/town-screen/buildings/TBELspec.def",
+                    "x": 305,
+                    "y": 150,
+                    "z": 7,
+                    "border": "celestial/town-screen/buildings-border/TOELspec.bmp",
+                    "area": "celestial/town-screen/buildings-area/TZELhrd1.bmp",
                     "hidden": true
                 },
+
+                "horde2Upgr": {
+                    "animation": "celestial/town-screen/buildings/TBELspec.def",
+                    "x": 305,
+                    "y": 150,
+                    "z": 7,
+                    "border": "celestial/town-screen/buildings-border/TOELspec.bmp",
+                    "area": "celestial/town-screen/buildings-area/TZELspec.bmp",
+                    "hidden": true,
+                    "builds": "horde2"
+                },
+
                 "special2": {
                     "animation": "celestial/town-screen/buildings/TBELext6.def",
                     "x": 103,
                     "y": 180,
-                    "z": 0,
                     "border": "celestial/town-screen/buildings-border/TOELext6.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELext6.bmp"
                 },
+
+                "special3": {
+                    "animation": "celestial/town-screen/buildings/TBELext6.def",
+                    "x": 103,
+                    "y": 180,
+                    "border": "celestial/town-screen/buildings-border/TOELext6.bmp",
+                    "area": "celestial/town-screen/buildings-area/TZELext6.bmp"
+                },
+
                 "grail": {
                     "animation": "celestial/town-screen/buildings/TBELholy.def",
                     "x": 220,
@@ -190,6 +231,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELholy.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELholy.bmp"
                 },
+
                 "dwellingLvl1": {
                     "animation": "celestial/town-screen/buildings/TBELdw_0.def",
                     "x": 630,
@@ -198,6 +240,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELdw_0.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELdw_0.bmp"
                 },
+
                 "dwellingLvl2": {
                     "animation": "celestial/town-screen/buildings/TBELdw_1.def",
                     "x": 165,
@@ -206,6 +249,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELdw_1.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELdw_1.bmp"
                 },
+
                 "dwellingLvl3": {
                     "animation": "celestial/town-screen/buildings/TBELdw_2.def",
                     "x": 525,
@@ -214,6 +258,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELdw_2.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELdw_2.bmp"
                 },
+
                 "dwellingLvl4": {
                     "animation": "celestial/town-screen/buildings/TBELdw_3.def",
                     "x": 2,
@@ -222,6 +267,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELdw_3.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELdw_3.bmp"
                 },
+
                 "dwellingLvl5": {
                     "animation": "celestial/town-screen/buildings/TBELdw_4.def",
                     "x": 590,
@@ -230,6 +276,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELdw_4.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELdw_4.bmp"
                 },
+
                 "dwellingLvl6": {
                     "animation": "celestial/town-screen/buildings/TBELdw_5.def",
                     "x": 590,
@@ -238,6 +285,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELdw_5.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELdw_5.bmp"
                 },
+
                 "dwellingLvl7": {
                     "animation": "celestial/town-screen/buildings/TBELdw_6.def",
                     "x": 240,
@@ -246,6 +294,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELdw_6.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELdw_6.bmp"
                 },
+
                 "dwellingUpLvl1": {
                     "animation": "celestial/town-screen/buildings/TBELUP_0.def",
                     "x": 595,
@@ -254,6 +303,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELhrd2.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELhrd2.bmp"
                 },
+
                 "dwellingUpLvl2": {
                     "animation": "celestial/town-screen/buildings/TBELup_1.def",
                     "x": 165,
@@ -262,6 +312,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELup_1.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELup_1.bmp"
                 },
+
                 "dwellingUpLvl3": {
                     "animation": "celestial/town-screen/buildings/TBELup_2.def",
                     "x": 520,
@@ -270,6 +321,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELup_2.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELup_2.bmp"
                 },
+
                 "dwellingUpLvl4": {
                     "animation": "celestial/town-screen/buildings/TBELup_3.def",
                     "x": 2,
@@ -278,6 +330,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELup_3.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELup_3.bmp"
                 },
+
                 "dwellingUpLvl5": {
                     "animation": "celestial/town-screen/buildings/TBELup_4.def",
                     "x": 590,
@@ -286,6 +339,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELup_4.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELup_4.bmp"
                 },
+
                 "dwellingUpLvl6": {
                     "animation": "celestial/town-screen/buildings/TBELup_5.def",
                     "x": 390,
@@ -294,6 +348,7 @@
                     "border": "celestial/town-screen/buildings-border/TOELup_5.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELup_5.bmp"
                 },
+
                 "dwellingUpLvl7": {
                     "animation": "celestial/town-screen/buildings/TBELup_6.def",
                     "x": 240,

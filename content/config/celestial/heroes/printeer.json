@@ -28,9 +28,9 @@
 		],
 		"army" :
 		[
-			{ "creature" : "ftFlametrooper", "min" :  6, "max" :  9 },
-			{ "creature" : "ftFlametrooper", "min" :  6, "max" :  9 },
-			{ "creature" : "ftFlametrooper", "min" :  3, "max" :  6 }
+			{ "creature" : "ftFlameTrooper", "min" :  6, "max" :  9 },
+			{ "creature" : "ftFlameTrooper", "min" :  6, "max" :  9 },
+			{ "creature" : "ftFlameTrooper", "min" :  3, "max" :  6 }
 		],
 		"skills" :
 		[
@@ -44,7 +44,7 @@
 			}
 		],
 		"specialty" : {
-			"creature" : "ftFlametrooper"
+			"creature" : "ftFlameTrooper"
 		}
 	}
 }

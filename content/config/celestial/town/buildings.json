@@ -218,9 +218,6 @@
                     "description": "Barrack increases weekly growth of Veteran Guardsmans.",
                     "upgrades": "dwellingUpLvl1",
                     "requires": ["horde1"],
-                    "cost": {
-                        "gold": 1000
-                    },
                     "mode": "auto"
                 },
 
@@ -228,16 +225,6 @@
                     "id": 20,
                     "name": "Shipyard",
                     "description": "The Shipyard allows you to purchase ships."
-                },
-
-                "special1": {
-                    "id": 17,
-                    "name": "Technical station",
-                    "description": "Technical station increases luck of any visiting hero for next battle by +1.",
-                    "requires": ["resourceSilo"],
-                    "cost": {
-                        "gold": 1000
-                    }
                 },
 
                 "special2": {
@@ -251,6 +238,40 @@
                     "produce": {
                         "gold": 1000
                     }
+                },
+
+                "special3": {
+                    "id": 22,
+                    "name": "Upg. Refuge",
+                    "description": "Upg. Refuge increases earns your kingdom 2000 gold each day.",
+                    "upgrades": "special2",
+                    "cost": {
+                        "gold": 10000
+                    },
+                    "produce": {
+                        "gold": 2000
+                    }
+                },
+
+                "horde2": {
+                    "id": 24,
+                    "name": "Technical Station",
+                    "description": "Technical station increases weekly growth of Flame Troopers.",
+                    "upgrades": "dwellingLvl2",
+                    "cost": {
+                        "gold": 1000,
+                        "wood": 5,
+                        "ore": 5
+                    }
+                },
+
+                "horde2Upgr": {
+                    "id": 25,
+                    "name": "Technical Station",
+                    "description": "Technical station increases weekly growth of Acid Troopers.",
+                    "upgrades": "dwellingUpLvl2",
+                    "requires": ["horde2"],
+                    "mode": "auto"
                 },
 
                 "grail": {

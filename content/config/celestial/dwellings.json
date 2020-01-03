@@ -13,7 +13,7 @@
 			},
 			"ftMilitarylaboratory" : {
 				"name" : "Military laboratory",
-				"creatures" : [[ "ftFlametrooper" ]],
+				"creatures" : [[ "ftFlameTrooper" ]],
 				"templates" : {
 					"default" : {
 						"animation" : "celestial/adventure-map/dwelling-2.def",

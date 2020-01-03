@@ -1,5 +1,5 @@
 {
-  "ftFlametrooper": {
+  "ftFlameTrooper": {
     "name": {
       "plural": "Flametroopers",
       "singular": "Flametrooper"
@@ -34,9 +34,10 @@
       }
     },
     "hasDoubleWeek": true,
-    "growth": 8,
+    "growth": 9,
     "hitPoints": 20,
     "level" : 2,
+    "horde" : 5,
     "upgrades":
      [
         "ftAcidTrooper"
@@ -50,7 +51,6 @@
     },
     "speed": 5,
     "abilities": {
-      
       "flamethrower" :
 			{
 				"type" : "TWO_HEX_ATTACK_BREATH"
@@ -63,4 +63,3 @@
 		}
 	}
 }
-	
