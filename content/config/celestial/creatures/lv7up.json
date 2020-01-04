@@ -13,7 +13,7 @@
         "attack": 24,
         "cost": {
             "gold": 4000,
-            "mercury": 2
+            "crystal": 2
         },
         "damage": {
             "max": 50,

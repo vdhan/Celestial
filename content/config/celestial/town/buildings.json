@@ -184,7 +184,7 @@
                 "resourceSilo": {
                     "id": 15,
                     "name": "Resourse Silo",
-                    "description": "The Resourse Silo provides you with an additional +1 mercury each day.",
+                    "description": "The Resourse Silo provides you with an additional +1 crystal each day.",
                     "requires": ["marketplace"],
                     "cost": {
                         "gold": 5000,
@@ -313,7 +313,7 @@
                         "gold": 1500,
                         "wood": 5,
                         "ore": 5,
-                        "mercury": 2
+                        "crystal": 2
                     }
                 },
 
@@ -342,7 +342,7 @@
                         "gold": 3000,
                         "wood": 5,
                         "ore": 5,
-                        "mercury": 5
+                        "gems": 5
                     }
                 },
 
@@ -401,7 +401,7 @@
                     "upgrades": "dwellingLvl3",
                     "cost": {
                         "gold": 1500,
-                        "mercury": 5
+                        "crystal": 5
                     }
                 },
 
@@ -422,10 +422,10 @@
                     "description": "Upg. Depot allows to recruit Zord Warriors.",
                     "upgrades": "dwellingLvl5",
                     "cost": {
-                        "gold": 2500,
+                        "gold": 3000,
                         "wood": 5,
                         "ore": 5,
-                        "mercury": 5
+                        "gems": 2
                     }
                 },
 
@@ -454,7 +454,7 @@
                         "gold": 20000,
                         "wood": 10,
                         "ore": 10,
-                        "mercury": 20
+                        "crystal": 20
                     }
                 }
             }

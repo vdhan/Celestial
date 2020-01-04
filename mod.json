@@ -9,7 +9,7 @@
 
     "keepDisabled": false,
     "changelog": {
-        "1.1.0": ["Fully integrate with VCMI 0.99"],
+        "1.1.0": ["Fully integrate into VCMI 0.99"],
         "1.0.0": ["Initial release"]
     },
 

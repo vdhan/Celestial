@@ -16,8 +16,8 @@
 		"attack" : 20,
 		"cost" :
 		{
-			"gold" : 3000,
-			"mercury" : 1
+			"gold" : 2500,
+			"crystal" : 1
 		},
 		"damage" :
 		{
@@ -60,12 +60,12 @@
 			},
 			"fear":
 			{
-				"type" : "FEAR" 	
+				"type" : "FEAR"
 			},
 			"king 1" :
             {
                 "type" : "KING1"
- 			},	
+ 			},
 			"reduceDefence" :
 			{
 				"type" : "ENEMY_DEFENCE_REDUCTION",

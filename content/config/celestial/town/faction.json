@@ -9,7 +9,7 @@
         },
 
         "town": {
-            "primaryResource": "mercury",
+            "primaryResource": "crystal",
             "warMachine": "ballista",
             "mageGuild": 5,
             "moatDamage": 90,
