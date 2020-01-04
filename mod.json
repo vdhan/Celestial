@@ -2,13 +2,14 @@
     "name": "Celestial",
     "description": "Foundry Town has been renamed, balanced and fixed",
     "modType": "Town",
-    "version": "1.0.0",
+    "version": "1.1.0",
 
     "author": "Vũ Đắc Hoàng Ân",
     "contact": "https://github.com/vdhan/Celestial",
 
     "keepDisabled": false,
     "changelog": {
+        "1.1.0": ["Fully integrate with VCMI 0.99"],
         "1.0.0": ["Initial release"]
     },
 

@@ -244,7 +244,6 @@
                     "id": 22,
                     "name": "Upg. Refuge",
                     "description": "Upg. Refuge increases earns your kingdom 2000 gold each day.",
-                    "upgrades": "special2",
                     "cost": {
                         "gold": 10000
                     },
