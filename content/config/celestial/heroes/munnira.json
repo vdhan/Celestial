@@ -2,22 +2,25 @@
     "munnira": {
         "class": "fouMarshal",
         "female": true,
+        "spellbook": ["slayer"],
 
         "texts": {
             "name": "Munnira",
             "biography": "Undetermined",
             "specialty": {
-                "description": "{Scouting}\r\n\r\nReceives a 5% per level bonus to Scouting skill.",
-                "tooltip": "Secondary Skill Bonus: Scouting",
-                "name": "Scouting"
+                "name": "Slayer",
+                "description": "{Slayer}\n\nCast Slayer with increased effect, based on hero level.",
+                "tooltip": "Spell Bonus: Slayer"
             }
         },
+
         "images": {
-            "specialtySmall": "celestial/heroes/munnira/spec-small.png",
-            "specialtyLarge": "celestial/heroes/munnira/spec-large.png",
-            "large": "celestial/heroes/munnira/portrait-large.png",
-            "small": "celestial/heroes/munnira/portrait-small.png"
+            "specialtySmall": "celestial/heroes/munnira/specSmall",
+            "specialtyLarge": "celestial/heroes/munnira/specLarge",
+            "large": "celestial/heroes/munnira/portraitLarge",
+            "small": "celestial/heroes/munnira/portraitSmall"
         },
+
         "army": [
             {
                 "creature": "ftGuardsman",
@@ -25,7 +28,7 @@
                 "max": 15
             },
             {
-                "creature": "ftFlameTrooper",
+                "creature": "ftFlametrooper",
                 "min": 6,
                 "max": 9
             },
@@ -35,23 +38,26 @@
                 "max": 6
             }
         ],
+
         "skills": [
             {
                 "level": "basic",
-                "skill": "tactics"
+                "skill": "offence"
             },
             {
                 "level": "basic",
-                "skill": "artillery"
+                "skill": "fireMagic"
             }
         ],
-        "specialty": [
-            {
-                "growsWithLevel": true,
-                "bonuses": [{
-                        "type": "SPECIAL_SECONDARY_SKILL", "subtype": "skill.scouting", "val": 5
-                    }]
+
+        "specialty": {
+            "bonuses": {
+                "slayer": {
+                    "type": "SPECIAL_PECULIAR_ENCHANT",
+                    "subtype" : "spell.slayer",
+                    "addInfo" : 1
+                }
             }
-        ]
+        }
     }
 }

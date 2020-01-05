@@ -28,7 +28,7 @@
                 "max": 15
             },
             {
-                "creature": "ftFlameTrooper",
+                "creature": "ftFlametrooper",
                 "min": 6,
                 "max": 9
             },
@@ -42,7 +42,7 @@
         "skills": [
             {
                 "level": "basic",
-                "skill": "logistics"
+                "skill": "wisdom"
             },
             {
                 "level": "basic",
@@ -52,7 +52,7 @@
 
         "specialty": {
             "bonuses": {
-                "mercury": {
+                "crystal": {
                     "type": "GENERATE_RESOURCE",
                     "subtype": "resource.crystal",
                     "val": 1

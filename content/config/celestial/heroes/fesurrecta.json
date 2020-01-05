@@ -28,7 +28,7 @@
                 "max": 15
             },
             {
-                "creature": "ftFlameTrooper",
+                "creature": "ftFlametrooper",
                 "min": 6,
                 "max": 9
             },
@@ -52,7 +52,7 @@
 
         "specialty": {
             "bonuses": {
-                "resurrection": {
+                "inferno": {
                 	"type": "SPECIAL_SPELL_LEV",
                     "subtype": "spell.inferno",
                     "updater": "TIMES_HERO_LEVEL",

@@ -100,7 +100,7 @@
 
             "creatures": [
                 ["ftGuardsman", "ftVeteranGuardsman"],
-                ["ftFlameTrooper", "ftAcidTrooper"],
+                ["ftFlametrooper", "ftAcidTrooper"],
                 ["ftMechanicalGolem", "ftHydraulicGolem"],
                 ["ftDalek", "ftGroundDalek"],
                 ["ftZord", "ftZordWarrior"],

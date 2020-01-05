@@ -1,57 +1,63 @@
 {
-	"miasore" : 
-	{
-		"class" : "fouCyborg",
-		"female" : true,
-"texts" :
-		{
-			"name" : "Miasore",
-			"biography" : "Minoure od zawsze lubila igrac umyslami wrogow, przez co zawsze potrafila wyjsc nawet z najgorszej opresji. Wygnana z rodzinnej Bracady za praktykowanie niedozwolonej magii, znalazla miejsce u boku Kastora, ktory docenil jej nietypowe zdolnosci mianujac ja na dowodce swojej armii.",
-			"specialty" : 
-			{
-				"description" : "Spell Bonus: ResurrectionHero can cast the Berserk spell with increased effectiveness",
-				"tooltip" : "Spell Bonus: Berserk",
-				"name" : "Berserk"
-			}
-		},
-		"images" :
-		{
-			"specialtySmall" : "celestial/heroes/miasore/spec-small.png",
-			"specialtyLarge" : "celestial/heroes/miasore/spec-large.png",
-			"large" : "celestial/heroes/miasore/portrait-large.png",
-			"small" : "celestial/heroes/miasore/portrait-small.png"
-		},
+    "miasore": {
+        "class": "fouCyborg",
+        "female": true,
+        "spellbook": ["bloodlust"],
 
-		"spellbook" :
-		[
-			"berserk"
-		],
-		"army" :
-		[
-			{ "creature" : "ftGuardsman", "min" : 9, "max" : 15 },
-			{ "creature" : "ftFlameTrooper", "min" :  6, "max" :  9 },
-			{ "creature" : "ftMechanicalGolem", "min" :  3, "max" :  6 }
-		],
-		"skills" :
-		[
-			{
-				"level" : "basic",
-				"skill" : "wisdom"
-			},
-			{
-				"level" : "basic",
-				"skill" : "waterMagic"
-			}
-		],
-		"specialty" : {
-			"bonuses" : {
-				"berserk" : {
-					"subtype" : "spell.berserk",
-					"type" : "SPECIAL_SPELL_LEV",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 3
-				}
-			}
-		}
-	}
+        "texts": {
+            "name": "Miasore",
+            "biography": "Undetermined",
+            "specialty": {
+            	"name": "Bloodlust",
+                "description": "{Bloodlust}\n\nCast Bloodlust with increased effect, based on hero level.",
+                "tooltip": "Spell Bonus: Bloodlust"
+            }
+        },
+
+        "images": {
+            "specialtySmall": "celestial/heroes/miasore/specSmall",
+            "specialtyLarge": "celestial/heroes/miasore/specLarge",
+            "large": "celestial/heroes/miasore/portraitLarge",
+            "small": "celestial/heroes/miasore/portraitSmall"
+        },
+
+        "army": [
+            {
+                "creature": "ftGuardsman",
+                "min": 9,
+                "max": 15
+            },
+            {
+                "creature": "ftFlametrooper",
+                "min": 6,
+                "max": 9
+            },
+            {
+                "creature": "ftMechanicalGolem",
+                "min": 3,
+                "max": 6
+            }
+        ],
+
+        "skills": [
+            {
+                "level": "basic",
+                "skill": "wisdom"
+            },
+            {
+                "level": "basic",
+                "skill": "fireMagic"
+            }
+        ],
+
+        "specialty": {
+            "bonuses": {
+                "bloodlust": {
+                	"type": "SPECIAL_PECULIAR_ENCHANT",
+                    "subtype": "spell.bloodlust",
+                    "addInfo" : 0
+                }
+            }
+        }
+    }
 }

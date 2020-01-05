@@ -23,18 +23,18 @@
         "army": [
             {
                 "creature": "ftGuardsman",
-                "min": 10,
+                "min": 12,
                 "max": 15
+            },
+            {
+                "creature": "ftGuardsman",
+                "min": 10,
+                "max": 12
             },
             {
                 "creature": "ftGuardsman",
                 "min": 8,
                 "max": 10
-            },
-            {
-                "creature": "ftGuardsman",
-                "min": 5,
-                "max": 8
             }
         ],
 

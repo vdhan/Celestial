@@ -28,7 +28,7 @@
                 "max": 15
             },
             {
-                "creature": "ftFlameTrooper",
+                "creature": "ftFlametrooper",
                 "min": 6,
                 "max": 9
             },
