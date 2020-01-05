@@ -33,8 +33,8 @@
         	"offence": 5,
             "pathfinding": 4,
             "logistics": 6,
-            "scouting": 5,
-            "diplomacy": 5,
+            "scouting": 4,
+            "diplomacy": 4,
             "navigation": 1,
             "leadership": 1,
             "wisdom": 8,
@@ -51,7 +51,7 @@
             "armorer": 5,
             "intelligence": 6,
             "sorcery": 7,
-            "resistance": 5,
+            "resistance": 6,
             "firstAid": 1
         },
 

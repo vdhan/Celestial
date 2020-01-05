@@ -1,57 +1,56 @@
 {
-	"tamus" : 
-	{
-		"class" : "fouMarshal",
-		"female" : true,
-		"texts" :
-		{
-			"name" : "Tamus",
-			"biography" : "Niewiele wiadomo o prawej rece krola Deyji - kraza plotki, ze jego twarz zostala zdeformowana przez technologie Niebianskiej Kuzni. Nikt jednak nie moze podwazyc jego mistrzowskich wrecz zdolnosci taktycznych.",
-			"specialty" :
-			{
-				"description" : "{Tactics}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
-				"tooltip" : "Secondary Skill Bonus: Tactics",
-				"name" : "Tactics"
-			}
-		},
-		"images" :
-		{
-			"specialtySmall" : "celestial/heroes/tamus/spec-small.png",
-			"specialtyLarge" : "celestial/heroes/tamus/spec-large.png",
-			"large" : "celestial/heroes/tamus/portrait-large.png",
-			"small" : "celestial/heroes/tamus/portrait-small.png"
-		},
-		"army" :
-		[
-			{ "creature" : "ftGuardsman", "min" : 9, "max" : 15 },
-			{ "creature" : "ftFlametrooper", "min" :  6, "max" :  9 },
-			{ "creature" : "ftMechanicalGolem", "min" :  3, "max" :  6 }
-		],
-		"skills" :
-		[
-			{
-				"level" : "basic",
-				"skill" : "diplomacy"
-			},
-			{
-				"level" : "basic",
-				"skill" : "resistance"
-			}
-		],
-		"specialty": //tactics
-		[
-			{
-				"growsWithLevel" : true,
-				"bonuses":
-				[
-					{
-						"type": "SPECIAL_SECONDARY_SKILL",
-						"subtype": "skill.tactics",
-						"val": 5
-					}
-				]
-			}
-		]
-	}
-}
+    "tamus": {
+        "class": "fouMarshal",
+        "female": true,
 
+        "texts": {
+            "name": "Tamus",
+            "biography": "Undetermined",
+            "specialty": {
+            	"name": "Mechanical Golem",
+                "description": "{Mechanical Golem}\n\nIncreases Attack and Defense skills of any Mechanical Golem or Hydraulic Golem for each level attained after 3rd level.",
+                "tooltip": "Creature Bonus: Mechanical Golem"
+            }
+        },
+
+        "images": {
+            "specialtySmall": "celestial/heroes/tamus/specSmall",
+            "specialtyLarge": "celestial/heroes/tamus/specLarge",
+            "large": "celestial/heroes/tamus/portraitLarge",
+            "small": "celestial/heroes/tamus/portraitSmall"
+        },
+
+        "army": [
+            {
+                "creature": "ftMechanicalGolem",
+                "min": 8,
+                "max": 10
+            },
+            {
+                "creature": "ftMechanicalGolem",
+                "min": 5,
+                "max": 8
+            },
+            {
+                "creature": "ftMechanicalGolem",
+                "min": 3,
+                "max": 6
+            }
+        ],
+
+        "skills": [
+            {
+                "level": "basic",
+                "skill": "waterMagic"
+            },
+            {
+                "level": "basic",
+                "skill": "earthMagic"
+            }
+        ],
+
+        "specialty": {
+            "creature": "ftMechanicalGolem"
+        }
+    }
+}

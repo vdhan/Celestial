@@ -2,7 +2,7 @@
     "ziclas": {
         "class": "fouCyborg",
         "female": false,
-        "spellbook": ["magicArrow"],
+        "spellbook": ["bless"],
 
         "texts": {
             "name": "Ziclas",

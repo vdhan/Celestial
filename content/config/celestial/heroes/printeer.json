@@ -8,7 +8,7 @@
             "biography": "Undetermined",
             "specialty": {
             	"name": "Flametrooper",
-                "description": "{Flametrooper}\n\nIncreases Speed of any Flametrooper or Acid Trooper by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up).",
+                "description": "{Flametrooper}\n\nIncreases Attack and Defense skills of any Flametrooper or Acid Trooper for each level attained after 2nd level.",
                 "tooltip": "Creature Bonus: Flametrooper"
             }
         },
@@ -40,8 +40,12 @@
 
         "skills": [
             {
-                "level": "advanced",
+                "level": "basic",
                 "skill": "armorer"
+            },
+            {
+                "level": "basic",
+                "skill": "resistance"
             }
         ],
 

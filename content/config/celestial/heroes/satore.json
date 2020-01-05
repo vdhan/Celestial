@@ -1,56 +1,64 @@
 {
-	"satore" :
-	{
-		"class" : "fouCyborg",
-		"female" : true,
-		"texts" :
-		{
-			"name" : "Satore",
-			"biography" : "Undetermined",
-			"specialty" :
-			{
-				"description" : "{Chain Lightning}\r\n\r\nCasts Chain Lightning with increased effect, based on hero level.",
-				"tooltip" : "Spell Bonus: Chain Lightning",
-				"name" : "Chain Lightning"
-			}
-		},
-		"images" :
-		{
-			"specialtySmall" : "celestial/heroes/satore/spec-small.png",
-			"specialtyLarge" : "celestial/heroes/satore/spec-large.png",
-			"large" : "celestial/heroes/satore/portrait-large.png",
-			"small" : "celestial/heroes/satore/portrait-small.png"
-		},
-		"spellbook" :
-		[
-			"chainLightning"
-                ],
-		"army" :
-		[
-			{ "creature" : "ftGuardsman", "min" : 9, "max" : 15 },
-			{ "creature" : "ftFlametrooper", "min" :  6, "max" :  9 },
-			{ "creature" : "ftMechanicalGolem", "min" :  3, "max" :  6 }
-		],
-		"skills" :
-		[
-			{
-				"level" : "basic",
-				"skill" : "archery"
-			},
-			{
-				"level" : "basic",
-				"skill" : "luck"
-			}
-		],
-		"specialty" : {
-			"bonuses" : {
-				"chainLightning" : {
-					"subtype" : "spell.chainLightning",
-					"type" : "SPECIAL_SPELL_LEV",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 3
-				}
-			}
-		}
-	}
+    "satore": {
+        "class": "fouMarshal",
+        "female": false,
+
+        "texts": {
+            "name": "Satore",
+            "biography": "Undetermined",
+            "specialty": {
+            	"name": "Logistics",
+                "description": "{Logistics}\n\nReceives a 5% per level bonus to Logistics skill.",
+                "tooltip": "Skill Bonus: Logistics"
+            }
+        },
+
+        "images": {
+            "specialtySmall": "celestial/heroes/satore/specSmall",
+            "specialtyLarge": "celestial/heroes/satore/specLarge",
+            "large": "celestial/heroes/satore/portraitLarge",
+            "small": "celestial/heroes/satore/portraitSmall"
+        },
+
+        "army": [
+            {
+                "creature": "ftGuardsman",
+                "min": 9,
+                "max": 15
+            },
+            {
+                "creature": "ftFlametrooper",
+                "min": 6,
+                "max": 9
+            },
+            {
+                "creature": "ftMechanicalGolem",
+                "min": 3,
+                "max": 6
+            }
+        ],
+
+        "skills": [
+            {
+                "level": "basic",
+                "skill": "logistics"
+            },
+            {
+                "level": "basic",
+                "skill": "wisdom"
+            }
+        ],
+
+        "specialty": {
+            "bonuses": {
+                "logistics": {
+                	"type": "SECONDARY_SKILL_PREMY",
+                    "subtype": "skill.logistics",
+                    "updater": "TIMES_HERO_LEVEL",
+                    "val": 5,
+                    "valueType" : "PERCENT_TO_BASE"
+                }
+            }
+        }
+    }
 }

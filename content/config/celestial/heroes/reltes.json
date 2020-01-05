@@ -1,57 +1,56 @@
 {
-	"reltes" :
-	{
-		"class" : "fouMarshal",
-		"female" : true,
-		"texts" :
-		{
-			"name" : "Reltes",
-			"biography" : "undetermined.",
-			"specialty" :
-			{
-				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
-				"tooltip" : "Secondary Skill Bonus: Armorer",
-				"name" : "Armorer"
-			}
-		},
-		"images" :
-		{
-			"specialtySmall" : "celestial/heroes/reltes/spec-small.png",
-			"specialtyLarge" : "celestial/heroes/reltes/spec-large.png",
-			"large" : "celestial/heroes/reltes/portrait-large.png",
-			"small" : "celestial/heroes/reltes/portrait-small.png"
-		},
-		"army" :
-		[
-			{ "creature" : "ftGuardsman", "min" : 9, "max" : 15 },
-			{ "creature" : "ftFlametrooper", "min" :  6, "max" :  9 },
-			{ "creature" : "ftMechanicalGolem", "min" :  3, "max" :  6 }
-		],
-              "skills" : 
-                [
-			{
-				"level" : "basic",
-				"skill" : "armorer"
-			},
-			{
-				"level" : "basic",
-				"skill" : "tactics"
-			}
-		],
-		"specialty": //armorer
-		[
-			{
-				"growsWithLevel" : true,
-				"bonuses":
-				[
-					{
-						"type": "SPECIAL_SECONDARY_SKILL",
-						"subtype": "skill.armorer",
-						"val": 5
-					}
-				]
-			}
-		]
-	}
-}
+    "reltes": {
+        "class": "fouMarshal",
+        "female": false,
 
+        "texts": {
+            "name": "Reltes",
+            "biography": "Undetermined",
+            "specialty": {
+            	"name": "Ballista",
+                "description": "{Ballista}\n\nIncreases the Attack and Defense skills of any Ballista by 5% for every 5 levels (rounded up).",
+                "tooltip": "War Machine: Ballista"
+            }
+        },
+
+        "images": {
+            "specialtySmall": "celestial/heroes/reltes/specSmall",
+            "specialtyLarge": "celestial/heroes/reltes/specLarge",
+            "large": "celestial/heroes/reltes/portraitLarge",
+            "small": "celestial/heroes/reltes/portraitSmall"
+        },
+
+        "army": [
+            {
+                "creature": "ftGuardsman",
+                "min": 9,
+                "max": 15
+            },
+            {
+                "creature": "ballista",
+                "min": 1,
+                "max": 1
+            },
+            {
+                "creature": "ftFlametrooper",
+                "min": 6,
+                "max": 9
+            }
+        ],
+
+        "skills": [
+            {
+                "level": "basic",
+                "skill": "artillery"
+            },
+            {
+                "level": "basic",
+                "skill": "logistics"
+            }
+        ],
+
+        "specialty": {
+            "creature": "ballista"
+        }
+    }
+}

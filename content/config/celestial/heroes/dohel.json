@@ -8,7 +8,7 @@
             "biography": "Undetermined",
             "specialty": {
             	"name": "Guardsman",
-                "description": "{Guardsman}\n\nIncreases Speed of any Guardsman or Veteran Guardsman by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up).",
+                "description": "{Guardsman}\n\nIncreases Attack and Defense skills of any Guardsman or Veteran Guardsman for each level attained after 1st level.",
                 "tooltip": "Creature Bonus: Guardsman"
             }
         },

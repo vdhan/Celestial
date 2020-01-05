@@ -2,7 +2,7 @@
     "maren": {
         "class": "fouCyborg",
         "female": true,
-        "spellbook": ["haste"],
+        "spellbook": ["cure"],
 
         "texts": {
             "name": "Maren",
