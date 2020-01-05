@@ -40,12 +40,8 @@
 
         "skills": [
         	{
-                "level": "basic",
+                "level": "advanced",
                 "skill": "archery"
-            },
-            {
-                "level": "basic",
-                "skill": "firstAid"
             }
         ],
 

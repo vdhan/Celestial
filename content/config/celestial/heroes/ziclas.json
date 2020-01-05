@@ -40,13 +40,13 @@
         ],
 
         "skills": [
-            {
+        	{
                 "level": "basic",
-                "skill": "wisdom"
+                "skill": "estates"
             },
             {
                 "level": "basic",
-                "skill": "estates"
+                "skill": "scouting"
             }
         ],
 

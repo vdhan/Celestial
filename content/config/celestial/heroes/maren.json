@@ -46,7 +46,7 @@
             },
             {
                 "level": "basic",
-                "skill": "wisdom"
+                "skill": "pathfinding"
             }
         ],
 

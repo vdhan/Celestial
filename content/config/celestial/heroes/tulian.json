@@ -1,46 +1,56 @@
 {
-	"tulian" :
-	{
-		"class" : "fouMarshal",
-		"female" : true,
+    "tulian": {
+        "class": "fouMarshal",
+        "female": false,
 
-		"texts" :
-		{
-			"name" : "Tulian",
-			"biography" : "Undetermined",
-			"specialty" :
-			{
-				"name" : "Cannon Golem",
-				"description" : "{Cannon Golems and Siege Golems}\r\n\r\nIncreases the Attack and Defence of any Cannon Golems or Siege Golems for each level attained after 4th level.",
-				"tooltip" : "Creature Bonus: Cannon Golem"
-			}
-		},
-		"images" :
-		{
-			"specialtySmall" : "celestial/heroes/tulian/spec-small.png",
-			"specialtyLarge" : "celestial/heroes/tulian/spec-large.png",
-			"large" : "celestial/heroes/tulian/portrait-large.png",
-			"small" : "celestial/heroes/tulian/portrait-small.png"
-		},
-		"army" :
-		[
-			{ "creature" : "ftCannonGolem", "min" : 1, "max" : 2 },
-			{ "creature" : "ftCannonGolem", "min" : 1, "max" : 2 },
-			{ "creature" : "ftCannonGolem", "min" : 1, "max" : 2 }
-		],
-		"skills" :
-		[
-			{
-				"level" : "basic",
-				"skill" : "pathfinding"
-			},
-			{
-				"level" : "basic",
-				"skill" : "offence"
-			}
-		],
-		"specialty" : {
-			"creature" : "ftCannonGolem"
-		}
-	}
+        "texts": {
+            "name": "Tulian",
+            "biography": "Undetermined",
+            "specialty": {
+                "name": "Cannon Golem",
+                "description": "{Cannon Golem}\n\nIncreases Attack and Defence skills of any Cannon Golem or Siege Golem for each level attained after 6th level.",
+                "tooltip": "Creature Bonus: Cannon Golem"
+            }
+        },
+
+        "images": {
+            "specialtySmall": "celestial/heroes/tulian/specSmall",
+            "specialtyLarge": "celestial/heroes/tulian/specLarge",
+            "large": "celestial/heroes/tulian/portraitLarge",
+            "small": "celestial/heroes/tulian/portraitSmall"
+        },
+
+        "army": [
+            {
+                "creature": "ftCannonGolem",
+                "min": 1,
+                "max": 3
+            },
+            {
+                "creature": "ftGuardsman",
+                "min": 5,
+                "max": 8
+            },
+            {
+                "creature": "ftCannonGolem",
+                "min": 1,
+                "max": 3
+            }
+        ],
+
+        "skills": [
+            {
+                "level": "basic",
+                "skill": "ballistics"
+            },
+            {
+                "level": "basic",
+                "skill": "learning"
+            }
+        ],
+
+        "specialty": {
+            "creature": "ftCannonGolem"
+        }
+    }
 }

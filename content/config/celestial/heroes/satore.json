@@ -1,15 +1,16 @@
 {
     "satore": {
-        "class": "fouMarshal",
+        "class": "fouCyborg",
         "female": false,
+        "spellbook": ["slow"],
 
         "texts": {
             "name": "Satore",
             "biography": "Undetermined",
             "specialty": {
-            	"name": "Logistics",
-                "description": "{Logistics}\n\nReceives a 5% per level bonus to Logistics skill.",
-                "tooltip": "Skill Bonus: Logistics"
+            	"name": "Eagle Eye",
+                "description": "{Eagle Eye}\n\nReceives a 5% per level bonus to Eagle Eye skill.",
+                "tooltip": "Skill Bonus: Eagle Eye"
             }
         },
 
@@ -41,7 +42,7 @@
         "skills": [
             {
                 "level": "basic",
-                "skill": "logistics"
+                "skill": "eagleEye"
             },
             {
                 "level": "basic",
@@ -51,9 +52,9 @@
 
         "specialty": {
             "bonuses": {
-                "logistics": {
+                "eagleEye": {
                 	"type": "SECONDARY_SKILL_PREMY",
-                    "subtype": "skill.logistics",
+                    "subtype": "skill.eagleEye",
                     "updater": "TIMES_HERO_LEVEL",
                     "val": 5,
                     "valueType" : "PERCENT_TO_BASE"

@@ -1,61 +1,65 @@
 {
-	"shistrict" :
-	{
-		"class" : "fouCyborg",
-		"female" : true,
+    "shistrict": {
+        "class": "fouCyborg",
+        "female": false,
+        "spellbook": ["magicArrow"],
 
+        "texts": {
+            "name": "Shistrict",
+            "biography": "Undetermined",
+            "specialty": {
+            	"name": "Sorcery",
+                "description": "{Sorcery}\n\nReceives a 5% per level bonus to Sorcery skill.",
+                "tooltip": "Skill Bonus: Sorcery"
+            }
+        },
 
-		"texts" :
-		{
-			"name" : "Shistrict",
-			"biography" : "undetermined",
-			"specialty" :
-			{
-				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill.",
-				"tooltip" : "Secondary Skill Bonus: Sorcery",
-				"name" : "Sorcery"
-			}
-		},
-		"images" :
-		{
-			
-			"specialtySmall" : "celestial/heroes/shistrict/spec-small.png",
-			"specialtyLarge" : "celestial/heroes/shistrict/spec-large.png",
-			"large" : "celestial/heroes/shistrict/portrait-large.png",
-			"small" : "celestial/heroes/shistrict/portrait-small.png"
-		},
+        "images": {
+            "specialtySmall": "celestial/heroes/shistrict/specSmall",
+            "specialtyLarge": "celestial/heroes/shistrict/specLarge",
+            "large": "celestial/heroes/shistrict/portraitLarge",
+            "small": "celestial/heroes/shistrict/portraitSmall"
+        },
 
-		"spellbook" :
-		[
-			"dispel"
-		],
-		"army" :
-		[
-			{ "creature" : "ftGuardsman", "min" : 9, "max" : 15 },
-			{ "creature" : "ftFlametrooper", "min" :  6, "max" :  9 },
-			{ "creature" : "ftMechanicalGolem", "min" :  3, "max" :  6 }
-		],
-		"skills" : 
-		[
-			{
-				"level" : "advanced",
-				"skill" : "wisdom"
-			}
-		],
-		"specialty": //sorcery
-		[
-			{
-				"growsWithLevel" : true,
-				"bonuses":
-				[
-					{
-						"type": "SPECIAL_SECONDARY_SKILL",
-						"subtype": "skill.sorcery",
-						"val": 5
-					}
-				]
-			}
-		]
-	}
+        "army": [
+            {
+                "creature": "ftGuardsman",
+                "min": 9,
+                "max": 15
+            },
+            {
+                "creature": "ftFlametrooper",
+                "min": 6,
+                "max": 9
+            },
+            {
+                "creature": "ftMechanicalGolem",
+                "min": 3,
+                "max": 6
+            }
+        ],
+
+        "skills": [
+        	{
+                "level": "basic",
+                "skill": "sorcery"
+            },
+            {
+                "level": "basic",
+                "skill": "wisdom"
+            }
+        ],
+
+        "specialty": {
+            "bonuses": {
+                "sorcery": {
+                	"type": "SECONDARY_SKILL_PREMY",
+                    "subtype": "skill.sorcery",
+                    "updater": "TIMES_HERO_LEVEL",
+                    "val": 5,
+                    "valueType" : "PERCENT_TO_BASE"
+                }
+            }
+        }
+    }
 }
-
