@@ -1,53 +1,63 @@
 {
-	"ziclas" :
-	{
-		"class" : "fouCyborg",
-		"female" : true,
+    "ziclas": {
+        "class": "fouCyborg",
+        "female": false,
+        "spellbook": ["magicArrow"],
 
-		"texts" :
-		{
-			"name" : "Ziclas",
-			"biography" : "Undetermined",
-			"specialty" :
-			{
-				"name" : "+1 Mercury",
-				"description" : "{Mercury +1}\r\n\r\nIncreases kingdom's income by 1 mercury per day.",
-				"tooltip" : "+1 Mercury each day"
-			}
-		},
-		"images" :
-		{
+        "texts": {
+            "name": "Ziclas",
+            "biography": "Undetermined",
+            "specialty": {
+                "name": "Crystal",
+                "description": "{Crystal}\n\nIncreases kingdom's income by 1 crystal per day.",
+                "tooltip": "+1 Crystal each day"
+            }
+        },
 
-			"specialtySmall" : "celestial/heroes/ziclas/spec-small.png",
-			"specialtyLarge" : "celestial/heroes/ziclas/spec-large.png",
-			"large" : "celestial/heroes/ziclas/portrait-large.png",
-			"small" : "celestial/heroes/ziclas/portrait-small.png"
-		},
-		"army" :
-		[
-			{ "creature" : "ftGuardsman", "min" : 9, "max" : 15 },
-			{ "creature" : "ftFlameTrooper", "min" :  6, "max" :  9 },
-			{ "creature" : "ftMechanicalGolem", "min" :  3, "max" :  6 }
-		],
-		"skills" :
-		[
-			{
-				"level" : "basic",
-				"skill" : "logistics"
-			},
-			{
-				"level" : "basic",
-				"skill" : "leadership"
-			}
-		],
-		"specialty" : {
-			"bonuses" : {
-				"mercury" : {
-					"type" : "GENERATE_RESOURCE",
-					"subtype" : "resource.mercury",
-					"val" : 1
-				}
-			}
-		}
-	}
+        "images": {
+            "specialtySmall": "celestial/heroes/ziclas/specSmall",
+            "specialtyLarge": "celestial/heroes/ziclas/specLarge",
+            "large": "celestial/heroes/ziclas/portraitLarge",
+            "small": "celestial/heroes/ziclas/portraitSmall"
+        },
+
+        "army": [
+            {
+                "creature": "ftGuardsman",
+                "min": 9,
+                "max": 15
+            },
+            {
+                "creature": "ftFlameTrooper",
+                "min": 6,
+                "max": 9
+            },
+            {
+                "creature": "ftMechanicalGolem",
+                "min": 3,
+                "max": 6
+            }
+        ],
+
+        "skills": [
+            {
+                "level": "basic",
+                "skill": "logistics"
+            },
+            {
+                "level": "basic",
+                "skill": "estates"
+            }
+        ],
+
+        "specialty": {
+            "bonuses": {
+                "mercury": {
+                    "type": "GENERATE_RESOURCE",
+                    "subtype": "resource.crystal",
+                    "val": 1
+                }
+            }
+        }
+    }
 }

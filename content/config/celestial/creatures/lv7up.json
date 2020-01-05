@@ -47,7 +47,7 @@
             "startMoving": "celestial/S210EXT1.wav",
             "endMoving": "celestial/S210EXT2.wav"
         },
-        "speed": 15,
+        "speed": 16,
         "abilities": {
             "nonLiving": {
                 "type": "NON_LIVING"

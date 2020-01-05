@@ -1,84 +1,87 @@
 {
-	"fouCyborg" :
-	{
-		"name" : "Cyborg",
-		"animation" :
-		{
-			"battle" :
-			{
-				"female" : "celestial/battleHeroMagic",
-				"male"   : "celestial/battleHeroMagic"
-			}
-		},
-		"mapObject" : { "templates" : { "default" : { "animation" : "celestial/mapHeroMagic" }}},
-		"commander" : "ftTechnoid",
-		"faction" : "celestial",
-		"affinity" : "magic",
-		"primarySkills" :
-		{
-			"attack"     : 2,
-			"defence"    : 1,
-			"spellpower" : 2,
-			"knowledge"  : 1
-		},
-		"lowLevelChance" :
-		{
-			"attack"     : 20,
-			"defence"    : 20,
-			"spellpower" : 35,
-			"knowledge"  : 25
-		},
-		"highLevelChance" :
-		{
-			"attack"     : 25,
-			"defence"    : 25,
-			"spellpower" : 25,
-			"knowledge"  : 25
-		},
-		"secondarySkills" :
-		{
-			"pathfinding"  : 4,
-			"archery"      : 2,
-			"logistics"    : 6,
-			"scouting"     : 5,
-			"diplomacy"    : 5,
-			"navigation"   : 0,
-			"leadership"   : 1,
-			"wisdom"       : 8,
-			"mysticism"    : 8,
-			"luck"         : 4,
-			"ballistics"   : 5,
-			"eagleEye"     : 4,
-			"necromancy"   : 0,
-			"estates"      : 1,
-			"fireMagic"    : 6,
-			"airMagic"     : 6,
-			"waterMagic"   : 6,
-			"earthMagic"   : 6,
-			"scholar"      : 5,
-			"tactics"      : 1,
-			"artillery"    : 6,
-			"learning"     : 4,
-			"offence"      : 5,
-			"armorer"      : 5,
-			"intelligence" : 6,
-			"sorcery"      : 7,
-			"resistance"   : 5,
-			"firstAid"     : 1
-		},
-		"defaultTavern" : 5,
-		"tavern" :
-		{
-			"castle"     : 4,
-			"rampart"    : 4,
-			"tower"      : 4,
-			"inferno"    : 4,
-			"necropolis" : 4,
-			"dungeon"    : 4,
-			"stronghold" : 4,
-			"fortress"   : 4,
-			"conflux"    : 4,
-			"celestial"   : 4
-		}
-	}
+    "fouCyborg": {
+        "name": "Cyborg",
+        "faction": "celestial",
+        "affinity": "magic",
+        "commander": "ftTechnoid",
+
+        "primarySkills": {
+            "attack": 2,
+            "defence": 1,
+            "spellpower": 1,
+            "knowledge": 2
+        },
+        "lowLevelChance": {
+            "attack": 20,
+            "defence": 20,
+            "spellpower": 35,
+            "knowledge": 25
+        },
+        "highLevelChance": {
+            "attack": 25,
+            "defence": 25,
+            "spellpower": 25,
+            "knowledge": 25
+        },
+
+        "secondarySkills": {
+        	"airMagic": 6,
+        	"earthMagic": 6,
+        	"fireMagic": 6,
+        	"waterMagic": 6,
+        	"archery": 2,
+        	"offence": 5,
+            "pathfinding": 4,
+            "logistics": 6,
+            "scouting": 5,
+            "diplomacy": 5,
+            "navigation": 1,
+            "leadership": 1,
+            "wisdom": 8,
+            "mysticism": 8,
+            "luck": 4,
+            "ballistics": 5,
+            "eagleEye": 4,
+            "necromancy": 0,
+            "estates": 1,
+            "scholar": 5,
+            "tactics": 1,
+            "artillery": 6,
+            "learning": 4,
+            "armorer": 5,
+            "intelligence": 6,
+            "sorcery": 7,
+            "resistance": 5,
+            "firstAid": 1
+        },
+
+        "defaultTavern": 5,
+        "tavern": {
+            "castle": 4,
+            "rampart": 4,
+            "tower": 4,
+            "inferno": 4,
+            "necropolis": 4,
+            "dungeon": 4,
+            "stronghold": 4,
+            "fortress": 4,
+            "conflux": 4,
+            "celestial": 4
+        },
+
+        "animation": {
+            "battle": {
+                "female": "celestial/battleHeroMagic",
+                "male": "celestial/battleHeroMagic"
+            }
+        },
+
+        "mapObject": {
+            "templates": {
+                "default": {
+                    "animation": "celestial/mapHeroMagic"
+                }
+            }
+        }
+    }
 }

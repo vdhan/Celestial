@@ -60,7 +60,6 @@
                     "animation": "celestial/town-screen/buildings/TBELcstl.def",
                     "x": 345,
                     "y": 49,
-                    "z": 0,
                     "border": "celestial/town-screen/buildings-border/TOELcstl.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELcstl.bmp"
                 },
@@ -69,7 +68,6 @@
                     "animation": "celestial/town-screen/buildings/TBELcas2.def",
                     "x": 345,
                     "y": 28,
-                    "z": 0,
                     "border": "celestial/town-screen/buildings-border/TOELcas2.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELcas2.bmp"
                 },
@@ -78,7 +76,6 @@
                     "animation": "celestial/town-screen/buildings/TBELcas3.def",
                     "x": 345,
                     "y": 0,
-                    "z": 0,
                     "border": "celestial/town-screen/buildings-border/TOELcas3.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELcas3.bmp"
                 },
@@ -123,7 +120,7 @@
                     "animation": "celestial/town-screen/buildings/TBELmark.def",
                     "x": 590,
                     "y": 245,
-                    "z": 21,
+                    "z": 20,
                     "border": "celestial/town-screen/buildings-border/TOELmark.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELmark.bmp"
                 },
@@ -141,7 +138,6 @@
                     "animation": "celestial/town-screen/buildings/TBELblak.def",
                     "x": 314,
                     "y": 118,
-                    "z": 0,
                     "border": "celestial/town-screen/buildings-border/TOELblak.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELblak.bmp"
                 },
@@ -227,7 +223,6 @@
                     "animation": "celestial/town-screen/buildings/TBELholy.def",
                     "x": 220,
                     "y": 0,
-                    "z": 0,
                     "border": "celestial/town-screen/buildings-border/TOELholy.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELholy.bmp"
                 },
@@ -245,7 +240,7 @@
                     "animation": "celestial/town-screen/buildings/TBELdw_1.def",
                     "x": 165,
                     "y": 165,
-                    "z": 4,
+                    "z": 1,
                     "border": "celestial/town-screen/buildings-border/TOELdw_1.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELdw_1.bmp"
                 },
@@ -263,7 +258,6 @@
                     "animation": "celestial/town-screen/buildings/TBELdw_3.def",
                     "x": 2,
                     "y": 4,
-                    "z": 0,
                     "border": "celestial/town-screen/buildings-border/TOELdw_3.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELdw_3.bmp"
                 },
@@ -272,7 +266,6 @@
                     "animation": "celestial/town-screen/buildings/TBELdw_4.def",
                     "x": 590,
                     "y": 145,
-                    "z": 0,
                     "border": "celestial/town-screen/buildings-border/TOELdw_4.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELdw_4.bmp"
                 },
@@ -281,7 +274,6 @@
                     "animation": "celestial/town-screen/buildings/TBELdw_5.def",
                     "x": 590,
                     "y": 0,
-                    "z": 21,
                     "border": "celestial/town-screen/buildings-border/TOELdw_5.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELdw_5.bmp"
                 },
@@ -326,7 +318,6 @@
                     "animation": "celestial/town-screen/buildings/TBELup_3.def",
                     "x": 2,
                     "y": 4,
-                    "z": 0,
                     "border": "celestial/town-screen/buildings-border/TOELup_3.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELup_3.bmp"
                 },
@@ -335,7 +326,6 @@
                     "animation": "celestial/town-screen/buildings/TBELup_4.def",
                     "x": 590,
                     "y": 118,
-                    "z": 0,
                     "border": "celestial/town-screen/buildings-border/TOELup_4.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELup_4.bmp"
                 },
@@ -344,7 +334,6 @@
                     "animation": "celestial/town-screen/buildings/TBELup_5.def",
                     "x": 390,
                     "y": 0,
-                    "z": 0,
                     "border": "celestial/town-screen/buildings-border/TOELup_5.bmp",
                     "area": "celestial/town-screen/buildings-area/TZELup_5.bmp"
                 },

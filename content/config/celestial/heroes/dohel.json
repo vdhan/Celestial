@@ -1,50 +1,56 @@
 {
-	"dohel" :
-	{
-		"class" : "fouMarshal",
-		"female" : true,
-		"texts" :
-		{
-			"name" : "Dohel",
-			"biography" : "Chociaz posiada niezwykle jak na zombie umiejetnosci (a przede wszystkim potrafi myslec i planowac!). W Dejii uchodzil tylko za jednego z zolnierzy. Don dohel przylaczyl sie do Kastore'a tak szybko jak tylko zdolal",
-			"specialty" :
-			{
-				"description" : "{Guardsman and Veteran Guardsman}\r\n\r\nIncreases Speed of any Guardsman or Veteran Guardsman by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
-				"tooltip" : "Creature Bonus: Guardsman",
-				"name" : "Guardsman"
-			}
-		},
-		"images" :
-		{
-			"specialtySmall" : "celestial/heroes/dohel/spec-small.png",
-			"specialtyLarge" : "celestial/heroes/dohel/spec-large.png",
-			"large" : "celestial/heroes/dohel/portrait-large.png",
-			"small" : "celestial/heroes/dohel/portrait-small.png"
-		},
+    "dohel": {
+        "class": "fouMarshal",
+        "female": false,
 
-		"spellbook" :
-		[
-			"haste"
-		],
-		"army" :
-		[
-			{ "creature" : "ftGuardsman", "min" :  10, "max" : 15 },
-			{ "creature" : "ftGuardsman", "min" :  8, "max" :  10 },
-			{ "creature" : "ftGuardsman", "min" :  5, "max" :  8 }
-		],
-		"skills" :
-		[
-			{
-				"level" : "basic",
-				"skill" : "wisdom"
-			},
-			{
-				"level" : "basic",
-				"skill" : "airMagic"
-			}
-		],
-		"specialty" : {
-			"creature" : "ftGuardsman"
-		}
-	}
+        "texts": {
+            "name": "Dohel",
+            "biography": "Undetermined",
+            "specialty": {
+            	"name": "Guardsman",
+                "description": "{Guardsman}\n\nIncreases Speed of any Guardsman or Veteran Guardsman by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up).",
+                "tooltip": "Creature Bonus: Guardsman"
+            }
+        },
+
+        "images": {
+            "specialtySmall": "celestial/heroes/dohel/specSmall",
+            "specialtyLarge": "celestial/heroes/dohel/specLarge",
+            "large": "celestial/heroes/dohel/portraitLarge",
+            "small": "celestial/heroes/dohel/portraitSmall"
+        },
+
+        "army": [
+            {
+                "creature": "ftGuardsman",
+                "min": 10,
+                "max": 15
+            },
+            {
+                "creature": "ftGuardsman",
+                "min": 8,
+                "max": 10
+            },
+            {
+                "creature": "ftGuardsman",
+                "min": 5,
+                "max": 8
+            }
+        ],
+
+        "skills": [
+            {
+                "level": "basic",
+                "skill": "offence"
+            },
+            {
+                "level": "basic",
+                "skill": "leadership"
+            }
+        ],
+
+        "specialty": {
+            "creature": "ftGuardsman"
+        }
+    }
 }
