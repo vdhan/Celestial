@@ -1,6 +1,6 @@
 {
-    "ziclas": {
-        "class": "fouCyborg",
+    "haMagic5": {
+        "class": "vdhCyborg",
         "female": false,
         "spellbook": ["bless"],
 
@@ -23,17 +23,17 @@
 
         "army": [
             {
-                "creature": "ftGuardsman",
+                "creature": "anGuardsman",
                 "min": 9,
                 "max": 15
             },
             {
-                "creature": "ftFlametrooper",
+                "creature": "anFlametrooper",
                 "min": 6,
                 "max": 9
             },
             {
-                "creature": "ftMechanicalGolem",
+                "creature": "anMechanicalGolem",
                 "min": 3,
                 "max": 6
             }

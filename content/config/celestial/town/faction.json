@@ -99,13 +99,13 @@
             ],
 
             "creatures": [
-                ["ftGuardsman", "ftVeteranGuardsman"],
-                ["ftFlametrooper", "ftAcidTrooper"],
-                ["ftMechanicalGolem", "ftHydraulicGolem"],
-                ["ftDalek", "ftGroundDalek"],
-                ["ftZord", "ftZordWarrior"],
-                ["ftCannonGolem", "ftSiegeGolem"],
-                ["ftIshmael", "ftLordIshmael"]
+                ["anGuardsman", "anVeteranGuardsman"],
+                ["anFlametrooper", "anAcidTrooper"],
+                ["anMechanicalGolem", "anHydraulicGolem"],
+                ["anDalek", "anGroundDalek"],
+                ["anZord", "anZordWarrior"],
+                ["anCannonGolem", "anSiegeGolem"],
+                ["anIshmael", "anLordIshmael"]
             ],
 
             "names": [
@@ -147,8 +147,8 @@
                 "witch": 3,
                 "planeswalker": 3,
                 "elementalist": 3,
-                "fouMarshal": 5,
-                "fouCyborg": 5
+                "vdhMarshal": 5,
+                "vdhCyborg": 5
             }
         }
     }

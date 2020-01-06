@@ -3,7 +3,7 @@
 		"types" : {
 			"ftCommissariat" : {
 				"name" : "Commissariat",
-				"creatures" : [[ "ftGuardsman" ]],
+				"creatures" : [[ "anGuardsman" ]],
 				"templates" : {
 					"default" : {
 						"animation" : "celestial/adventure-map/dwelling-1.def",
@@ -13,7 +13,7 @@
 			},
 			"ftMilitarylaboratory" : {
 				"name" : "Military laboratory",
-				"creatures" : [[ "ftFlametrooper" ]],
+				"creatures" : [[ "anFlametrooper" ]],
 				"templates" : {
 					"default" : {
 						"animation" : "celestial/adventure-map/dwelling-2.def",
@@ -23,7 +23,7 @@
 			},
 			"ftManufactory" : {
 				"name" : "Manufactory",
-				"creatures" : [[ "ftMechanicalGolem" ]],
+				"creatures" : [[ "anMechanicalGolem" ]],
 				"templates" : {
 					"default" : {	
 						"animation" : "celestial/adventure-map/dwelling-3.def",
@@ -33,7 +33,7 @@
 			},
 			"ftRefueler" : {
 				"name" : "Refueler",
-				"creatures" : [[ "ftDalek" ]],
+				"creatures" : [[ "anDalek" ]],
 				"templates" : {
 					"default" : {
 						"animation" : "celestial/adventure-map/dwelling-4.def",
@@ -43,7 +43,7 @@
 			},
 			"ftDepot" : {
 				"name" : "Depot",
-				"creatures" : [[ "ftZord" ]],
+				"creatures" : [[ "anZord" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
@@ -54,7 +54,7 @@
 			},
 			"ftArsenal" : {
 				"name" : "Arsenal",
-				"creatures" : [[ "ftCannonGolem" ]],
+				"creatures" : [[ "anCannonGolem" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
@@ -65,7 +65,7 @@
 			},
 			"ftResearchCenter" : {
 				"name" : "Research Center",
-				"creatures" : [[ "ftIshmael" ]],
+				"creatures" : [[ "anIshmael" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {

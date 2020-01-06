@@ -1,5 +1,5 @@
 {
-	"ftGuardsman":
+	"anGuardsman":
 	{
 		"name" :
 		{
@@ -42,7 +42,7 @@
 		"level" : 1,
 		"upgrades":
 		[
-			"ftVeteranGuardsman"
+			"anVeteranGuardsman"
 		],
 		"sound" :
 		{

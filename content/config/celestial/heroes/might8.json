@@ -1,6 +1,6 @@
 {
-    "reltes": {
-        "class": "fouMarshal",
+    "haMight8": {
+        "class": "vdhMarshal",
         "female": false,
 
         "texts": {
@@ -22,7 +22,7 @@
 
         "army": [
             {
-                "creature": "ftGuardsman",
+                "creature": "anGuardsman",
                 "min": 9,
                 "max": 15
             },
@@ -32,7 +32,7 @@
                 "max": 1
             },
             {
-                "creature": "ftFlametrooper",
+                "creature": "anFlametrooper",
                 "min": 6,
                 "max": 9
             }

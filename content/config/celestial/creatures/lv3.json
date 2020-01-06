@@ -1,5 +1,5 @@
 {
-	"ftMechanicalGolem":
+	"anMechanicalGolem":
 	{
 		"name" :
 		{
@@ -40,7 +40,7 @@
 		"level" : 3,
 		"upgrades":
 		[
-			"ftHydraulicGolem"
+			"anHydraulicGolem"
 		],
 		"sound" :
 		{

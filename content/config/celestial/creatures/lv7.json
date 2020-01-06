@@ -1,5 +1,5 @@
 {
-	"ftIshmael":
+	"anIshmael":
 	{
 		"name" :
 		{
@@ -41,7 +41,7 @@
 		"level" : 7,
 		"upgrades":
 		[
-			"ftLordIshmael"
+			"anLordIshmael"
 		],
 		"sound" :
 		{

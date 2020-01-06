@@ -1,39 +1,39 @@
 {
-    "asarkin": {
-        "class": "fouCyborg",
+    "haMagic7": {
+        "class": "vdhCyborg",
         "female": true,
-        "spellbook": ["landMine"],
+        "spellbook": ["inferno"],
 
         "texts": {
-            "name": "Asarkin",
+            "name": "Fesurrecta",
             "biography": "Undetermined",
             "specialty": {
-            	"name": "Land Mine",
-                "description": "{Land Mine}\n\nCasts Land Mine with increased effect, based on hero level.",
-                "tooltip": "Spell Bonus: Land Mine"
+            	"name": "Inferno",
+                "description": "{Inferno}\n\nCast Inferno with increased effect, based on hero level.",
+                "tooltip": "Spell Bonus: Inferno"
             }
         },
 
         "images": {
-            "specialtySmall": "celestial/heroes/asarkin/specSmall",
-            "specialtyLarge": "celestial/heroes/asarkin/specLarge",
-            "large": "celestial/heroes/asarkin/portraitLarge",
-            "small": "celestial/heroes/asarkin/portraitSmall"
+            "specialtySmall": "celestial/heroes/fesurrecta/specSmall",
+            "specialtyLarge": "celestial/heroes/fesurrecta/specLarge",
+            "large": "celestial/heroes/fesurrecta/portraitLarge",
+            "small": "celestial/heroes/fesurrecta/portraitSmall"
         },
 
         "army": [
             {
-                "creature": "ftGuardsman",
+                "creature": "anGuardsman",
                 "min": 9,
                 "max": 15
             },
             {
-                "creature": "ftFlametrooper",
+                "creature": "anFlametrooper",
                 "min": 6,
                 "max": 9
             },
             {
-                "creature": "ftMechanicalGolem",
+                "creature": "anMechanicalGolem",
                 "min": 3,
                 "max": 6
             }
@@ -52,9 +52,9 @@
 
         "specialty": {
             "bonuses": {
-                "landMine": {
+                "inferno": {
                 	"type": "SPECIAL_SPELL_LEV",
-                    "subtype": "spell.landMine",
+                    "subtype": "spell.inferno",
                     "updater": "TIMES_HERO_LEVEL",
                     "val": 3
                 }

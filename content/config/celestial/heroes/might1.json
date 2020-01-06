@@ -1,6 +1,6 @@
 {
-    "dohel": {
-        "class": "fouMarshal",
+    "haMight1": {
+        "class": "vdhMarshal",
         "female": false,
 
         "texts": {
@@ -22,17 +22,17 @@
 
         "army": [
             {
-                "creature": "ftGuardsman",
+                "creature": "anGuardsman",
                 "min": 12,
                 "max": 15
             },
             {
-                "creature": "ftGuardsman",
+                "creature": "anGuardsman",
                 "min": 10,
                 "max": 12
             },
             {
-                "creature": "ftGuardsman",
+                "creature": "anGuardsman",
                 "min": 8,
                 "max": 10
             }
@@ -50,7 +50,7 @@
         ],
 
         "specialty": {
-            "creature": "ftGuardsman"
+            "creature": "anGuardsman"
         }
     }
 }

@@ -1,5 +1,5 @@
 {
-  "ftFlametrooper": {
+  "anFlametrooper": {
     "name": {
       "plural": "Flametroopers",
       "singular": "Flametrooper"
@@ -40,7 +40,7 @@
     "horde" : 5,
     "upgrades":
      [
-        "ftAcidTrooper"
+        "anAcidTrooper"
      ],
     "sound": {
       "attack": "celestial/FRDWATTK.wav",

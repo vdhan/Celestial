@@ -1,6 +1,6 @@
 {
-    "tamus": {
-        "class": "fouMarshal",
+    "haMight3": {
+        "class": "vdhMarshal",
         "female": true,
 
         "texts": {
@@ -22,17 +22,17 @@
 
         "army": [
             {
-                "creature": "ftMechanicalGolem",
+                "creature": "anMechanicalGolem",
                 "min": 8,
                 "max": 10
             },
             {
-                "creature": "ftMechanicalGolem",
+                "creature": "anMechanicalGolem",
                 "min": 5,
                 "max": 8
             },
             {
-                "creature": "ftMechanicalGolem",
+                "creature": "anMechanicalGolem",
                 "min": 3,
                 "max": 6
             }
@@ -50,7 +50,7 @@
         ],
 
         "specialty": {
-            "creature": "ftMechanicalGolem"
+            "creature": "anMechanicalGolem"
         }
     }
 }

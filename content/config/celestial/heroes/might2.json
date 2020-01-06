@@ -1,6 +1,6 @@
 {
-    "printeer": {
-        "class": "fouMarshal",
+    "haMight2": {
+        "class": "vdhMarshal",
         "female": false,
 
         "texts": {
@@ -22,17 +22,17 @@
 
         "army": [
             {
-                "creature": "ftFlametrooper",
+                "creature": "anFlametrooper",
                 "min": 10,
                 "max": 12
             },
             {
-                "creature": "ftFlametrooper",
+                "creature": "anFlametrooper",
                 "min": 8,
                 "max": 10
             },
             {
-                "creature": "ftFlametrooper",
+                "creature": "anFlametrooper",
                 "min": 5,
                 "max": 8
             }
@@ -50,7 +50,7 @@
         ],
 
         "specialty": {
-            "creature": "ftFlametrooper"
+            "creature": "anFlametrooper"
         }
     }
 }

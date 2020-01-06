@@ -1,5 +1,5 @@
 {
-	"ftDalek":
+	"anDalek":
 	{
 		"advMapAmount" :
 		{
@@ -60,7 +60,7 @@
 		"doubleWide" : true,
 		"upgrades":
 		[
-			"ftGroundDalek"
+			"anGroundDalek"
 		],				
 		"growth" : 4,
 		"level" : 4,

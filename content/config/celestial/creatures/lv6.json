@@ -1,5 +1,5 @@
 {
-	"ftCannonGolem":
+	"anCannonGolem":
 	{
 		"name" :
 		{
@@ -61,7 +61,7 @@
 		"doubleWide" : true,
 		"upgrades":
 		[
-			"ftSiegeGolem"
+			"anSiegeGolem"
 		],
 		"growth" : 2,
 		"level" : 6,

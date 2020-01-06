@@ -2,7 +2,7 @@
     "celestial": {
         "town": {
             "siege": {
-                "shooter": "ftDalek",
+                "shooter": "anDalek",
                 "imagePrefix": "celestial/siege/sgfg",
 
                 "towers": {

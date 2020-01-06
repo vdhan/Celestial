@@ -1,14 +1,14 @@
 {
-    "fouCyborg": {
+    "vdhCyborg": {
         "name": "Cyborg",
         "faction": "celestial",
         "affinity": "magic",
         "commander": "ftTechnoid",
 
         "primarySkills": {
-            "attack": 2,
+            "attack": 1,
             "defence": 1,
-            "spellpower": 1,
+            "spellpower": 2,
             "knowledge": 2
         },
         "lowLevelChance": {
@@ -20,8 +20,8 @@
         "highLevelChance": {
             "attack": 25,
             "defence": 25,
-            "spellpower": 25,
-            "knowledge": 25
+            "spellpower": 30,
+            "knowledge": 20
         },
 
         "secondarySkills": {

@@ -15,35 +15,35 @@
 
     "factions": [
     	"config/celestial/town/faction.json",
-        "config/celestial/town/buildings.json",
-        "config/celestial/town/structures.json",
+        "config/celestial/town/building.json",
+        "config/celestial/town/structure.json",
         "config/celestial/town/siege.json",
-        "config/celestial/town/spells.json",
+        "config/celestial/town/spell.json",
         "config/celestial/town/puzzle.json"
     ],
 
     "heroClasses": [
-    	"config/celestial/classes/marshal.json",
-    	"config/celestial/classes/cyborg.json"
+    	"config/celestial/classes/magic.json",
+    	"config/celestial/classes/might.json"
     ],
 
     "heroes": [
-        "config/celestial/heroes/asarkin.json",
-        "config/celestial/heroes/dohel.json",
-        "config/celestial/heroes/fesurrecta.json",
-        "config/celestial/heroes/maren.json",
-        "config/celestial/heroes/miasore.json",
-        "config/celestial/heroes/munnira.json",
-        "config/celestial/heroes/printeer.json",
-        "config/celestial/heroes/reltes.json",
-        "config/celestial/heroes/sarity.json",
-        "config/celestial/heroes/satore.json",
-        "config/celestial/heroes/satrine.json",
-        "config/celestial/heroes/shistrict.json",
-        "config/celestial/heroes/tamus.json",
-        "config/celestial/heroes/tulian.json",
-        "config/celestial/heroes/wengist.json",
-        "config/celestial/heroes/ziclas.json"
+        "config/celestial/heroes/magic1.json",
+        "config/celestial/heroes/magic2.json",
+        "config/celestial/heroes/magic3.json",
+        "config/celestial/heroes/magic4.json",
+        "config/celestial/heroes/magic5.json",
+        "config/celestial/heroes/magic6.json",
+        "config/celestial/heroes/magic7.json",
+        "config/celestial/heroes/magic8.json",
+        "config/celestial/heroes/might1.json",
+        "config/celestial/heroes/might2.json",
+        "config/celestial/heroes/might3.json",
+        "config/celestial/heroes/might4.json",
+        "config/celestial/heroes/might5.json",
+        "config/celestial/heroes/might6.json",
+        "config/celestial/heroes/might7.json",
+        "config/celestial/heroes/might8.json"
     ],
 
     "creatures": [
@@ -61,7 +61,7 @@
         "config/celestial/creatures/lv6up.json",
         "config/celestial/creatures/lv7.json",
         "config/celestial/creatures/lv7up.json",
-        "config/celestial/commander/Technoid.json"
+        "config/celestial/commander/technoid.json"
     ],
 
     "artifacts": [],

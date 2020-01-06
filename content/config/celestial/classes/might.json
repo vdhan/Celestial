@@ -1,13 +1,13 @@
 {
-    "fouMarshal": {
+    "vdhMarshal": {
         "name": "Marshal",
         "faction": "celestial",
         "affinity": "might",
         "commander": "ftTechnoid",
 
         "primarySkills": {
-            "attack": 3,
-            "defence": 1,
+            "attack": 2,
+            "defence": 2,
             "spellpower": 1,
             "knowledge": 1
         },

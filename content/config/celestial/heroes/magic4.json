@@ -1,6 +1,6 @@
 {
-    "maren": {
-        "class": "fouCyborg",
+    "haMagic4": {
+        "class": "vdhCyborg",
         "female": true,
         "spellbook": ["cure"],
 
@@ -23,17 +23,17 @@
 
         "army": [
             {
-                "creature": "ftGuardsman",
+                "creature": "anGuardsman",
                 "min": 9,
                 "max": 15
             },
             {
-                "creature": "ftFlametrooper",
+                "creature": "anFlametrooper",
                 "min": 6,
                 "max": 9
             },
             {
-                "creature": "ftMechanicalGolem",
+                "creature": "anMechanicalGolem",
                 "min": 3,
                 "max": 6
             }

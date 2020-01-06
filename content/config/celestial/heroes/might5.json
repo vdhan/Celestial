@@ -1,6 +1,6 @@
 {
-    "wengist": {
-        "class": "fouMarshal",
+    "haMight5": {
+        "class": "vdhMarshal",
         "female": false,
 
         "texts": {
@@ -22,17 +22,17 @@
 
         "army": [
             {
-                "creature": "ftZord",
+                "creature": "anZord",
                 "min": 1,
                 "max": 3
             },
             {
-                "creature": "ftZord",
+                "creature": "anZord",
                 "min": 1,
                 "max": 3
             },
             {
-                "creature": "ftZord",
+                "creature": "anZord",
                 "min": 1,
                 "max": 3
             }
@@ -50,7 +50,7 @@
         ],
 
         "specialty": {
-            "creature": "ftZord"
+            "creature": "anZord"
         }
     }
 }
