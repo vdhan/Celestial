@@ -54,8 +54,7 @@
             "bonuses": {
                 "bloodlust": {
                 	"type": "SPECIAL_PECULIAR_ENCHANT",
-                    "subtype": "spell.bloodlust",
-                    "addInfo" : 0
+                    "subtype": "spell.bloodlust"
                 }
             }
         }

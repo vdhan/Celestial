@@ -1,16 +1,15 @@
 {
     "anTechnoid": {
         "name": {
-            "plural": "Technoid",
-            "singular": "Technoid"
+            "singular": "Technoid",
+            "plural": "Technoid"
         },
         "faction": "celestial",
-        "aiValue": 698,
-        "fightValue": 660,
-        "doubleWide": false,
-        "cost": {
-            "gold": 160
-        },
+        "special" : true,
+        "level": 0,
+        "aiValue": 700,
+        "fightValue": 700,
+        "growth": 1,
 
         "attack": 5,
         "defense": 5,
@@ -21,43 +20,10 @@
         "hitPoints": 60,
         "speed": 5,
         "shots": 24,
-        "growth": 1,
-        "level": 0,
-
-        "graphics": {
-            "animation": "celestial/battle/Technoid.def",
-            "animationTime": {
-                "attack": 1,
-                "flight": 1,
-                "idle": 10,
-                "walk": 1
-            },
-            "map": "celestial/map/Technoid.def",
-            "iconSmall": "celestial/iconsSmall/Technoid.bmp",
-            "iconLarge": "celestial/iconsBig/Technoid.bmp",
-            "timeBetweenFidgets": 1,
-            "missile": {
-                "projectile": "celestial/battle/projectile/SHOT198.DEF",
-                "offset": {
-                    "upperX": 41,
-                    "upperY": -92,
-                    "middleX": 58,
-                    "middleY": -79,
-                    "lowerX": 29,
-                    "lowerY": -14
-                },
-                "attackClimaxFrame": 8,
-                "frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-            }
-        },
-
-        "sound": {
-            "attack": "celestial/S198ATTK.wav",
-            "defend": "celestial/S198DFND.wav",
-            "killed": "celestial/S198KILL.wav",
-            "move": "celestial/S198MOVE.wav",
-            "wince": "celestial/S198WNCE.wav",
-            "shoot": "celestial/S198SHOT.wav"
+        "doubleWide": false,
+        "hasDoubleWeek": false,
+        "cost": {
+            "gold": 0
         },
 
         "abilities": {
@@ -91,6 +57,43 @@
             "noMind": {
                 "type": "MIND_IMMUNITY"
             }
+        },
+
+        "graphics": {
+            "animation": "celestial/battle/Technoid.def",
+            "map": "celestial/map/Technoid.def",
+            "iconSmall": "celestial/iconsSmall/Technoid.bmp",
+            "iconLarge": "celestial/iconsBig/Technoid.bmp",
+            "timeBetweenFidgets": 1,
+            "animationTime": {
+                "attack": 1,
+                "walk": 1,
+                "flight": 1,
+                "idle": 10
+            },
+
+            "missile": {
+                "projectile": "celestial/battle/projectile/SHOT198.DEF",
+                "attackClimaxFrame": 8,
+                "offset": {
+                    "upperX": 41,
+                    "upperY": -92,
+                    "middleX": 58,
+                    "middleY": -79,
+                    "lowerX": 29,
+                    "lowerY": -14
+                },
+                "frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+            }
+        },
+
+        "sound": {
+            "attack": "celestial/S198ATTK.wav",
+            "defend": "celestial/S198DFND.wav",
+            "killed": "celestial/S198KILL.wav",
+            "move": "celestial/S198MOVE.wav",
+            "shoot": "celestial/S198SHOT.wav",
+            "wince": "celestial/S198WNCE.wav"
         }
     }
 }

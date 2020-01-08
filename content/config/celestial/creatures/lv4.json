@@ -1,100 +1,95 @@
 {
-	"anDalek":
-	{
-		"advMapAmount" :
-		{
-			 "max" : 12,
-			 "min" : 5
-		},
-		"name" :
-		{
-			"plural" : "Daleks",
-			"singular" : "Dalek"
-		},
-		"faction": "celestial",
-		"aiValue" : 333,
-		"fightValue" : 324,
-		"attack" : 8,
-		"defense" : 10,
-		"cost" :
-		{
-			"gold" : 350
-		},
-		"damage" :
-		{
-			"max" : 10,
-			"min" : 8
-		},
-		"speed" : 6,
-		"graphics" :
-		{
-			"animation" : "celestial/battle/Mecha.def",
-			"map" : "celestial/map/Mecha.def",
-			"iconSmall" : "celestial/iconsSmall/Mecha.bmp",
-			"iconLarge" : "celestial/iconsBig/Mecha.bmp",
-			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.30,
-				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
-			},
-            	"missile" :
-			{
-				"projectile" : "PMAGEX.def",
-				"attackClimaxFrame" : 1,
-				"offset" :
-				{
-					"upperX" : 40,
-					"upperY" : -50,
-					"middleX" : 50,
-					"middleY" : -50,
-					"lowerX" : 20,
-					"lowerY" : -10
-				},
-				"frameAngles" : [90, 70, 40, 20, 0, -20, -40, -50, -50, 0, 0, 0]
-			}
-		},
-		"hitPoints" : 25,
-		"doubleWide" : true,
-		"upgrades":
-		[
-			"anGroundDalek"
-		],				
-		"growth" : 4,
-		"level" : 4,
-		"shots" : 18,		
-		"sound" :
-		{
-			"attack": "celestial/DALKATTK.wav",
-			"defend": "celestial/DALKDFND.wav",
-			"killed": "celestial/DALKKILL.wav",
-			"move": "celestial/DALKMOVE.wav",
-			"shoot": "celestial/DALKSHOT.wav",
-			"wince": "celestial/DALKWNCE.wav"
-		},
-		"abilities" :
-		{
-			"canShoot" :
-			{
-				"type" : "SHOOTER"
-			},
-			"nonliving":
-			{	
-				"type" : "NON_LIVING"
-			},
-			"fly":
-			{
-				"type" : "FLYING" 					
-			},
-			"drainsLife" : 
-			{
-				"type" : "LIFE_DRAIN",
-				"val" : 80
-			}				
-		}
-	}
+    "anDalek": {
+    	"name": {
+    		"singular": "Dalek",
+            "plural": "Daleks"
+        },
+        "faction": "celestial",
+        "special" : false,
+        "level": 4,
+        "upgrades": ["anGroundDalek"],
+        "aiValue": 480,
+        "fightValue": 480,
+        "growth": 4,
+        "horde": 3,
+
+        "attack": 10,
+        "defense": 10,
+        "damage": {
+            "max": 7,
+            "min": 7
+        },
+        "hitPoints": 35,
+        "speed": 6,
+        "shots": 24,
+        "doubleWide": true,
+        "hasDoubleWeek": false,
+        "cost": {
+            "gold": 300
+        },
+
+        "abilities": {
+        	"robot": {
+                "type": "NON_LIVING"
+            },
+            "shooter": {
+                "type": "SHOOTER"
+            },
+            "fly": {
+                "type": "FLYING",
+            	"subtype": 0
+            }
+        },
+
+        "stackExperience": [
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+            }
+        ],
+
+        "advMapAmount": {
+            "max": 18,
+            "min": 15
+        },
+
+        "graphics": {
+            "animation": "celestial/battle/Mecha.def",
+            "map": "celestial/map/Mecha.def",
+            "iconSmall": "celestial/iconsSmall/Mecha.bmp",
+            "iconLarge": "celestial/iconsBig/Mecha.bmp",
+            "timeBetweenFidgets": 1,
+            "animationTime": {
+            	"attack": 1,
+                "walk": 1,
+                "flight": 1,
+                "idle": 10
+            },
+
+            "missile": {
+                "projectile": "celestial/battle/projectile/mechShoot.def",
+                "attackClimaxFrame": 8,
+                "offset": {
+                    "upperX": 41,
+                    "upperY": -92,
+                    "middleX": 58,
+                    "middleY": -79,
+                    "lowerX": 29,
+                    "lowerY": -14
+                },
+                "frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+            }
+        },
+
+        "sound": {
+            "attack": "celestial/DALKATTK.wav",
+            "defend": "celestial/DALKDFND.wav",
+            "killed": "celestial/DALKKILL.wav",
+            "move": "celestial/DALKMOVE.wav",
+            "shoot": "celestial/DALKSHOT.wav",
+            "wince": "celestial/DALKWNCE.wav"
+        }
+    }
 }
-
-

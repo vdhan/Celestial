@@ -1,66 +1,78 @@
 {
-	"anHydraulicGolem":
-	{
-		"name" :
-		{
-			"plural" : "Hydraulic Golems",
-			"singular" : "Hydraulic Golem"
-		},
-		"advMapAmount" :
-		{
-			"max" : 20,
-			"min" : 12
-		},
-		"faction" : "celestial",
-		"aiValue" : 234,
-		"attack" : 11,
-		"hasDoubleWeek" : true,
-        "cost" :
-		{
-			"gold" : 275
-		},
-		"damage" :
-		{
-			"max" : 7,
-			"min" : 4
-		},
-		"defense" : 6,
-		"fightValue" : 316,
-		"graphics" :
-		{
-			"animation" : "celestial/battle/maniac.def",
-			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 2.3 },
-			"map" : "celestial/map/maniac.def",
-			"iconSmall" : "celestial/iconsSmall/maniac.bmp",
-			"iconLarge" : "celestial/iconsBig/maniac.bmp",
-			"timeBetweenFidgets" : 10
+    "anHydraulicGolem": {
+        "name": {
+        	"singular": "Hydraulic Golem",
+            "plural": "Hydraulic Golems"
         },
-		"growth" : 7,
-		"hitPoints" : 20,
-		"level" : 3,
-		"sound" :
-		{
-			"attack" : "celestial/S200ATTK.wav",
-			"defend" : "celestial/S200DFND.wav",
-			"killed" : "celestial/S200KILL.wav",
-			"move" : "celestial/S200MOVE.wav",
-			"wince" : "celestial/S200WNCE.wav"
-		},
-		"speed" : 8,
-		"abilities" :
-		{
-            "TWO_HEX_ATTACK_BREATH":
-			{
-		        "type" : "TWO_HEX_ATTACK_BREATH"
-			},
-            "NON_LIVING":
-			{
-				"type" : "NON_LIVING"
-			},
-            "Healer":
-			{
-				"type" : "HEALER"
-			}
-		}
-	}
+        "faction": "celestial",
+        "special" : false,
+        "level": 3,
+        "aiValue": 360,
+        "fightValue": 360,
+        "growth": 7,
+        "horde": 4,
+
+        "attack": 9,
+        "defense": 9,
+        "damage": {
+            "max": 5,
+            "min": 5
+        },
+        "hitPoints": 30,
+        "speed": 12,
+        "doubleWide": false,
+        "hasDoubleWeek": false,
+        "cost": {
+            "gold": 250
+        },
+
+        "abilities": {
+            "robot": {
+                "type": "NON_LIVING"
+            },
+            "healer": {
+                "type": "HEALER"
+            },
+            "fly": {
+            	"type": "FLYING",
+            	"subtype": 0
+            }
+        },
+
+        "stackExperience": [
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+            }
+        ],
+
+        "advMapAmount": {
+            "max": 20,
+            "min": 15
+        },
+
+        "graphics": {
+            "animation": "celestial/battle/maniac.def",
+            "map": "celestial/map/maniac.def",
+            "iconSmall": "celestial/iconsSmall/maniac.bmp",
+            "iconLarge": "celestial/iconsBig/maniac.bmp",
+            "timeBetweenFidgets": 1,
+            "animationTime": {
+                "attack": 0.6,
+                "walk": 1,
+                "flight": 0.6,
+                "idle": 4
+            }
+        },
+
+        "sound": {
+            "attack": "celestial/S200ATTK.wav",
+            "defend": "celestial/S200DFND.wav",
+            "killed": "celestial/S200KILL.wav",
+            "move": "celestial/S200MOVE.wav",
+            "wince": "celestial/S200WNCE.wav"
+        }
+    }
 }

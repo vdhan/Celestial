@@ -54,8 +54,7 @@
             "bonuses": {
                 "slayer": {
                     "type": "SPECIAL_PECULIAR_ENCHANT",
-                    "subtype" : "spell.slayer",
-                    "addInfo" : 1
+                    "subtype" : "spell.slayer"
                 }
             }
         }

@@ -1,67 +1,75 @@
 {
-	"anMechanicalGolem":
-	{
-		"name" :
-		{
-			"plural" : "Mechanical Golems",
-			"singular" : "Mechanical Golem"
-		},
-		"advMapAmount" :
-		{
-			"max" : 25,
-			"min" : 12
-		},
-		"faction" : "celestial",
-		"aiValue" : 293,
-		"attack" : 9,
-		"hasDoubleWeek" : true,
-        "cost" :
-		{
-			"gold" : 200
-		},
-		"damage" :
-		{
-			"max" : 7,
-			"min" : 4
-		},
-		"defense" : 6,
-		"fightValue" : 260,
-		"graphics" :
-		{
-			"animation" : "celestial/battle/pyro.def",
-			"animationTime" : { "attack" : 0.6, "flight" : 0.6, "idle" : 4, "walk" : 2.3 },
-			"map" : "celestial/map/pyro.def",
-			"iconSmall" : "celestial/iconsSmall/pyro.bmp",
-			"iconLarge" : "celestial/iconsBig/pyro.bmp",
-			"timeBetweenFidgets" : 10
+    "anMechanicalGolem": {
+        "name": {
+        	"singular": "Mechanical Golem",
+            "plural": "Mechanical Golems"
         },
-		"growth" : 7,
-		"hitPoints" : 20,
-		"level" : 3,
-		"upgrades":
-		[
-			"anHydraulicGolem"
-		],
-		"sound" :
-		{
-			"attack" : "celestial/S200ATTK.wav",
-			"defend" : "celestial/S200DFND.wav",
-			"killed" : "celestial/S200KILL.wav",
-			"move" : "celestial/S200MOVE.wav",
-			"wince" : "celestial/S200WNCE.wav"
-		},
-		"speed" : 6,
-		"abilities" :
-		{
+        "faction": "celestial",
+        "special" : false,
+        "level": 3,
+        "upgrades": ["anHydraulicGolem"],
+        "aiValue": 240,
+        "fightValue": 240,
+        "growth": 7,
+        "horde": 4,
 
-           "NON_LIVING":
-			{
-				"type" : "NON_LIVING"
-			},
-            "Healer":
-			{
-				"type" : "HEALER"
-			}
-		}
-	}
+        "attack": 8,
+        "defense": 8,
+        "damage": {
+            "max": 4,
+            "min": 4
+        },
+        "hitPoints": 25,
+        "speed": 8,
+        "doubleWide": false,
+        "hasDoubleWeek": false,
+        "cost": {
+            "gold": 200
+        },
+
+        "abilities": {
+            "robot": {
+                "type": "NON_LIVING"
+            },
+            "healer": {
+                "type": "HEALER"
+            }
+        },
+
+        "stackExperience": [
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+            }
+        ],
+
+        "advMapAmount": {
+            "max": 22,
+            "min": 18
+        },
+
+        "graphics": {
+            "animation": "celestial/battle/pyro.def",
+            "map": "celestial/map/pyro.def",
+            "iconSmall": "celestial/iconsSmall/pyro.bmp",
+            "iconLarge": "celestial/iconsBig/pyro.bmp",
+            "timeBetweenFidgets": 1,
+            "animationTime": {
+                "attack": 0.6,
+                "walk": 1,
+                "flight": 0.6,
+                "idle": 4
+            }
+        },
+
+        "sound": {
+            "attack": "celestial/S200ATTK.wav",
+            "defend": "celestial/S200DFND.wav",
+            "killed": "celestial/S200KILL.wav",
+            "move": "celestial/S200MOVE.wav",
+            "wince": "celestial/S200WNCE.wav"
+        }
+    }
 }

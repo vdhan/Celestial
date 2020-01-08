@@ -1,67 +1,83 @@
 {
-  "anAcidTrooper": {
-    "name": {
-      "plural": "Acid Troopers",
-      "singular": "Acid Trooper"
-    },
-    "advMapAmount": {
-      "max": 25,
-      "min": 18
-    },
-    "faction": "celestial",
-    "aiValue": 275,
-    "attack": 8,
-    "cost": {
-      "gold": 200
-    },
-    "damage": {
-      "max": 5,
-      "min": 2
-    },
-    "defense": 8,
-    "fightValue": 275,
-    "graphics": {
-      "animation" : "celestial/battle/CR198.def",
-      "map" : "celestial/map/CR198s.def",
-      "iconSmall" : "celestial/iconsSmall/CPrS198F.bmp",
-      "iconLarge" : "celestial/iconsBig/CPrL198B.bmp",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 1.20,
-        "attack": 1,
-        "idle": 10,
-        "flight": 1
-      }
-    },
-    "hasDoubleWeek": true,
-    "growth": 9,
-    "hitPoints": 25,
-    "level" : 2,
-    "horde" : 5,
-    "sound": {
-      "attack": "celestial/FRDWATTK.wav",
-      "defend": "celestial/FRDWDFND.wav",
-      "killed": "celestial/FRDWKILL.wav",
-      "move":  "celestial/FRDWMOVE.wav",
-      "wince": "celestial/FRDWWNCE.wav"
-    },
-    "speed": 5,
-    "abilities": {
-      "flamethrower" :
-			{
-				"type" : "TWO_HEX_ATTACK_BREATH"
-                        },
-                  "noRetaliation" :
-			{
-				"type" : "BLOCKS_RETALIATION",
-                        "subtype" : 1
-			},
-                  "castDisease" :
-			{
-				"type" : "SPELL_AFTER_ATTACK",
-                                "subtype" : "spell.disease",
-                                 "val" : 100
-			}
-		}
-	}
+    "anAcidTrooper": {
+        "name": {
+            "singular": "Acid Trooper",
+            "plural": "Acid Troopers"
+        },
+        "faction": "celestial",
+        "special" : false,
+        "level": 2,
+        "aiValue": 180,
+        "fightValue": 180,
+        "growth": 9,
+        "horde": 5,
+
+        "attack": 7,
+        "defense": 7,
+        "damage": {
+            "max": 4,
+            "min": 4
+        },
+        "hitPoints": 20,
+        "speed": 7,
+        "doubleWide": false,
+        "hasDoubleWeek": true,
+        "cost": {
+            "gold": 150
+        },
+
+        "abilities": {
+            "noRetaliation": {
+                "type": "BLOCKS_RETALIATION"
+            },
+            "poison": {
+                "type": "SPELL_AFTER_ATTACK",
+                "subtype": "spell.poison",
+                "val": 20
+            }
+        },
+
+        "stackExperience": [
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+            },
+            {
+                "bonus": {
+                    "type": "SPELL_AFTER_ATTACK",
+                    "subtype": "spell.poison"
+                },
+                "values": [30, 40, 50, 60, 70, 80, 90, 100, 100, 100]
+            }
+        ],
+
+        "advMapAmount": {
+            "max": 25,
+            "min": 20
+        },
+
+        "graphics": {
+            "animation": "celestial/battle/CR198.def",
+            "map": "celestial/map/CR198s.def",
+            "iconSmall": "celestial/iconsSmall/CPrS198F.bmp",
+            "iconLarge": "celestial/iconsBig/CPrL198B.bmp",
+            "timeBetweenFidgets": 1,
+            "animationTime": {
+                "attack": 1,
+                "walk": 1,
+                "flight": 1,
+                "idle": 10
+            }
+        },
+
+        "sound": {
+            "attack": "celestial/FRDWATTK.wav",
+            "defend": "celestial/FRDWDFND.wav",
+            "killed": "celestial/FRDWKILL.wav",
+            "move": "celestial/FRDWMOVE.wav",
+            "wince": "celestial/FRDWWNCE.wav"
+        }
+    }
 }
