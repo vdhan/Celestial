@@ -1,13 +1,13 @@
 {
-    "anMechanicalGolem": {
+    "anMedic": {
         "name": {
-        	"singular": "Mechanical Golem",
-            "plural": "Mechanical Golems"
+        	"singular": "Medic",
+            "plural": "Medics"
         },
         "faction": "celestial",
         "special" : false,
         "level": 3,
-        "upgrades": ["anHydraulicGolem"],
+        "upgrades": ["anHealer"],
         "aiValue": 240,
         "fightValue": 240,
         "growth": 7,

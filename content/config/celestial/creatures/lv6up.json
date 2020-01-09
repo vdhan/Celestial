@@ -1,94 +1,94 @@
 {
-	"anSiegeGolem":
-	{
-		"name" :
-		{
-			"plural" : "Siege Golems",
-			"singular" : "Siege Golem"
-		},
-		"advMapAmount" :
-		{
-			 "max" : 12,
-			 "min" : 5
-		},
+    "anSiegeGolem": {
+        "name": {
+        	"singular": "Siege Golem",
+            "plural": "Siege Golems"
+        },
+        "faction": "celestial",
+        "special" : false,
+        "level": 6,
+        "aiValue": 2100,
+        "fightValue": 2100,
+        "growth": 2,
 
-		"faction": "celestial",
-		"aiValue" : 1733,
-		"fightValue" : 1524,
-		"attack" : 16,
-		"defense" : 18,
-		"cost" :
-		{
-			"gold" : 1000
-		},
-		"damage" :
-		{
-			"max" : 22,
-			"min" : 20
-		},
-		"speed" : 8,
-		"graphics" :
-		{
-			"animation" : "celestial/battle/Hunter.def",
-			"map" : "celestial/map/Hunter.def",
-			"iconSmall" : "celestial/iconsSmall/Hunter.bmp",
-			"iconLarge" : "celestial/iconsBig/Hunter.bmp",
-			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.30,
-				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
-			},
-            	"missile" :
-			{
-				"projectile" : "PMAGEX.def",
-				"attackClimaxFrame" : 1,
-				"offset" :
-				{
-					"upperX" : 41,
-					"upperY" : -92,
-					"middleX" : 58,
-					"middleY" : -79,
-					"lowerX" : 29,
-					"lowerY" : -14
-				},
-				"frameAngles" : [90, 70, 40, 20, 0, -20, -40, -50, -50, 0, 0, 0]
-			}
-		},
-		"hitPoints" : 80,
-		"doubleWide" : true,
-		"growth" : 2,
-		"level" : 6,
-		"shots" : 24,
-		"sound" :
-		{
-			"attack" : "celestial/S205ATTK.wav",
-			"defend" : "celestial/S205DFND.wav",
-			"killed" : "celestial/S205KILL.wav",
-			"move"  : "celestial/S205MOVE.wav",
-			"wince" : "celestial/S205WNCE.wav"
+        "attack": 15,
+        "defense": 15,
+        "damage": {
+            "max": 20,
+            "min": 20
+        },
+        "hitPoints": 70,
+        "speed": 10,
+        "shots": 24,
+        "doubleWide": true,
+        "hasDoubleWeek": false,
+        "cost": {
+            "gold": 1100
+        },
 
-		},
-		"abilities" :
-		{
-			"canShoot" :
-			{
-				"type" : "SHOOTER"
-			},
-			"nonliving":
-			{
-				"type" : "NON_LIVING"
+        "abilities": {
+        	"robot": {
+                "type": "NON_LIVING"
             },
-            "catapult":
-			{
+            "shoot": {
+                "type": "SHOOTER"
+            },
+            "catapult": {
                 "type": "CATAPULT"
             },
-			"rangedRetaliation"	:
-			{
-				"type" : "RANGED_RETALIATION"
-			}
-		}
-	}
+            "rangedRetaliation": {
+                "type": "RANGED_RETALIATION"
+            }
+        },
+
+        "stackExperience": [
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+            }
+        ],
+
+        "advMapAmount": {
+            "max": 5,
+            "min": 3
+        },
+
+        "graphics": {
+            "animation": "celestial/battle/Hunter.def",
+            "map": "celestial/map/Hunter.def",
+            "iconSmall": "celestial/iconsSmall/Hunter.bmp",
+            "iconLarge": "celestial/iconsBig/Hunter.bmp",
+            "timeBetweenFidgets": 1,
+            "animationTime": {
+            	"attack": 1,
+                "walk": 1,
+                "flight": 1,
+                "idle": 10
+            },
+
+            "missile": {
+                "projectile": "celestial/battle/projectile/mechShoot.def",
+                "attackClimaxFrame": 8,
+                "offset": {
+                    "upperX": 41,
+                    "upperY": -92,
+                    "middleX": 58,
+                    "middleY": -79,
+                    "lowerX": 29,
+                    "lowerY": -14
+                },
+                "frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+            }
+        },
+
+        "sound": {
+            "attack": "celestial/S205ATTK.wav",
+            "defend": "celestial/S205DFND.wav",
+            "killed": "celestial/S205KILL.wav",
+            "move": "celestial/S205MOVE.wav",
+            "wince": "celestial/S205WNCE.wav"
+        }
+    }
 }

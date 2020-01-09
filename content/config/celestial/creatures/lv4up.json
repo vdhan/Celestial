@@ -1,8 +1,8 @@
 {
-    "anGroundDalek": {
+    "anWarDalek": {
     	"name": {
-    		"singular": "Ground Dalek",
-            "plural": "Ground Daleks"
+    		"singular": "War Dalek",
+            "plural": "War Daleks"
         },
         "faction": "celestial",
         "special" : false,

@@ -101,9 +101,9 @@
             "creatures": [
                 ["anGuardsman", "anVeteranGuardsman"],
                 ["anFlametrooper", "anAcidTrooper"],
-                ["anMechanicalGolem", "anHydraulicGolem"],
-                ["anDalek", "anGroundDalek"],
-                ["anZord", "anZordWarrior"],
+                ["anMedic", "anHealer"],
+                ["anDalek", "anWarDalek"],
+                ["anSkyGuard", "anSkyKnight"],
                 ["anCannonGolem", "anSiegeGolem"],
                 ["anIshmael", "anLordIshmael"]
             ],

@@ -23,7 +23,7 @@
 			},
 			"ftManufactory" : {
 				"name" : "Manufactory",
-				"creatures" : [[ "anMechanicalGolem" ]],
+				"creatures" : [[ "anMedic" ]],
 				"templates" : {
 					"default" : {	
 						"animation" : "celestial/adventure-map/dwelling-3.def",
@@ -43,7 +43,7 @@
 			},
 			"ftDepot" : {
 				"name" : "Depot",
-				"creatures" : [[ "anZord" ]],
+				"creatures" : [[ "anSkyGuard" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {

@@ -1,0 +1,80 @@
+{
+	"anZord":
+	{
+		"name" :
+		{
+			"plural" : "Zords",
+			"singular" : "Zord"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "celestial",
+		"aiValue" : 802,
+		"attack" : 14,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 620
+		},
+		"damage" :
+		{
+			 "max" : 15,
+			 "min" : 12
+		},
+		"defense" : 10,
+		"fightValue" : 880,
+		"graphics" :
+		{
+			"animation" : "celestial/battle/CR203.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "celestial/map/stringer.def",
+			"iconSmall" : "celestial/iconsSmall/CPRS203F.bmp",
+			"iconLarge" : "celestial/iconsBig/CPrL203B.bmp",
+			"timeBetweenFidgets" : 1
+        },
+
+		"growth" : 3,
+		"hitPoints" : 60,
+		"level" : 5,
+		"upgrades":
+		[
+			"anZordWarrior"
+		],
+		"sound" :
+		{
+			"attack" : "celestial/S200ATTK.wav",
+			"defend" : "celestial/S200DFND.wav",
+			"killed" : "celestial/S200KILL.wav",
+			"move" : "celestial/S200MOVE.wav",
+			"wince" : "celestial/S200WNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+        "nonliving" :
+			{
+				"type" : "NON_LIVING"
+			},
+		"noluck" :
+			{
+				"type" : "NO_LUCK"
+			},
+		"nomorale" :
+			{
+				"type" : "NO_MORALE"
+			},
+		"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+		"twohexattackbreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			}
+
+		}
+	}
+}

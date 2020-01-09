@@ -1,43 +1,90 @@
 {
     "anLordIshmael": {
         "name": {
-            "plural": "Lords Ishmael",
-            "singular": "Lord Ishmael"
-        },
-        "advMapAmount": {
-            "max": 8,
-            "min": 3
+            "singular": "Lord Ishmael",
+            "plural": "Lords Ishmael"
         },
         "faction": "celestial",
-        "aiValue": 4000,
-        "attack": 24,
+        "special" : false,
+        "level": 7,
+        "aiValue": 7680,
+        "fightValue": 7680,
+        "growth": 1,
+
+        "attack": 25,
+        "defense": 25,
+        "damage": {
+            "max": 50,
+            "min": 50
+        },
+        "hitPoints": 300,
+        "speed": 16,
+        "doubleWide": true,
+        "hasDoubleWeek": false,
         "cost": {
             "gold": 4000,
             "crystal": 2
         },
-        "damage": {
-            "max": 50,
-            "min": 40
+
+        "abilities": {
+            "robot": {
+                "type": "NON_LIVING"
+            },
+            "fire": {
+                "type": "FIRE_IMMUNITY",
+                "subtype": 1
+            },
+            "acid": {
+                "type": "ACID_BREATH",
+                "val": 50
+            },
+            "fear": {
+                "type": "FEAR"
+            },
+            "ignore": {
+                "type": "ENEMY_DEFENCE_REDUCTION",
+                "val": 30
+            },
+            "king1": {
+                "type": "KING1"
+            }
         },
-        "defense": 22,
-        "fightValue": 4635,
+
+        "stackExperience": [
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+            },
+            {
+                "bonus": {
+                    "type": "ENEMY_DEFENCE_REDUCTION"
+                },
+                "values": [35, 40, 45, 50, 55, 60, 65, 70, 75, 80]
+            },
+            {
+                "bonus": {
+                    "type": "KING2"
+                },
+                "values": [false, false, false, false, true, true, true, true, true, true]
+            }
+        ],
+
         "graphics": {
             "animation": "celestial/battle/CR210.def",
-            "animationTime": {
-                "attack": 0.6,
-                "flight": 0.6,
-                "idle": 4,
-                "walk": 2.3
-            },
             "map": "celestial/map/7b.def",
             "iconSmall": "celestial/iconsSmall/CPrS210F.bmp",
             "iconLarge": "celestial/iconsBig/CPrL210B.bmp",
-            "timeBetweenFidgets": 10
+            "timeBetweenFidgets": 1,
+            "animationTime": {
+                "attack": 0.6,
+                "walk": 1,
+                "flight": 0.6,
+                "idle": 4
+            }
         },
-        "doubleWide": true,
-        "growth": 1,
-        "hitPoints": 300,
-        "level": 7,
+
         "sound": {
             "attack": "celestial/S210ATTK.wav",
             "defend": "celestial/S210DFND.wav",
@@ -46,25 +93,6 @@
             "shoot": "celestial/S210SHOT.wav",
             "startMoving": "celestial/S210EXT1.wav",
             "endMoving": "celestial/S210EXT2.wav"
-        },
-        "speed": 16,
-        "abilities": {
-            "nonLiving": {
-                "type": "NON_LIVING"
-            },
-            "noMorale": {
-                "type": "NO_MORALE"
-            },
-            "fear": {
-                "type": "FEAR"
-            },
-            "king 1": {
-                "type": "KING1"
-            },
-            "reduceDefence": {
-                "type": "ENEMY_DEFENCE_REDUCTION",
-                "val": 50
-            }
         }
     }
 }

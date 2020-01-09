@@ -33,7 +33,7 @@
                 "max": 9
             },
             {
-                "creature": "anMechanicalGolem",
+                "creature": "anMedic",
                 "min": 3,
                 "max": 6
             }

@@ -7,7 +7,7 @@
         "faction": "celestial",
         "special" : false,
         "level": 4,
-        "upgrades": ["anGroundDalek"],
+        "upgrades": ["anWarDalek"],
         "aiValue": 480,
         "fightValue": 480,
         "growth": 4,
@@ -32,7 +32,7 @@
         	"robot": {
                 "type": "NON_LIVING"
             },
-            "shooter": {
+            "shoot": {
                 "type": "SHOOTER"
             },
             "fly": {
@@ -58,7 +58,7 @@
         "graphics": {
             "animation": "celestial/battle/Mecha.def",
             "map": "celestial/map/Mecha.def",
-            "iconSmall": "celestial/iconsSmall/Mecha.bmp",
+            "iconSmall": "celestial/iconsSmall/dalek",
             "iconLarge": "celestial/iconsBig/Mecha.bmp",
             "timeBetweenFidgets": 1,
             "animationTime": {

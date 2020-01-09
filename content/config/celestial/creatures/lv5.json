@@ -1,80 +1,84 @@
 {
-	"anZord":
-	{
-		"name" :
-		{
-			"plural" : "Zords",
-			"singular" : "Zord"
-		},
-		"advMapAmount" :
-		{
-			 "max" : 16,
-			 "min" : 10
-		},
-		"faction" : "celestial",
-		"aiValue" : 802,
-		"attack" : 14,
-		"doubleWide" : true,
-                "cost" :
-		{
-			"gold" : 620
-		},
-		"damage" :
-		{
-			 "max" : 15,
-			 "min" : 12
-		},
-		"defense" : 10,
-		"fightValue" : 880,
-		"graphics" :
-		{
-			"animation" : "celestial/battle/CR203.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
-			"map" : "celestial/map/stringer.def",
-			"iconSmall" : "celestial/iconsSmall/CPRS203F.bmp",
-			"iconLarge" : "celestial/iconsBig/CPrL203B.bmp",
-			"timeBetweenFidgets" : 1
+    "anSkyGuard": {
+        "name": {
+        	"singular": "Sky Guard",
+            "plural": "Sky Guards"
+        },
+        "faction": "celestial",
+        "special" : false,
+        "level": 5,
+        "upgrades": ["anSkyKnight"],
+        "aiValue": 960,
+        "fightValue": 960,
+        "growth": 3,
+        "horde": 2,
+
+        "attack": 12,
+        "defense": 12,
+        "damage": {
+            "max": 13,
+            "min": 13
+        },
+        "hitPoints": 60,
+        "speed": 10,
+        "doubleWide": false,
+        "hasDoubleWeek": false,
+        "cost": {
+            "gold": 500
         },
 
-		"growth" : 3,
-		"hitPoints" : 60,
-		"level" : 5,
-		"upgrades":
-		[
-			"anZordWarrior"
-		],
-		"sound" :
-		{
-			"attack" : "celestial/S200ATTK.wav",
-			"defend" : "celestial/S200DFND.wav",
-			"killed" : "celestial/S200KILL.wav",
-			"move" : "celestial/S200MOVE.wav",
-			"wince" : "celestial/S200WNCE.wav"
-		},
-		"speed" : 7,
-		"abilities" :
-		{
-        "nonliving" :
-			{
-				"type" : "NON_LIVING"
-			},
-		"noluck" :
-			{
-				"type" : "NO_LUCK"
-			},
-		"nomorale" :
-			{
-				"type" : "NO_MORALE"
-			},
-		"fearless" :
-			{
-				"type" : "FEARLESS"
-			},
-		"twohexattackbreath" :
-			{
-				"type" : "TWO_HEX_ATTACK_BREATH"
-			}
+        "abilities": {
+            "robot": {
+                "type": "NON_LIVING"
+            },
+            "fly": {
+                "type": "FLYING",
+            	"subtype": 0
+            }
+        },
 
-		}
-	}
+        "stackExperience": [
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+            },
+            {
+            	"bonus": {
+            		"type": "TWO_HEX_ATTACK_BREATH"
+            	},
+            	"values": [false, false, false, false, true, true, true, true, true, true]
+            }
+        ],
+
+        "advMapAmount": {
+            "max": 12,
+            "min": 10
+        },
+
+        "graphics": {
+            "animation": "celestial/battle/skyGuard.def",
+            "map": "celestial/map/skyGuard.def",
+            "iconSmall": "celestial/iconsSmall/skyGuard",
+            "iconLarge": "celestial/iconsBig/skyGuard",
+            "timeBetweenFidgets": 1,
+            "animationTime": {
+                "attack": 1,
+                "walk": 1,
+                "flight": 1,
+                "idle": 10
+            }
+        },
+
+        "sound": {
+            "attack": "celestial/lv5/attack.wav",
+            "defend": "celestial/lv5/defend.wav",
+            "killed": "celestial/lv5/kill.wav",
+            "move": "celestial/lv5/move.wav",
+            "startMoving": "celestial/lv5/movestart.wav",
+			"endMoving": "celestial/lv5/moveend.wav",
+			"wince" : "celestial/lv5/wince.wav"
+        }
+    }
 }

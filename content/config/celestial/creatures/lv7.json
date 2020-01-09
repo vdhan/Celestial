@@ -1,78 +1,91 @@
 {
-	"anIshmael":
-	{
-		"name" :
-		{
-			"plural" : "Ishmaels",
-			"singular" : "Ishmael"
-		},
-		"advMapAmount" :
-		{
-			"max" : 10,
-			"min" : 4
-		},
-		"faction" : "celestial",
-		"aiValue" : 5642,
-		"attack" : 20,
-		"cost" :
-		{
-			"gold" : 2500,
-			"crystal" : 1
-		},
-		"damage" :
-		{
-			"max" : 50,
-			"min" : 40
-		},
-		"defense" : 20,
-		"fightValue" : 4435,
-		"graphics" :
-		{
-			"animation" : "celestial/battle/CR209.DEF",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
-			"map" : "celestial/map/7aa.def",
-			"iconSmall" : "celestial/iconsSmall/CPrS209F.bmp",
-			"iconLarge" : "celestial/iconsBig/CPrL209B.bmp",
-			"timeBetweenFidgets" : 1
-		},
-		"doubleWide" : true,
-		"growth" : 1,
-		"hitPoints" : 200,
-		"level" : 7,
-		"upgrades":
-		[
-			"anLordIshmael"
-		],
-		"sound" :
-		{
-			"attack" : "celestial/S209ATTK.wav",
-			"defend" : "celestial/S209DFND.wav",
-			"killed" : "celestial/S209KILL.wav",
-			"move" : "celestial/S209MOVE.wav",
-			"wince" : "celestial/S209WNCE.wav"
-		},
-		"speed" : 10,
-		"abilities" : {
-			"nonLiving" : { "type" : "NON_LIVING" },
-			"noMorale" :
-			{
-				"type" : "NO_MORALE"
-			},
-			"fear":
-			{
-				"type" : "FEAR"
-			},
-			"king 1" :
+    "anIshmael": {
+        "name": {
+        	"singular": "Ishmael",
+            "plural": "Ishmaels"
+        },
+        "faction": "celestial",
+        "special" : false,
+        "level": 7,
+        "upgrades": ["anLordIshmael"],
+        "aiValue": 3840,
+        "fightValue": 3840,
+        "growth": 1,
+
+        "attack": 20,
+        "defense": 20,
+        "damage": {
+            "max": 45,
+            "min": 45
+        },
+        "hitPoints": 180,
+        "speed": 10,
+        "doubleWide": true,
+        "hasDoubleWeek": false,
+        "cost": {
+            "gold": 2500,
+            "crystal": 1
+        },
+
+        "abilities": {
+            "robot": {
+                "type": "NON_LIVING"
+            },
+            "fire": {
+            	"type": "FIRE_IMMUNITY",
+            	"subtype": 0
+            },
+            "acid": {
+            	"type": "ACID_BREATH",
+            	"val": 50
+            },
+            "ignore": {
+            	"type": "ENEMY_DEFENCE_REDUCTION",
+            	"val": 10
+            }
+        },
+
+        "stackExperience": [
             {
-                "type" : "KING1"
- 			},
-			"reduceDefence" :
-			{
-				"type" : "ENEMY_DEFENCE_REDUCTION",
-				"val" : 50
-			}
-		}
-	}
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+            },
+            {
+            	"bonus": {
+            		"type": "ENEMY_DEFENCE_REDUCTION"
+            	},
+            	"values": [15, 20, 25, 30, 35, 40, 45, 50, 55, 60]
+            },
+            {
+            	"bonus": {
+            		"type": "KING1"
+            	},
+            	"values": [false, false, false, false, true, true, true, true, true, true]
+            }
+        ],
+
+        "graphics": {
+            "animation": "celestial/battle/CR209.DEF",
+            "map": "celestial/map/7aa.def",
+            "iconSmall": "celestial/iconsSmall/CPrS209F.bmp",
+            "iconLarge": "celestial/iconsBig/CPrL209B.bmp",
+            "timeBetweenFidgets": 1,
+            "animationTime": {
+                "attack": 1,
+                "walk": 1,
+                "flight": 1,
+                "idle": 10
+            }
+        },
+
+        "sound": {
+            "attack": "celestial/S209ATTK.wav",
+            "defend": "celestial/S209DFND.wav",
+            "killed": "celestial/S209KILL.wav",
+            "move": "celestial/S209MOVE.wav",
+            "wince": "celestial/S209WNCE.wav"
+        }
+    }
 }
-
-

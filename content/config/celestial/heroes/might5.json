@@ -7,9 +7,9 @@
             "name": "Wengist",
             "biography": "Undetermined",
             "specialty": {
-                "name": "Zord",
-                "description": "{Zord}\n\nIncreases Attack and Defense skills of any Zord or Zord Warrior for each level attained after 5th level.",
-                "tooltip": "Creature Bonus: Zord"
+                "name": "Sky Guard",
+                "description": "{Sky Guard}\n\nIncreases Attack and Defense skills of any Sky Guard or Sky Knight for each level attained after 5th level.",
+                "tooltip": "Creature Bonus: Sky Guard"
             }
         },
 
@@ -22,17 +22,17 @@
 
         "army": [
             {
-                "creature": "anZord",
+                "creature": "anSkyGuard",
                 "min": 1,
                 "max": 3
             },
             {
-                "creature": "anZord",
+                "creature": "anSkyGuard",
                 "min": 1,
                 "max": 3
             },
             {
-                "creature": "anZord",
+                "creature": "anSkyGuard",
                 "min": 1,
                 "max": 3
             }
@@ -50,7 +50,7 @@
         ],
 
         "specialty": {
-            "creature": "anZord"
+            "creature": "anSkyGuard"
         }
     }
 }

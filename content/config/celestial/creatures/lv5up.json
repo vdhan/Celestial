@@ -1,80 +1,90 @@
 {
-	"anZordWarrior":
-	{
-		"name" :
-		{
-			"plural" : "Zord Warriors",
-			"singular" : "Zord Warrior"
-		},
-		"advMapAmount" :
-		{
-			"max" : 12,
-			"min" : 8
-		},
-		"faction" : "celestial",
-		"aiValue" : 728,
-		"attack" : 14,
-		"hasDoubleWeek" : true,
-        "cost" :
-		{
-			"gold" : 775
-		},
-		"damage" :
-		{
-			"max" : 18,
-			"min" : 15
-		},
-		"defense" : 10,
-		"fightValue" : 1091,
-		"graphics" :
-		{
-			"animation" : "celestial/battle/CR204.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
-			"map" : "celestial/map/bruiser.def",
-			"iconSmall" : "celestial/iconsSmall/CPrS204F.bmp",
-			"iconLarge" : "celestial/iconsBig/CPrL204B.bmp",
-			"timeBetweenFidgets" : 1,
+    "anSkyKnight": {
+        "name": {
+        	"singular": "Sky Knight",
+            "plural": "Sky Knights"
+        },
+        "faction": "celestial",
+        "special" : false,
+        "level": 5,
+        "aiValue": 1100,
+        "fightValue": 1100,
+        "growth": 3,
+        "horde": 2,
 
-		},
-		"growth" : 3,
-		"hitPoints" : 60,
-		"level" : 5,
-		"shots" : 6,
-		"sound" :
-		{
-                        "attack" : "celestial/S200ATTK.wav",
-			"defend" : "celestial/S200DFND.wav",
-			"killed" : "celestial/S200KILL.wav",
-			"move" : "celestial/S200MOVE.wav",
-			"wince" : "celestial/S200WNCE.wav"
-		},
-		"speed" : 9,
-		"abilities" :
-		{
-			"nonliving" :
-			{
-				"type" : "NON_LIVING"
-			},
-			"noluck" :
-			{
-				"type" : "NO_LUCK"
-			},
-			"nomorale" :
-			{
-				"type" : "NO_MORALE"
-			},
-			"directdamageimmunity" :
-                        {
-				"type" : "DIRECT_DAMAGE_IMMUNITY",
-			},
-			"fearless" :
-                        {
-				"type" : "FEARLESS",
-			},
-			"twohexattackbreath" :
-			{
-				"type" : "TWO_HEX_ATTACK_BREATH"
-			}
-		}
-	}
+        "attack": 13,
+        "defense": 13,
+        "damage": {
+            "max": 14,
+            "min": 14
+        },
+        "hitPoints": 70,
+        "speed": 15,
+        "doubleWide": false,
+        "hasDoubleWeek": false,
+        "cost": {
+            "gold": 600
+        },
+
+        "abilities": {
+            "robot": {
+                "type": "NON_LIVING"
+            },
+            "fly": {
+                "type": "FLYING",
+            	"subtype": 0
+            },
+            "breath": {
+                "type": "TWO_HEX_ATTACK_BREATH"
+            },
+            "slayer": {
+            	"type": "SLAYER",
+            	"val": 1
+            }
+        },
+
+        "stackExperience": [
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+            },
+            {
+            	"bonus": {
+            		"type": "SLAYER"
+            	},
+            	"values": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2]
+            }
+        ],
+
+        "advMapAmount": {
+            "max": 10,
+            "min": 8
+        },
+
+        "graphics": {
+            "animation": "celestial/battle/SkyKnight.def",
+            "map": "celestial/map/SkyKnight.def",
+            "iconSmall": "celestial/iconsSmall/SkyKnight",
+            "iconLarge": "celestial/iconsBig/SkyKnight",
+            "timeBetweenFidgets": 1,
+            "animationTime": {
+                "attack": 1,
+                "walk": 1,
+                "flight": 1,
+                "idle": 10
+            }
+        },
+
+        "sound": {
+            "attack": "celestial/lv5/attack.wav",
+            "defend": "celestial/lv5/defendUpg.wav",
+            "killed": "celestial/lv5/killUpg.wav",
+            "move": "celestial/lv5/move.wav",
+            "startMoving": "celestial/lv5/movestart.wav",
+			"endMoving": "celestial/lv5/moveend.wav",
+			"wince" : "celestial/lv5/winceUpg.wav"
+        }
+    }
 }

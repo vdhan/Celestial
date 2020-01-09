@@ -7,9 +7,9 @@
             "name": "Tamus",
             "biography": "Undetermined",
             "specialty": {
-            	"name": "Mechanical Golem",
-                "description": "{Mechanical Golem}\n\nIncreases Attack and Defense skills of any Mechanical Golem or Hydraulic Golem for each level attained after 3rd level.",
-                "tooltip": "Creature Bonus: Mechanical Golem"
+            	"name": "Medic",
+                "description": "{Medic}\n\nIncreases Attack and Defense skills of any Medic or Healer for each level attained after 3rd level.",
+                "tooltip": "Creature Bonus: Medic"
             }
         },
 
@@ -22,17 +22,17 @@
 
         "army": [
             {
-                "creature": "anMechanicalGolem",
+                "creature": "anMedic",
                 "min": 8,
                 "max": 10
             },
             {
-                "creature": "anMechanicalGolem",
+                "creature": "anMedic",
                 "min": 5,
                 "max": 8
             },
             {
-                "creature": "anMechanicalGolem",
+                "creature": "anMedic",
                 "min": 3,
                 "max": 6
             }
@@ -50,7 +50,7 @@
         ],
 
         "specialty": {
-            "creature": "anMechanicalGolem"
+            "creature": "anMedic"
         }
     }
 }
