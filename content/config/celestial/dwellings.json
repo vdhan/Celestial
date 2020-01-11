@@ -1,79 +1,93 @@
 {
-	"core:creatureGeneratorCommon" : {
-		"types" : {
-			"ftCommissariat" : {
-				"name" : "Commissariat",
-				"creatures" : [[ "anGuardsman" ]],
-				"templates" : {
-					"default" : {
-						"animation" : "celestial/adventure-map/dwelling-1.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
-					}
-				}
-			},
-			"ftMilitarylaboratory" : {
-				"name" : "Military laboratory",
-				"creatures" : [[ "anFlametrooper" ]],
-				"templates" : {
-					"default" : {
-						"animation" : "celestial/adventure-map/dwelling-2.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
-					}
-				}
-			},
-			"ftManufactory" : {
-				"name" : "Manufactory",
-				"creatures" : [[ "anMedic" ]],
-				"templates" : {
-					"default" : {	
-						"animation" : "celestial/adventure-map/dwelling-3.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
-					}
-				}
-			},
-			"ftRefueler" : {
-				"name" : "Refueler",
-				"creatures" : [[ "anDalek" ]],
-				"templates" : {
-					"default" : {
-						"animation" : "celestial/adventure-map/dwelling-4.def",
-						"mask" : [ "VVV", "VBB", "BAV" ]
-					}
-				}
-			},
-			"ftDepot" : {
-				"name" : "Depot",
-				"creatures" : [[ "anSkyGuard" ]],
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "celestial/adventure-map/dwelling-5.def",
-						"mask" : [ "VVV", "VBB", "BBA" ]
-					}
-				}
-			},
-			"ftArsenal" : {
-				"name" : "Arsenal",
-				"creatures" : [[ "anCannonGolem" ]],
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "celestial/adventure-map/dwelling-6.def",
-						"mask" : [ "VVV", "VBV", "VAB" ]
-					}
-				}
-			},
-			"ftResearchCenter" : {
-				"name" : "Research Center",
-				"creatures" : [[ "anIshmael" ]],
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "celestial/adventure-map/dwelling-7.def",
-						"mask" : [ "VVV", "BBV", "VBA" ]
-					}
-				}
-			}
-		}		
-	}
+    "core:creatureGeneratorCommon": {
+        "types": {
+            "ftCommissariat": {
+                "name": "Commissariat",
+                "creatures": [
+                    ["anGuardsman"]
+                ],
+                "templates": {
+                    "default": {
+                        "animation": "celestial/adventure-map/dwelling-1.def",
+                        "mask": ["VVV", "VVV", "VAB"]
+                    }
+                }
+            },
+            "ftMilitarylaboratory": {
+                "name": "Military laboratory",
+                "creatures": [
+                    ["anFlametrooper"]
+                ],
+                "templates": {
+                    "default": {
+                        "animation": "celestial/adventure-map/dwelling-2.def",
+                        "mask": ["VVV", "VVV", "VBA"]
+                    }
+                }
+            },
+            "ftManufactory": {
+                "name": "Manufactory",
+                "creatures": [
+                    ["anMedic"]
+                ],
+                "templates": {
+                    "default": {
+                        "animation": "celestial/adventure-map/dwelling-3.def",
+                        "mask": ["VVV", "VVV", "VBA"]
+                    }
+                }
+            },
+            "ftRefueler": {
+                "name": "Refueler",
+                "creatures": [
+                    ["anDalek"]
+                ],
+                "templates": {
+                    "default": {
+                        "animation": "celestial/adventure-map/dwelling-4.def",
+                        "mask": ["VVV", "VBB", "BAV"]
+                    }
+                }
+            },
+            "ftDepot": {
+                "name": "Depot",
+                "creatures": [
+                    ["anSkyGuard"]
+                ],
+                "guards": true,
+                "templates": {
+                    "default": {
+                        "animation": "celestial/adventure-map/dwelling-5.def",
+                        "mask": ["VVV", "VBB", "BBA"]
+                    }
+                }
+            },
+            "ftArsenal": {
+                "name": "Arsenal",
+                "creatures": [
+                    ["anCannonGolem"]
+                ],
+                "guards": true,
+                "templates": {
+                    "default": {
+                        "animation": "celestial/adventure-map/dwelling-6.def",
+                        "mask": ["VVV", "VBV", "VAB"]
+                    }
+                }
+            },
+            "ftResearchCenter": {
+                "name": "Research Center",
+                "creatures": [
+                    ["anIshmael"]
+                ],
+                "guards": true,
+                "templates": {
+                    "default": {
+                        "animation": "celestial/adventure-map/dwelling-7.def",
+                        "mask": ["VVV", "BBV", "VBA"]
+                    }
+                }
+            }
+        }
+    }
 }

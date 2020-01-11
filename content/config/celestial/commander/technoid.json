@@ -27,35 +27,35 @@
         },
 
         "abilities": {
-            "shooter": {
-                "type": "SHOOTER"
-            },
-            "freeshooting": {
-                "type": "FREE_SHOOTING"
-            },
             "magicResistance": {
                 "type": "MAGIC_RESISTANCE",
                 "val": 5
             },
-            "castsAmount": {
-                "type": "CASTS",
-                "val": 1
-            },
-            "enchant": {
-                "type": "CREATURE_ENCHANT_POWER",
-                "val": 1
-            },
-            "spellpower": {
-                "type": "CREATURE_SPELL_POWER",
-                "val": 100
-            },
-            "canCast": {
+            "cast": {
                 "type": "SPELLCASTER",
                 "subtype": "spell.counterstrike",
                 "val": 3
             },
-            "noMind": {
-                "type": "MIND_IMMUNITY"
+            "castTimes": {
+                "type": "CASTS",
+                "val": 1
+            },
+            "spellPower": {
+                "type": "CREATURE_SPELL_POWER",
+                "val": 100
+            },
+            "duration": {
+                "type": "CREATURE_ENCHANT_POWER",
+                "val": 1
+            },
+            "shoot": {
+                "type": "SHOOTER"
+            },
+            "freeShooter": {
+                "type": "FREE_SHOOTING"
+            },
+            "robot": {
+                "type": "NON_LIVING"
             }
         },
 

@@ -336,7 +336,7 @@
                 "dwellingLvl5": {
                     "id": 34,
                     "name": "Depot",
-                    "description": "Depot allows to recruit Zords.",
+                    "description": "Depot allows to recruit Sky Guards.",
                     "requires": ["allOf", ["dwellingLvl1"], ["dwellingLvl2"], ["blacksmith"]],
                     "cost": {
                         "gold": 3000,
@@ -419,7 +419,7 @@
                 "dwellingUpLvl5": {
                     "id": 41,
                     "name": "Upg. Depot",
-                    "description": "Upg. Depot allows to recruit Zord Warriors.",
+                    "description": "Upg. Depot allows to recruit Sky Knights.",
                     "upgrades": "dwellingLvl5",
                     "cost": {
                         "gold": 3000,
