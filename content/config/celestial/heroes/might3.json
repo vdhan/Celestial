@@ -5,7 +5,7 @@
 
         "texts": {
             "name": "Tamus",
-            "biography": "Undetermined",
+            "biography": "She is a healer, imperial guards captain, she also undertakes logistics and the King's left hand man.",
             "specialty": {
             	"name": "Medic",
                 "description": "{Medic}\n\nIncreases Attack and Defense skills of any Medic or Healer for each level attained after 3rd level.",

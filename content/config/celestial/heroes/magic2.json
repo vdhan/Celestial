@@ -6,7 +6,7 @@
 
         "texts": {
             "name": "Satrine",
-            "biography": "Undetermined",
+            "biography": "Energetic young wizard, she has strange magical powers. Rarely to see she is exhausted.",
             "specialty": {
             	"name": "Mysticism",
                 "description": "{Mysticism}\n\nReceives a 5% per level bonus to Mysticism skill.",

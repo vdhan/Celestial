@@ -1,6 +1,6 @@
 # Celestial town mod for VCMI
 
-![Screenshot](https://raw.githubusercontent.com/vdhan/Celestial/master/screenshots/Screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/vdhan/Celestial/master/screenshots/town.png)
 
 Foundry Town has been renamed, balanced and fixed.
 
@@ -10,8 +10,10 @@ Contact me: anvudh@gmail.com.
 
 **Changelog:**
 
-- 1.0.0 - Initial release.
+- 1.2.0 - Rebalance creatures, heroes and classes.
 
 - 1.1.0 - Fully integrate into VCMI 0.99:
   + No useless buildings.
   + Castle siege screen with transparent background .png images.
+
+- 1.0.0 - Initial release.

@@ -5,7 +5,7 @@
 
         "texts": {
             "name": "Reltes",
-            "biography": "Undetermined",
+            "biography": "Marshal of artillery unit, he support to various units on the battlefield. He is the Rear General.",
             "specialty": {
             	"name": "Ballista",
                 "description": "{Ballista}\n\nIncreases the Attack and Defense skills of any Ballista by 5% for every 5 levels (rounded up).",

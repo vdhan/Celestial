@@ -6,7 +6,7 @@
 
         "texts": {
             "name": "Maren",
-            "biography": "Undetermined",
+            "biography": "The richest merchant of island country Celestial, she usually share food and clothing for the poor.",
             "specialty": {
             	"name": "Estates",
                 "description": "{Estates}\n\nReceives a 5% per level bonus to Estates skill.",

@@ -6,7 +6,7 @@
 
         "texts": {
             "name": "Asarkin",
-            "biography": "Undetermined",
+            "biography": "Captain of border defence force, she can trap any enemies intend to invade Celestial.",
             "specialty": {
             	"name": "Land Mine",
                 "description": "{Land Mine}\n\nCasts Land Mine with increased effect, based on hero level.",
