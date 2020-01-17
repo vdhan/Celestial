@@ -34,9 +34,15 @@
                 "type": "FIRE_IMMUNITY",
                 "subtype": 1
             },
-            "acid": {
-                "type": "ACID_BREATH",
-                "val": 50
+            "thunderStrength": {
+                "type": "SPECIFIC_SPELL_POWER",
+                "subtype": "spell.thunderbolt",
+                "val": 10
+            },
+            "thunderAttack": {
+                "type": "SPELL_AFTER_ATTACK",
+                "subtype": "spell.thunderbolt",
+                "val": 20
             },
             "fear": {
                 "type": "FEAR"
