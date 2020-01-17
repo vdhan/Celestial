@@ -10,6 +10,8 @@ Contact me: anvudh@gmail.com.
 
 **Changelog:**
 
+- 1.2.2 - Add screenshots.
+
 - 1.2.1 - Add heroes biography.
 
 - 1.2.0 - Rebalance creatures, heroes and classes.
