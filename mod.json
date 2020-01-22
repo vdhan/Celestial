@@ -2,12 +2,13 @@
     "name": "Celestial",
     "description": "Foundry Town has been renamed, rebalanced and fixed. <a href='https://github.com/vdhan/Celestial'>Homepage</a>.",
     "modType": "Town",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "author": "Vũ Đắc Hoàng Ân",
     "contact": "anvudh@gmail.com",
     "keepDisabled": false,
 
     "changelog": {
+        "1.2.3": ["Rebalance creatures speed"],
         "1.2.2": ["Add screenshots"],
         "1.2.1": ["Add heroes biography"],
         "1.2.0": ["Rebalance creatures, heroes and classes"],

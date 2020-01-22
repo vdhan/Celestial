@@ -10,6 +10,8 @@ Contact me: anvudh@gmail.com.
 
 **Changelog:**
 
+- 1.2.3 - Rebalance creatures speed.
+
 - 1.2.2 - Add screenshots.
 
 - 1.2.1 - Add heroes biography.
