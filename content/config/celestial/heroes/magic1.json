@@ -8,7 +8,7 @@
             "name": "Shistrict",
             "biography": "One of the most powerful elder wizards in island country Celestial. He is the King's right hand man.",
             "specialty": {
-            	"name": "Sorcery",
+                "name": "Sorcery",
                 "description": "{Sorcery}\n\nReceives a 5% per level bonus to Sorcery skill.",
                 "tooltip": "Skill Bonus: Sorcery"
             }
@@ -40,7 +40,7 @@
         ],
 
         "skills": [
-        	{
+            {
                 "level": "basic",
                 "skill": "sorcery"
             },
@@ -53,11 +53,11 @@
         "specialty": {
             "bonuses": {
                 "sorcery": {
-                	"type": "SECONDARY_SKILL_PREMY",
+                    "type": "SECONDARY_SKILL_PREMY",
                     "subtype": "skill.sorcery",
                     "updater": "TIMES_HERO_LEVEL",
                     "val": 5,
-                    "valueType" : "PERCENT_TO_BASE"
+                    "valueType": "PERCENT_TO_BASE"
                 }
             }
         }
