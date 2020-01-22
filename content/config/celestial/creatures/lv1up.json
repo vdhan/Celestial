@@ -38,7 +38,8 @@
         "stackExperience": [
             {
                 "bonus": {
-                    "type": "STACKS_SPEED"
+                    "type": "STACKS_SPEED",
+                    "valueType" : "ADDITIVE_VALUE"
                 },
                 "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
             }

@@ -19,7 +19,7 @@
             "min": 4
         },
         "hitPoints": 20,
-        "speed": 7,
+        "speed": 9,
         "doubleWide": false,
         "hasDoubleWeek": true,
         "cost": {
@@ -40,7 +40,8 @@
         "stackExperience": [
             {
                 "bonus": {
-                    "type": "STACKS_SPEED"
+                    "type": "STACKS_SPEED",
+                    "valueType" : "ADDITIVE_VALUE"
                 },
                 "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
             }
