@@ -23,7 +23,7 @@
     ],
 
     "factions": [
-    	"config/celestial/town/faction.json",
+        "config/celestial/town/faction.json",
         "config/celestial/town/building.json",
         "config/celestial/town/structure.json",
         "config/celestial/town/siege.json",
@@ -32,8 +32,8 @@
     ],
 
     "heroClasses": [
-    	"config/celestial/classes/magic.json",
-    	"config/celestial/classes/might.json"
+        "config/celestial/classes/magic.json",
+        "config/celestial/classes/might.json"
     ],
 
     "heroes": [
