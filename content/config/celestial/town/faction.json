@@ -1,7 +1,7 @@
 {
     "celestial": {
         "name": "Celestial",
-        "nativeTerrain": "dirt",
+        "nativeTerrain": "swamp",
         "alignment": "neutral",
         "creatureBackground": {
             "120px": "celestial/creature-bg-120px",
