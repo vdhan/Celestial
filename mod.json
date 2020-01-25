@@ -1,10 +1,10 @@
 {
     "name": "Celestial",
-    "description": "Foundry Town has been renamed, rebalanced and fixed. <a href='https://github.com/vdhan/Celestial'>Homepage</a>.",
+    "description": "Foundry Town has been renamed, rebalanced and fixed.",
     "modType": "Town",
     "version": "1.2.3",
     "author": "Vũ Đắc Hoàng Ân",
-    "contact": "anvudh@gmail.com",
+    "contact": "https://github.com/vdhan/Celestial",
     "licenseName": "Creative Commons Attribution-NonCommercial-ShareAlike",
     "licenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
 
