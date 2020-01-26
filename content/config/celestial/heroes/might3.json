@@ -41,11 +41,11 @@
         "skills": [
             {
                 "level": "basic",
-                "skill": "waterMagic"
+                "skill": "scholar"
             },
             {
                 "level": "basic",
-                "skill": "earthMagic"
+                "skill": "wisdom"
             }
         ],
 
