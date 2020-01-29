@@ -24,18 +24,18 @@
         "army": [
             {
                 "creature": "anGuardsman",
-                "min": 9,
-                "max": 15
+                "min": 15,
+                "max": 18
             },
             {
                 "creature": "anFlametrooper",
-                "min": 6,
-                "max": 9
+                "min": 5,
+                "max": 6
             },
             {
                 "creature": "anMedic",
                 "min": 3,
-                "max": 6
+                "max": 4
             }
         ],
 

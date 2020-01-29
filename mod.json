@@ -77,7 +77,5 @@
 
     "spells": [],
 
-    "skills": [],
-
     "objects": ["config/celestial/dwellings"]
 }

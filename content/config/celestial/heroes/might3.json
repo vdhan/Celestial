@@ -23,18 +23,18 @@
         "army": [
             {
                 "creature": "anMedic",
-                "min": 8,
-                "max": 10
-            },
-            {
-                "creature": "anMedic",
-                "min": 5,
-                "max": 8
+                "min": 3,
+                "max": 4
             },
             {
                 "creature": "anMedic",
                 "min": 3,
-                "max": 6
+                "max": 4
+            },
+            {
+                "creature": "anMedic",
+                "min": 3,
+                "max": 4
             }
         ],
 

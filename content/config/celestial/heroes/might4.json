@@ -23,17 +23,17 @@
         "army": [
             {
                 "creature": "anDalek",
-                "min": 5,
-                "max": 8
+                "min": 2,
+                "max": 3
             },
             {
                 "creature": "anDalek",
-                "min": 3,
-                "max": 6
+                "min": 2,
+                "max": 3
             },
             {
                 "creature": "anDalek",
-                "min": 1,
+                "min": 2,
                 "max": 3
             }
         ],
