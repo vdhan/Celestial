@@ -2,6 +2,7 @@
     "haMight3": {
         "class": "vdhMarshal",
         "female": true,
+        "spellbook": ["summonBoat"],
 
         "texts": {
             "name": "Tamus",

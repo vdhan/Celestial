@@ -1,24 +1,24 @@
 {
     "haMagic5": {
         "class": "vdhCyborg",
-        "female": false,
-        "spellbook": ["bless"],
+        "female": true,
+        "spellbook": ["slayer"],
 
         "texts": {
-            "name": "Ziclas",
-            "biography": "As a dedicated scientist, he always desires to discover cheap, clean energy sources for community.",
+            "name": "Munnira",
+            "biography": "Once, obeyed the King order, she killed a black dragon with just a few of assistants. Owning to that glorious victory, she was beared the title of Dragon Slaying Valiant.",
             "specialty": {
-                "name": "Crystal",
-                "description": "{Crystal}\n\nIncreases kingdom's income by 1 crystal per day.",
-                "tooltip": "+1 Crystal each day"
+                "name": "Slayer",
+                "description": "{Slayer}\n\nCast Slayer with increased effect, based on hero level.",
+                "tooltip": "Spell Bonus: Slayer"
             }
         },
 
         "images": {
-            "specialtySmall": "celestial/heroes/ziclas/specSmall",
-            "specialtyLarge": "celestial/heroes/ziclas/specLarge",
-            "large": "celestial/heroes/ziclas/portraitLarge",
-            "small": "celestial/heroes/ziclas/portraitSmall"
+            "specialtySmall": "celestial/heroes/munnira/specSmall",
+            "specialtyLarge": "celestial/heroes/munnira/specLarge",
+            "large": "celestial/heroes/munnira/portraitLarge",
+            "small": "celestial/heroes/munnira/portraitSmall"
         },
 
         "army": [
@@ -40,22 +40,21 @@
         ],
 
         "skills": [
-        	{
+            {
                 "level": "basic",
-                "skill": "estates"
+                "skill": "wisdom"
             },
             {
                 "level": "basic",
-                "skill": "scouting"
+                "skill": "fireMagic"
             }
         ],
 
         "specialty": {
             "bonuses": {
-                "crystal": {
-                    "type": "GENERATE_RESOURCE",
-                    "subtype": "resource.crystal",
-                    "val": 1
+                "slayer": {
+                    "type": "SPECIAL_PECULIAR_ENCHANT",
+                    "subtype" : "spell.slayer"
                 }
             }
         }

@@ -1,24 +1,23 @@
 {
     "haMight7": {
         "class": "vdhMarshal",
-        "female": true,
-        "spellbook": ["slayer"],
+        "female": false,
 
         "texts": {
-            "name": "Munnira",
-            "biography": "Once, obeyed the King order, she killed a black dragon with just a few of assistants. Owning to that glorious victory, she was beared the title of Dragon Slaying Valiant.",
+            "name": "Satore",
+            "biography": "He is the captain of island country Celestial's scout unit. His ability to navigate difficult terrain allowed his to excel in his duties.",
             "specialty": {
-                "name": "Slayer",
-                "description": "{Slayer}\n\nCast Slayer with increased effect, based on hero level.",
-                "tooltip": "Spell Bonus: Slayer"
+            	"name": "Logistics",
+                "description": "{Logistics}\n\nReceives a 5% per level bonus to Logistics skill.",
+                "tooltip": "Skill Bonus: Logistics"
             }
         },
 
         "images": {
-            "specialtySmall": "celestial/heroes/munnira/specSmall",
-            "specialtyLarge": "celestial/heroes/munnira/specLarge",
-            "large": "celestial/heroes/munnira/portraitLarge",
-            "small": "celestial/heroes/munnira/portraitSmall"
+            "specialtySmall": "celestial/heroes/satore/specSmall",
+            "specialtyLarge": "celestial/heroes/satore/specLarge",
+            "large": "celestial/heroes/satore/portraitLarge",
+            "small": "celestial/heroes/satore/portraitSmall"
         },
 
         "army": [
@@ -42,19 +41,22 @@
         "skills": [
             {
                 "level": "basic",
-                "skill": "offence"
+                "skill": "logistics"
             },
             {
                 "level": "basic",
-                "skill": "fireMagic"
+                "skill": "wisdom"
             }
         ],
 
         "specialty": {
             "bonuses": {
-                "slayer": {
-                    "type": "SPECIAL_PECULIAR_ENCHANT",
-                    "subtype" : "spell.slayer"
+                "logistics": {
+                	"type": "SECONDARY_SKILL_PREMY",
+                    "subtype": "skill.logistics",
+                    "updater": "TIMES_HERO_LEVEL",
+                    "val": 5,
+                    "valueType" : "PERCENT_TO_BASE"
                 }
             }
         }

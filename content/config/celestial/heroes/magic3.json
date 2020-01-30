@@ -2,23 +2,23 @@
     "haMagic3": {
         "class": "vdhCyborg",
         "female": false,
-        "spellbook": ["slow"],
+        "spellbook": ["bless"],
 
         "texts": {
-            "name": "Satore",
-            "biography": "When was a child, he showed talent nature himself. He can learn new spells merely by watching someone else cast them just once.",
+            "name": "Ziclas",
+            "biography": "As a dedicated scientist, he always desires to discover cheap, clean energy sources for community.",
             "specialty": {
-            	"name": "Eagle Eye",
-                "description": "{Eagle Eye}\n\nReceives a 5% per level bonus to Eagle Eye skill.",
-                "tooltip": "Skill Bonus: Eagle Eye"
+                "name": "Crystal",
+                "description": "{Crystal}\n\nIncreases kingdom's income by 1 crystal per day.",
+                "tooltip": "+1 Crystal each day"
             }
         },
 
         "images": {
-            "specialtySmall": "celestial/heroes/satore/specSmall",
-            "specialtyLarge": "celestial/heroes/satore/specLarge",
-            "large": "celestial/heroes/satore/portraitLarge",
-            "small": "celestial/heroes/satore/portraitSmall"
+            "specialtySmall": "celestial/heroes/ziclas/specSmall",
+            "specialtyLarge": "celestial/heroes/ziclas/specLarge",
+            "large": "celestial/heroes/ziclas/portraitLarge",
+            "small": "celestial/heroes/ziclas/portraitSmall"
         },
 
         "army": [
@@ -40,24 +40,22 @@
         ],
 
         "skills": [
-            {
+        	{
                 "level": "basic",
-                "skill": "eagleEye"
+                "skill": "estates"
             },
             {
                 "level": "basic",
-                "skill": "wisdom"
+                "skill": "scouting"
             }
         ],
 
         "specialty": {
             "bonuses": {
-                "eagleEye": {
-                	"type": "SECONDARY_SKILL_PREMY",
-                    "subtype": "skill.eagleEye",
-                    "updater": "TIMES_HERO_LEVEL",
-                    "val": 5,
-                    "valueType" : "PERCENT_TO_BASE"
+                "crystal": {
+                    "type": "GENERATE_RESOURCE",
+                    "subtype": "resource.crystal",
+                    "val": 1
                 }
             }
         }
