@@ -48,12 +48,6 @@
                 "type": "CREATURE_ENCHANT_POWER",
                 "val": 1
             },
-            "shoot": {
-                "type": "SHOOTER"
-            },
-            "freeShooter": {
-                "type": "FREE_SHOOTING"
-            },
             "robot": {
                 "type": "NON_LIVING"
             }
