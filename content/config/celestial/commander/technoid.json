@@ -7,8 +7,8 @@
         "faction": "celestial",
         "special" : true,
         "level": 0,
-        "aiValue": 700,
-        "fightValue": 700,
+        "aiValue": 992,
+        "fightValue": 891,
         "growth": 1,
 
         "attack": 5,
