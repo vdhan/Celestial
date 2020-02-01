@@ -8,8 +8,8 @@
         "special" : false,
         "level": 3,
         "upgrades": ["anHealer"],
-        "aiValue": 240,
-        "fightValue": 240,
+        "aiValue": 327,
+        "fightValue": 321,
         "growth": 7,
         "horde": 4,
 
@@ -40,7 +40,7 @@
             {
                 "bonus": {
                     "type": "STACKS_SPEED",
-                    "valueType" : "ADDITIVE_VALUE"
+                    "valueType" : "BASE_NUMBER"
                 },
                 "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
             }

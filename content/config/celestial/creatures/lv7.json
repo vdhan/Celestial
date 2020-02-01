@@ -8,8 +8,8 @@
         "special" : false,
         "level": 7,
         "upgrades": ["anLordIshmael"],
-        "aiValue": 3840,
-        "fightValue": 3840,
+        "aiValue": 4122,
+        "fightValue": 3320,
         "growth": 1,
 
         "attack": 20,
@@ -49,7 +49,7 @@
             {
                 "bonus": {
                     "type": "STACKS_SPEED",
-                    "valueType" : "ADDITIVE_VALUE"
+                    "valueType" : "BASE_NUMBER"
                 },
                 "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
             },

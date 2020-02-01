@@ -8,8 +8,8 @@
         "special" : false,
         "level": 5,
         "upgrades": ["anSkyKnight"],
-        "aiValue": 960,
-        "fightValue": 960,
+        "aiValue": 1098,
+        "fightValue": 987,
         "growth": 3,
         "horde": 2,
 
@@ -41,7 +41,7 @@
             {
                 "bonus": {
                     "type": "STACKS_SPEED",
-                    "valueType" : "ADDITIVE_VALUE"
+                    "valueType" : "BASE_NUMBER"
                 },
                 "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
             },

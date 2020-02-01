@@ -8,7 +8,7 @@
         "special" : false,
         "level": 7,
         "aiValue": 7680,
-        "fightValue": 7680,
+        "fightValue": 7824,
         "growth": 1,
 
         "attack": 25,
@@ -60,7 +60,7 @@
             {
                 "bonus": {
                     "type": "STACKS_SPEED",
-                    "valueType" : "ADDITIVE_VALUE"
+                    "valueType" : "BASE_NUMBER"
                 },
                 "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
             },
@@ -85,10 +85,10 @@
             "iconLarge": "celestial/iconsBig/CPrL210B.bmp",
             "timeBetweenFidgets": 1,
             "animationTime": {
-                "attack": 0.6,
+                "attack": 1,
                 "walk": 1,
-                "flight": 0.6,
-                "idle": 4
+                "flight": 1,
+                "idle": 10
             }
         },
 

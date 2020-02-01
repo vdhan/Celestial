@@ -8,8 +8,8 @@
         "special" : false,
         "level": 4,
         "upgrades": ["anWarDalek"],
-        "aiValue": 480,
-        "fightValue": 480,
+        "aiValue": 589,
+        "fightValue": 559,
         "growth": 4,
         "horde": 3,
 
@@ -45,7 +45,7 @@
             {
                 "bonus": {
                     "type": "STACKS_SPEED",
-                    "valueType" : "ADDITIVE_VALUE"
+                    "valueType" : "BASE_NUMBER"
                 },
                 "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
             }

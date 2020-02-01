@@ -8,8 +8,8 @@
         "special": false,
         "level": 1,
         "upgrades": ["anVeteranGuardsman"],
-        "aiValue": 60,
-        "fightValue": 60,
+        "aiValue": 132,
+        "fightValue": 142,
         "growth": 14,
         "horde": 7,
 
@@ -38,7 +38,7 @@
             {
                 "bonus": {
                     "type": "STACKS_SPEED",
-                    "valueType" : "ADDITIVE_VALUE"
+                    "valueType" : "BASE_NUMBER"
                 },
                 "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
             },

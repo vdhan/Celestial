@@ -7,8 +7,8 @@
         "faction": "celestial",
         "special" : false,
         "level": 1,
-        "aiValue": 90,
-        "fightValue": 90,
+        "aiValue": 161,
+        "fightValue": 173,
         "growth": 14,
         "horde": 7,
 
@@ -39,7 +39,7 @@
             {
                 "bonus": {
                     "type": "STACKS_SPEED",
-                    "valueType" : "ADDITIVE_VALUE"
+                    "valueType" : "BASE_NUMBER"
                 },
                 "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
             }

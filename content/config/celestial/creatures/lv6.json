@@ -8,8 +8,8 @@
         "special" : false,
         "level": 6,
         "upgrades": ["anSiegeGolem"],
-        "aiValue": 1920,
-        "fightValue": 1920,
+        "aiValue": 1478,
+        "fightValue": 1318,
         "growth": 2,
 
         "attack": 15,
@@ -40,7 +40,7 @@
             {
                 "bonus": {
                     "type": "STACKS_SPEED",
-                    "valueType" : "ADDITIVE_VALUE"
+                    "valueType" : "BASE_NUMBER"
                 },
                 "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
             },

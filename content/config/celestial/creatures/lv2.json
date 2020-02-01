@@ -8,8 +8,8 @@
         "special" : false,
         "level": 2,
         "upgrades": ["anAcidTrooper"],
-        "aiValue": 120,
-        "fightValue": 120,
+        "aiValue": 210,
+        "fightValue": 216,
         "growth": 9,
         "horde": 5,
 
@@ -37,7 +37,7 @@
             {
                 "bonus": {
                     "type": "STACKS_SPEED",
-                    "valueType" : "ADDITIVE_VALUE"
+                    "valueType" : "BASE_NUMBER"
                 },
                 "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
             }
