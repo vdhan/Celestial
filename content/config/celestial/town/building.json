@@ -157,7 +157,12 @@
                     "cost": {
                         "gold": 5000
                     },
-                    "requires": ["allOf", ["mageGuild1"], ["blacksmith"], ["marketplace"]]
+                    "requires": [
+                        "allOf",
+                        ["mageGuild1"],
+                        ["blacksmith"],
+                        ["marketplace"]
+                    ]
                 },
 
                 "capitol": {
@@ -308,7 +313,11 @@
                     "id": 32,
                     "name": "Manufactory",
                     "description": "Manufactory allows to recruit Mechanical Golems.",
-                    "requires": ["allOf", ["dwellingLvl1"], ["blacksmith"]],
+                    "requires": [
+                        "allOf",
+                        ["dwellingLvl1"],
+                        ["blacksmith"]
+                    ],
                     "cost": {
                         "gold": 1500,
                         "wood": 5,
@@ -324,7 +333,12 @@
                     "requires": [
                         "anyOf",
                         ["dwellingLvl3"],
-                        ["allOf", ["dwellingLvl1"], ["dwellingLvl2"], ["blacksmith"]]
+                        [
+                            "allOf",
+                            ["dwellingLvl1"],
+                            ["dwellingLvl2"],
+                            ["blacksmith"]
+                        ]
                     ],
                     "cost": {
                         "gold": 2000,
@@ -337,7 +351,12 @@
                     "id": 34,
                     "name": "Depot",
                     "description": "Depot allows to recruit Sky Guards.",
-                    "requires": ["allOf", ["dwellingLvl1"], ["dwellingLvl2"], ["blacksmith"]],
+                    "requires": [
+                        "allOf",
+                        ["dwellingLvl1"],
+                        ["dwellingLvl2"],
+                        ["blacksmith"]
+                    ],
                     "cost": {
                         "gold": 3000,
                         "wood": 5,
@@ -350,7 +369,11 @@
                     "id": 35,
                     "name": "Arsenal",
                     "description": "Arsenal allows to recruit Cannon Golems.",
-                    "requires": ["allOf", ["dwellingLvl3"], ["dwellingLvl5"]],
+                    "requires": [
+                        "allOf",
+                        ["dwellingLvl3"],
+                        ["dwellingLvl5"]
+                    ],
                     "cost": {
                         "gold": 3500,
                         "wood": 5,
@@ -363,7 +386,11 @@
                     "id": 36,
                     "name": "Research Center",
                     "description": "Research Center allows to recruit Ishmaels.",
-                    "requires": ["allOf", ["dwellingLvl6"], ["mageGuild1"]],
+                    "requires": [
+                        "allOf",
+                        ["dwellingLvl6"],
+                        ["mageGuild1"]
+                    ],
                     "cost": {
                         "gold": 10000,
                         "mercury": 10,

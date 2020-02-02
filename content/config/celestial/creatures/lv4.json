@@ -1,11 +1,11 @@
 {
     "anDalek": {
-    	"name": {
-    		"singular": "Dalek",
+        "name": {
+            "singular": "Dalek",
             "plural": "Daleks"
         },
         "faction": "celestial",
-        "special" : false,
+        "special": false,
         "level": 4,
         "upgrades": ["anWarDalek"],
         "aiValue": 589,
@@ -29,7 +29,7 @@
         },
 
         "abilities": {
-        	"robot": {
+            "robot": {
                 "type": "NON_LIVING"
             },
             "shoot": {
@@ -37,7 +37,7 @@
             },
             "fly": {
                 "type": "FLYING",
-            	"subtype": 0
+                "subtype": 0
             }
         },
 
@@ -45,7 +45,7 @@
             {
                 "bonus": {
                     "type": "STACKS_SPEED",
-                    "valueType" : "BASE_NUMBER"
+                    "valueType": "BASE_NUMBER"
                 },
                 "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
             }
@@ -63,7 +63,7 @@
             "iconLarge": "celestial/iconsBig/Mecha.bmp",
             "timeBetweenFidgets": 1,
             "animationTime": {
-            	"attack": 1,
+                "attack": 1,
                 "walk": 1,
                 "flight": 1,
                 "idle": 10

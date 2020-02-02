@@ -25,12 +25,12 @@
         },
 
         "secondarySkills": {
-        	"airMagic": 6,
-        	"earthMagic": 6,
-        	"fireMagic": 6,
-        	"waterMagic": 6,
-        	"archery": 5,
-        	"offence": 5,
+            "airMagic": 6,
+            "earthMagic": 6,
+            "fireMagic": 6,
+            "waterMagic": 6,
+            "archery": 5,
+            "offence": 5,
             "pathfinding": 5,
             "logistics": 7,
             "scouting": 3,

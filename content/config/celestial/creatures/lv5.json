@@ -1,11 +1,11 @@
 {
     "anSkyGuard": {
         "name": {
-        	"singular": "Sky Guard",
+            "singular": "Sky Guard",
             "plural": "Sky Guards"
         },
         "faction": "celestial",
-        "special" : false,
+        "special": false,
         "level": 5,
         "upgrades": ["anSkyKnight"],
         "aiValue": 1098,
@@ -33,7 +33,7 @@
             },
             "fly": {
                 "type": "FLYING",
-            	"subtype": 0
+                "subtype": 0
             }
         },
 
@@ -41,15 +41,15 @@
             {
                 "bonus": {
                     "type": "STACKS_SPEED",
-                    "valueType" : "BASE_NUMBER"
+                    "valueType": "BASE_NUMBER"
                 },
                 "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
             },
             {
-            	"bonus": {
-            		"type": "TWO_HEX_ATTACK_BREATH"
-            	},
-            	"values": [false, false, false, false, true, true, true, true, true, true]
+                "bonus": {
+                    "type": "TWO_HEX_ATTACK_BREATH"
+                },
+                "values": [false, false, false, false, true, true, true, true, true, true]
             }
         ],
 
@@ -78,8 +78,8 @@
             "killed": "celestial/lv5/kill.wav",
             "move": "celestial/lv5/move.wav",
             "startMoving": "celestial/lv5/movestart.wav",
-			"endMoving": "celestial/lv5/moveend.wav",
-			"wince" : "celestial/lv5/wince.wav"
+            "endMoving": "celestial/lv5/moveend.wav",
+            "wince": "celestial/lv5/wince.wav"
         }
     }
 }

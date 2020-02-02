@@ -5,7 +5,7 @@
             "plural": "Technoid"
         },
         "faction": "celestial",
-        "special" : true,
+        "special": true,
         "level": 0,
         "aiValue": 992,
         "fightValue": 891,

@@ -2,7 +2,7 @@
     "celestial": {
         "town": {
             "guildSpells": {
-            	// level 1
+                // level 1
                 "bless": 10,
                 "bloodlust": 30,
                 "cure": 40,

@@ -1,11 +1,11 @@
 {
     "anHealer": {
         "name": {
-        	"singular": "Healer",
+            "singular": "Healer",
             "plural": "Healers"
         },
         "faction": "celestial",
-        "special" : false,
+        "special": false,
         "level": 3,
         "aiValue": 463,
         "fightValue": 446,
@@ -34,8 +34,8 @@
                 "type": "HEALER"
             },
             "fly": {
-            	"type": "FLYING",
-            	"subtype": 1
+                "type": "FLYING",
+                "subtype": 1
             }
         },
 
@@ -43,7 +43,7 @@
             {
                 "bonus": {
                     "type": "STACKS_SPEED",
-                    "valueType" : "BASE_NUMBER"
+                    "valueType": "BASE_NUMBER"
                 },
                 "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
             }

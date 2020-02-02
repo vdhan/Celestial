@@ -5,7 +5,7 @@
             "plural": "Lords Ishmael"
         },
         "faction": "celestial",
-        "special" : false,
+        "special": false,
         "level": 7,
         "aiValue": 7680,
         "fightValue": 7824,
@@ -60,7 +60,7 @@
             {
                 "bonus": {
                     "type": "STACKS_SPEED",
-                    "valueType" : "BASE_NUMBER"
+                    "valueType": "BASE_NUMBER"
                 },
                 "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
             },

@@ -5,7 +5,7 @@
             "plural": "Flametroopers"
         },
         "faction": "celestial",
-        "special" : false,
+        "special": false,
         "level": 2,
         "upgrades": ["anAcidTrooper"],
         "aiValue": 210,
@@ -37,7 +37,7 @@
             {
                 "bonus": {
                     "type": "STACKS_SPEED",
-                    "valueType" : "BASE_NUMBER"
+                    "valueType": "BASE_NUMBER"
                 },
                 "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
             }

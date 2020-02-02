@@ -1,11 +1,11 @@
 {
     "anSkyKnight": {
         "name": {
-        	"singular": "Sky Knight",
+            "singular": "Sky Knight",
             "plural": "Sky Knights"
         },
         "faction": "celestial",
-        "special" : false,
+        "special": false,
         "level": 5,
         "aiValue": 1365,
         "fightValue": 1208,
@@ -32,14 +32,14 @@
             },
             "fly": {
                 "type": "FLYING",
-            	"subtype": 0
+                "subtype": 0
             },
             "breath": {
                 "type": "TWO_HEX_ATTACK_BREATH"
             },
             "slayer": {
-            	"type": "SLAYER",
-            	"val": 1
+                "type": "SLAYER",
+                "val": 1
             }
         },
 
@@ -47,15 +47,15 @@
             {
                 "bonus": {
                     "type": "STACKS_SPEED",
-                    "valueType" : "BASE_NUMBER"
+                    "valueType": "BASE_NUMBER"
                 },
                 "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
             },
             {
-            	"bonus": {
-            		"type": "SLAYER"
-            	},
-            	"values": [0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+                "bonus": {
+                    "type": "SLAYER"
+                },
+                "values": [0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
             }
         ],
 
@@ -84,8 +84,8 @@
             "killed": "celestial/lv5/killUpg.wav",
             "move": "celestial/lv5/move.wav",
             "startMoving": "celestial/lv5/movestart.wav",
-			"endMoving": "celestial/lv5/moveend.wav",
-			"wince" : "celestial/lv5/winceUpg.wav"
+            "endMoving": "celestial/lv5/moveend.wav",
+            "wince": "celestial/lv5/winceUpg.wav"
         }
     }
 }

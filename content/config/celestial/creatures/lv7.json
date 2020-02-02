@@ -1,11 +1,11 @@
 {
     "anIshmael": {
         "name": {
-        	"singular": "Ishmael",
+            "singular": "Ishmael",
             "plural": "Ishmaels"
         },
         "faction": "celestial",
-        "special" : false,
+        "special": false,
         "level": 7,
         "upgrades": ["anLordIshmael"],
         "aiValue": 4122,
@@ -32,16 +32,16 @@
                 "type": "NON_LIVING"
             },
             "fire": {
-            	"type": "FIRE_IMMUNITY",
-            	"subtype": 0
+                "type": "FIRE_IMMUNITY",
+                "subtype": 0
             },
             "acid": {
-            	"type": "ACID_BREATH",
-            	"val": 50
+                "type": "ACID_BREATH",
+                "val": 50
             },
             "ignore": {
-            	"type": "ENEMY_DEFENCE_REDUCTION",
-            	"val": 10
+                "type": "ENEMY_DEFENCE_REDUCTION",
+                "val": 10
             }
         },
 
@@ -49,21 +49,21 @@
             {
                 "bonus": {
                     "type": "STACKS_SPEED",
-                    "valueType" : "BASE_NUMBER"
+                    "valueType": "BASE_NUMBER"
                 },
                 "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
             },
             {
-            	"bonus": {
-            		"type": "ENEMY_DEFENCE_REDUCTION"
-            	},
-            	"values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+                "bonus": {
+                    "type": "ENEMY_DEFENCE_REDUCTION"
+                },
+                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
             },
             {
-            	"bonus": {
-            		"type": "KING1"
-            	},
-            	"values": [false, false, false, false, true, true, true, true, true, true]
+                "bonus": {
+                    "type": "KING1"
+                },
+                "values": [false, false, false, false, true, true, true, true, true, true]
             }
         ],
 

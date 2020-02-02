@@ -1,11 +1,11 @@
 {
     "anCannonGolem": {
         "name": {
-        	"singular": "Cannon Golem",
+            "singular": "Cannon Golem",
             "plural": "Cannon Golems"
         },
         "faction": "celestial",
-        "special" : false,
+        "special": false,
         "level": 6,
         "upgrades": ["anSiegeGolem"],
         "aiValue": 1478,
@@ -28,7 +28,7 @@
         },
 
         "abilities": {
-        	"robot": {
+            "robot": {
                 "type": "NON_LIVING"
             },
             "shoot": {
@@ -40,15 +40,15 @@
             {
                 "bonus": {
                     "type": "STACKS_SPEED",
-                    "valueType" : "BASE_NUMBER"
+                    "valueType": "BASE_NUMBER"
                 },
                 "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
             },
             {
-            	"bonus": {
-            		"type": "RANGED_RETALIATION"
-            	},
-            	"values": [false, false, false, false, true, true, true, true, true, true]
+                "bonus": {
+                    "type": "RANGED_RETALIATION"
+                },
+                "values": [false, false, false, false, true, true, true, true, true, true]
             }
         ],
 
@@ -64,7 +64,7 @@
             "iconLarge": "celestial/iconsBig/Fighter.bmp",
             "timeBetweenFidgets": 1,
             "animationTime": {
-            	"attack": 1,
+                "attack": 1,
                 "walk": 1,
                 "flight": 1,
                 "idle": 10
