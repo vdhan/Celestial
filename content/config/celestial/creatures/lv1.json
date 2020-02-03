@@ -58,7 +58,7 @@
 
         "advMapAmount": {
             "max": 50,
-            "min": 30
+            "min": 20
         },
 
         "graphics": {

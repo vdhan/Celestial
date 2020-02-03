@@ -67,6 +67,11 @@
             }
         ],
 
+        "advMapAmount": {
+            "max": 10,
+            "min": 4
+        },
+
         "graphics": {
             "animation": "celestial/battle/CR209.DEF",
             "map": "celestial/map/7aa.def",
