@@ -9,8 +9,8 @@
             "biography": "As a dedicated scientist, he always desires to discover cheap, clean energy sources for community.",
             "specialty": {
                 "name": "Crystal",
-                "description": "{Crystal}\n\nIncreases kingdom's income by 1 crystal per day.",
-                "tooltip": "+1 Crystal each day"
+                "description": "{Crystal}\n\nIncreases kingdom's crystal production by 1 per day for every 10 levels.",
+                "tooltip": "Produces crystal every day"
             }
         },
 
@@ -55,7 +55,10 @@
                 "crystal": {
                     "type": "GENERATE_RESOURCE",
                     "subtype": "resource.crystal",
-                    "val": 1
+                    "updater": {
+                        "parameters": [2],
+                        "type": "GROWS_WITH_LEVEL"
+                    }
                 }
             }
         }

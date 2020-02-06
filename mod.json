@@ -1,6 +1,6 @@
 {
     "name": "Celestial",
-    "description": "Foundry Town has been renamed, rebalanced and fixed.",
+    "description": "Celestial town.",
     "modType": "Town",
     "version": "1.2.3",
     "author": "Vũ Đắc Hoàng Ân",
@@ -72,10 +72,6 @@
         "config/celestial/creatures/lv7up.json",
         "config/celestial/commander/technoid.json"
     ],
-
-    "artifacts": [],
-
-    "spells": [],
 
     "objects": ["config/celestial/dwellings"]
 }
