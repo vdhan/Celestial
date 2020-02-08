@@ -10,9 +10,11 @@ To calculates AI and Fight Values of creatures, checkout: https://github.com/vdh
 
 To rebalance skills, heroes, etc., checkout: https://github.com/vdhan/An-Expansion
 
-Contact me: anvudh@gmail.com.
+Contact me: https://vudachoangan.com/
 
 **Changelog:**
+
+- 1.3.0 - Rebalance heroes, creatures, commander and fix various things.
 
 - 1.2.3 - Rebalance creatures speed.
 

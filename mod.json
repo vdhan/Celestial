@@ -9,12 +9,13 @@
     "licenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
 
     "changelog": {
-        "1.2.3": ["Rebalance creatures speed"],
-        "1.2.2": ["Add screenshots"],
-        "1.2.1": ["Add heroes biography"],
-        "1.2.0": ["Rebalance creatures, heroes and classes"],
-        "1.1.0": ["Fully integrate into VCMI 0.99"],
-        "1.0.0": ["Initial release"]
+        "1.3.0": ["Rebalance heroes, creatures, commander and fix various things."],
+        "1.2.3": ["Rebalance creatures speed."],
+        "1.2.2": ["Add screenshots."],
+        "1.2.1": ["Add heroes biography."],
+        "1.2.0": ["Rebalance creatures, heroes and classes."],
+        "1.1.0": ["Fully integrate into VCMI 0.99."],
+        "1.0.0": ["Initial release."]
     },
 
     "screenshots": [
