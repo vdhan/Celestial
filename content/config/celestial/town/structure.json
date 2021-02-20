@@ -203,6 +203,15 @@
                     "builds": "horde2"
                 },
 
+                "special1": {
+                    "animation": "celestial/town-screen/buildings/TBELdock.def",
+                    "x": 500,
+                    "y": 328,
+                    "z": 12,
+                    "border": "celestial/town-screen/buildings-border/TOELdock.bmp",
+                    "area": "celestial/town-screen/buildings-area/TZELdock.bmp"
+                },
+
                 "special2": {
                     "animation": "celestial/town-screen/buildings/TBELext6.def",
                     "x": 103,
