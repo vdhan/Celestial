@@ -34,15 +34,11 @@
             "cast": {
                 "type": "SPELLCASTER",
                 "subtype": "spell.counterstrike",
-                "val": 3
+                "val": 2
             },
             "castTimes": {
                 "type": "CASTS",
                 "val": 1
-            },
-            "spellPower": {
-                "type": "CREATURE_SPELL_POWER",
-                "val": 100
             },
             "duration": {
                 "type": "CREATURE_ENCHANT_POWER",
