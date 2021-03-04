@@ -7,8 +7,8 @@
         "faction": "celestial",
         "special": false,
         "level": 4,
-        "aiValue": 759,
-        "fightValue": 710,
+        "aiValue": 614,
+        "fightValue": 591,
         "growth": 4,
         "horde": 3,
 
@@ -18,7 +18,7 @@
             "max": 8,
             "min": 8
         },
-        "hitPoints": 40,
+        "hitPoints": 30,
         "speed": 7,
         "shots": 24,
         "doubleWide": true,
@@ -34,13 +34,8 @@
             "shooter": {
                 "type": "SHOOTER"
             },
-            "fly": {
-                "type": "FLYING",
-                "subtype": 0
-            },
-            "lifeDrain": {
-                "type": "LIFE_DRAIN",
-                "val": 10
+            "freeShoot": {
+                "type": "FREE_SHOOTING"
             }
         },
 
@@ -51,12 +46,6 @@
                     "valueType": "BASE_NUMBER"
                 },
                 "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
-            },
-            {
-                "bonus": {
-                    "type": "LIFE_DRAIN"
-                },
-                "values": [5, 10, 20, 30, 40, 50, 60, 70, 80, 90]
             }
         ],
 
