@@ -4,20 +4,20 @@
         "female": false,
 
         "texts": {
-            "name": "Satore",
-            "biography": "He is the captain of island country Celestial's scout unit. His ability to navigate difficult terrain allowed his to excel in his duties.",
+            "name": "Reltes",
+            "biography": "He is the Rear General, he support to various units on the battlefield.",
             "specialty": {
-            	"name": "Logistics",
-                "description": "{Logistics}\n\nReceives a 5% per level bonus to Logistics skill.",
-                "tooltip": "Skill Bonus: Logistics"
+            	"name": "Armorer",
+                "description": "{Armorer}\n\nReceives a 5% per level bonus to Armorer skill.",
+                "tooltip": "Skill Bonus: Sorcery"
             }
         },
 
         "images": {
-            "specialtySmall": "celestial/heroes/satore/specSmall",
-            "specialtyLarge": "celestial/heroes/satore/specLarge",
-            "large": "celestial/heroes/satore/portraitLarge",
-            "small": "celestial/heroes/satore/portraitSmall"
+            "specialtySmall": "celestial/heroes/reltes/specSmall",
+            "specialtyLarge": "celestial/heroes/reltes/specLarge",
+            "large": "celestial/heroes/reltes/portraitLarge",
+            "small": "celestial/heroes/reltes/portraitSmall"
         },
 
         "army": [
@@ -41,22 +41,22 @@
         "skills": [
             {
                 "level": "basic",
-                "skill": "logistics"
+                "skill": "armorer"
             },
             {
                 "level": "basic",
-                "skill": "artillery"
+                "skill": "pathfinding"
             }
         ],
 
         "specialty": {
             "bonuses": {
-                "logistics": {
-                	"type": "SECONDARY_SKILL_PREMY",
-                    "subtype": "skill.logistics",
+                "armorer": {
+                    "type": "SECONDARY_SKILL_PREMY",
+                    "subtype": "skill.armorer",
                     "updater": "TIMES_HERO_LEVEL",
                     "val": 5,
-                    "valueType" : "PERCENT_TO_BASE"
+                    "valueType": "PERCENT_TO_BASE"
                 }
             }
         }
