@@ -14,6 +14,10 @@ Contact me: https://vudachoangan.com/
 
 **Changelog:**
 
+- 1.3.2 - Rebalances level 4 creatures.
+
+- 1.3.1 - Update Grail and special buildings.
+
 - 1.3.0 - Rebalance heroes, creatures, commander and fix various things.
 
 - 1.2.3 - Rebalance creatures speed.
