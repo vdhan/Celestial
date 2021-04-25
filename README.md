@@ -10,6 +10,8 @@ To calculates AI and Fight Values of creatures, checkout: https://github.com/vdh
 
 To rebalance skills, heroes, etc., checkout: https://github.com/vdhan/An-Expansion
 
+Software development kit: https://grayface.github.io/wog/
+
 Contact me: https://vudachoangan.com/
 
 **Changelog:**
